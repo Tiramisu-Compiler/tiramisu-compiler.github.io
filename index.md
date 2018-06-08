@@ -7,21 +7,20 @@ A CoLib is a compiler where the input is not a textual source code, but rather a
 ### Example
 
 ```markdown
-// C++ code
+// C++ code with a Tiramisu expression.
 #include "tiramisu.h"
-using namespace tiramisu;
 
 void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 {
-    tiramisu_init();
+    tiramisu::init();
 
-    input A(int32_t, {N}, array_a), B(int32_t, {N}, array_b);
-    output C(int32_t, {N}, array_c);
+    tiramisu::in   A(int32_t, {N}, array_a), B(int32_t, {N}, array_b);
+    tiramisu::out  C(int32_t, {N}, array_c);
     
-    var i;
+    tiramisu::var i;
     C(i) = A(i) + B(i);
     
-    tiramisu_eval("CPU");
+    tiramisu::eval("CPU");
 }
 ```
 
