@@ -1,8 +1,7 @@
-## Tiramisu CoLib
-Tiramisu is a CoLib designed for expressing fast, portable and composable data parallel computations.
+
 
 ### What is a CoLib ?
-A CoLib is a compiler where the input is not a textual source code, but rather a set of library calls that create an object (Abstract Syntax Tree) representing the program and that is passed to the compiler which will lower it, generate code and call the generated code.  A CoLib can be used for just-in-time compilation or for ahead-of-time compilation.
+A CoLib is a compiler where the input is not a textual source code, but rather a set of library calls.
 
 ### Example
 
@@ -24,9 +23,12 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 }
 ```
 
-
 ### Paper
 
 https://arxiv.org/abs/1804.10694
 
 {% include includes.html %}
+
+### How Does Tiramisu Work ?
+
+The library calls create an object (Abstract Syntax Tree) representing the program and that is passed to the compiler which will lower it, generate code and call the generated code.  A CoLib can be used for just-in-time compilation or for ahead-of-time compilation.
