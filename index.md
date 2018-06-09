@@ -28,7 +28,3 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 ### Paper
 
 https://arxiv.org/abs/1804.10694
-
-
-
-{% <a href="https://github.com/Tiramisu-Colib/tiramisu"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_red_aa0000.png" alt="Fork me on GitHub"></a> %}
