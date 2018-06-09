@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Tiramisu CoLib
+Tiramisu is a CoLib designed for expressing fast, portable and composable data parallel computations.
 
-You can use the [editor on GitHub](https://github.com/Tiramisu-Compiler/website/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### What is a CoLib ?
+A CoLib is a compiler where the input is not a textual source code, but rather a set of library calls that create an object (Abstract Syntax Tree) representing the program and that is passed to the compiler which will lower it, generate code and call the generated code.  A CoLib can be used for just-in-time compilation or for ahead-of-time compilation.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Example
 
 ```markdown
-Syntax highlighted code block
+// C++ code with a Tiramisu expression.
+#include "tiramisu.h"
 
-# Header 1
-## Header 2
-### Header 3
+void foo(int N, int array_a[N], int array_b[N], int array_c[N])
+{
+    tiramisu::init();
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+    tiramisu::in   A(int32_t, {N}, array_a), B(int32_t, {N}, array_b);
+    tiramisu::out  C(int32_t, {N}, array_c);
+    
+    tiramisu::var i;
+    C(i) = A(i) + B(i);
+    
+    tiramisu::eval("CPU");
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Paper
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tiramisu-Compiler/website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+https://arxiv.org/abs/1804.10694
