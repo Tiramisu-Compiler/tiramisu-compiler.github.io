@@ -1,8 +1,3 @@
-
-
-### What is a CoLib ?
-A CoLib is a compiler where the input is not expressed as a textual source code, but rather using library calls.
-
 ### Example
 
 ```cpp
