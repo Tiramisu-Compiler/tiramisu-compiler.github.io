@@ -1,3 +1,5 @@
+{% include includes.html %}
+
 ### Example
 
 ```cpp
@@ -21,8 +23,6 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 ### Paper
 
 https://arxiv.org/abs/1804.10694
-
-{% include includes.html %}
 
 ### How Does Tiramisu Work ?
 
