@@ -5,7 +5,7 @@ A CoLib is a compiler where the input is not expressed as a textual source code,
 
 ### Example
 
-```markdown
+```cpp
 // C++ code with a Tiramisu expression.
 #include "tiramisu.h"
 
