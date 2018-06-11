@@ -27,7 +27,7 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 
 ### Paper
 
-Tiramisu: A Code Optimization Framework for High Performance Systems [ArXiv] (https://arxiv.org/abs/1804.10694).
+Tiramisu: A Code Optimization Framework for High Performance Systems [ArXiv](https://arxiv.org/abs/1804.10694).
 
 Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
 
