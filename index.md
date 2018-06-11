@@ -1,7 +1,15 @@
 {% include includes.html %}
 
-
 ## Overview
+Tiramisu is a compiler for expressing fast, portable and composable data parallel computations.  Tiramisu is the first compiler to generate code that matches Intel MKL gemm, one of the most highly optimized kernels for X86 CPUs.  The user can express his code in the Tiramisu intermediate representation (Tiramisu IR), he can use the Tiramisu API to perform different optimizations and finaly he can generate the IR of his compiler of generate directly highly optimized code (LLVM, Vivado HLS, ...) targeting multicore, GPUs or FPGAs.
+
+Current optimizations include:
+- Loop nest transformations: loop tiling, loop fusion/distribution, loop spliting, loop interchange, loop shifting, loop unrolling, ...
+- Affine data mappings: storage reordering, modulo storage (storage folding), ...
+- For shared memory systems: loop parallelization, loop vectorization, ...
+
+Current code generators include (1) multicore X86 CPUs, (2) ARM CPUs, (3) Nvidia GPUs, (4) Xilinx FPGAs (Vivado HLS) and (5) distributed machines (using MPI).
+
 
 ### Example
 
