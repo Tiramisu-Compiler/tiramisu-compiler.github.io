@@ -1,15 +1,9 @@
 {% include includes.html %}
 
 ## Overview
-Tiramisu is a compiler for expressing fast, portable and composable data parallel computations.  Tiramisu is the first compiler to generate code that matches Intel MKL gemm, one of the most highly optimized kernels for X86 CPUs.  The user can express his code in the Tiramisu intermediate representation (Tiramisu IR), he can use the Tiramisu API to perform different optimizations and finaly he can generate the IR of his compiler of generate directly highly optimized code (LLVM, Vivado HLS, ...) targeting multicore, GPUs or FPGAs.
+Tiramisu is a compiler for expressing fast, portable and composable data parallel computations.  The user expresses the code using a simple C++ API, and then uses the Tiramisu compiler to automatically generate highly optimized code for the target architecture.  The user can also specify manually the optimizations to be applied or can specify some optimizations and let the compiler add any other optimizations.
 
-Current optimizations include:
-- Loop nest transformations: loop tiling, loop fusion/distribution, loop spliting, loop interchange, loop shifting, loop unrolling, ...
-- Affine data mappings: storage reordering, modulo storage (storage folding), ...
-- For shared memory systems: loop parallelization, loop vectorization, ...
-
-Current code generators include (1) multicore X86 CPUs, (2) ARM CPUs, (3) Nvidia GPUs, (4) Xilinx FPGAs (Vivado HLS) and (5) distributed machines (using MPI).
-
+The Tiramisu compiler is based on the polyhedral model thus it can express a large set of loop optimizations and data layout transformations.  It can also target (1) multicore X86 CPUs, (2) ARM CPUs, (3) Nvidia GPUs, (4) Xilinx FPGAs (Vivado HLS) and (5) distributed machines (using MPI) and is designed to enable easy integration of code generators for new architectures.
 
 ### Example
 
@@ -33,7 +27,13 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 
 ### Paper
 
-https://arxiv.org/abs/1804.10694
+Tiramisu: A Code Optimization Framework for High Performance Systems [ArXiv] (https://arxiv.org/abs/1804.10694).
+
+Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
+
+ArXiv e-prints. February, 2018.
+
+
 
 ### How Does Tiramisu Work ?
 
