@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
-title: Tiramisu CoLib
-description: A colib for expressing fast, portable and composable data parallel computations
+title: Tiramisu Compiler
+description: A compiler for expressing fast, portable and composable data parallel computations
 google_analytics: UA-120607023-1
