@@ -16,7 +16,7 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
     tiramisu::init();
 
     tiramisu::in A(array_a), B(array_b);
-    tiramisu::out Carray_c);
+    tiramisu::out C(array_c);
     
     tiramisu::var i;
     C(i) = A(i) + B(i);
