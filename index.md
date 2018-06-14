@@ -1,5 +1,12 @@
 {% include includes.html %}
 
+<h2>{{ site.data.samplelist.docs_list_title }}</h2>
+<ul>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}" alt="{{ item.title }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
+
 ## Overview
 Tiramisu is a compiler for expressing fast, portable and composable data parallel computations.  The user can express algorithms (`Tiramisu expressions`) using a simple C++ API and can automatically generate highly optimized code.  Tiramisu can be used in areas such as linear and tensor algebra, deep learning, image processing, stencil computations and machine learning.
 
