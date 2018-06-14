@@ -25,14 +25,11 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 }
 ```
 
-### Paper
+### Publications
 
-```
-Tiramisu: A Code Optimization Framework for High Performance Systems.
-Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo,
-Patricia Suriana, Shoaib Kamil, Saman Amarasinghe. ArXiv e-prints.
-February, 2018.``` [ArXiv](https://arxiv.org/abs/1804.10694).
-
+[Tiramisu: A Code Optimization Framework for High Performance Systems](https://arxiv.org/abs/1804.10694).
+Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
+ArXiv e-prints. February, 2018.
 
 
 ### How Does Tiramisu Work ?
