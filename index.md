@@ -26,7 +26,7 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 ```
 
 ### Getting Started
-- Install [Tiramisu](https://github.com/Tiramisu-Compiler/tiramisu/).
+- Build and install [Tiramisu](https://github.com/Tiramisu-Compiler/tiramisu/).
 - Read the [Tutorials](https://github.com/Tiramisu-Compiler/tiramisu/tutorials/README.md).
 - Read the [Tiramisu Paper](https://arxiv.org/abs/1804.10694).
 - Subscribe to Tiramisu [mailing list](https://lists.csail.mit.edu/mailman/listinfo/tiramisu).
