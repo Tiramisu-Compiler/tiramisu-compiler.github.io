@@ -38,8 +38,3 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 [Tiramisu: A Code Optimization Framework for High Performance Systems](https://arxiv.org/abs/1804.10694).<br/>
 Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
 ArXiv e-prints. February, 2018.
-
-
-### How Does Tiramisu Work ?
-
-The library calls create an object (Abstract Syntax Tree) representing the program and that is passed to the compiler which will lower it, generate code and call the generated code.  A CoLib can be used for just-in-time compilation or for ahead-of-time compilation.
