@@ -20,7 +20,7 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 
     C(i) = A(i) + B(i);
     
-    tiramisu::compile();
+    tiramisu::run();
 }
 ```
 
