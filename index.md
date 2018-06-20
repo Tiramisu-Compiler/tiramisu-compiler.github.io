@@ -15,11 +15,11 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 {
     tiramisu::init();
 
-    tiramisu::comp A(array_a, {N}), B(array_b, {N}), C(array_c, {N});
     tiramisu::iter i;
+    tiramisu::comp A(array_a, {i}, {N}), B(array_b, {i}, {N}), C(array_c, {i}, {N});
 
     C(i) = A(i) + B(i);
-    
+
     tiramisu::run();
 }
 ```
