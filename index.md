@@ -47,3 +47,6 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 - [Tiramisu: A Code Optimization Framework for High Performance Systems](https://arxiv.org/abs/1804.10694).<br/>
 Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
 ArXiv e-prints. February, 2018.
+
+- [A Unified Compiler Backend for Distributed, Cooperative Heterogeneous Execution](http://groups.csail.mit.edu/commit/papers/18/jessica_master.pdf).
+Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Feb, 2018.
