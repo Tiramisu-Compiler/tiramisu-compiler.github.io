@@ -7,6 +7,8 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 
 ### Example
 
+The user can write `Tiramisu expressions` within a C++ code as follows.
+
 ```cpp
 // C++ code with a Tiramisu expression.
 #include "tiramisu.h"
