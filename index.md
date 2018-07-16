@@ -1,26 +1,37 @@
 {% include includes.html %}
 
 ## Overview
-Tiramisu is a compiler for expressing fast, portable and composable data parallel computations.  The user can express algorithms (`Tiramisu expressions`) using a simple C++ API and can automatically generate highly optimized code.  Tiramisu can be used in areas such as linear and tensor algebra, deep learning, image processing, stencil computations and machine learning.
+Tiramisu is a compiler for expressing fast, portable and composable data parallel computations.  It provides a simple C++ API for expressing algorithms (`Tiramisu expressions`) and how these algorithms should be optimized by the compiler.  Tiramisu can be used in areas such as linear and tensor algebra, deep learning, image processing, stencil computations and machine learning.
 
-The Tiramisu compiler is based on the polyhedral model thus it can express a large set of loop optimizations and data layout transformations.  It can also target (1) multicore X86 CPUs, (2) Nvidia GPUs, (3) Xilinx FPGAs (Vivado HLS) and (4) distributed machines (using MPI) and is designed to enable easy integration of code generators for new architectures.
+The Tiramisu compiler is based on the polyhedral model thus it can express a large set of loop optimizations and data layout transformations.  Currently it targets (1) multicore X86 CPUs, (2) Nvidia GPUs, (3) Xilinx FPGAs (Vivado HLS) and (4) distributed machines (using MPI).  It is designed to enable easy integration of code generators for new architectures.
 
 ### Example
 
+
+The following is an example of a Tiramisu program specified using the C++ API.
+
 ```cpp
 // C++ code with a Tiramisu expression.
-#include "tiramisu.h"
+#include "tiramisu/tiramisu.h"
 
 void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 {
-    tiramisu::init();
+    // Specify the name of the function that you want to create.
+    tiramisu::init("foo");
 
-    tiramisu::comp A(array_a), B(array_b), C(array_c);
-    tiramisu::iter i;
+    // Declare two iterator variables (i and j) and two inputs (A and B)
+    tiramisu::var i("i"), j("j");
+    tiramisu::in A(i,j), B(i,j);
 
-    C(i) = A(i) + B(i);
+    // Declare the Tiramisu expression (algorithm)
+    tiramisu::comp C(i,j) = A(i,j) + B(i,j);
     
-    tiramisu::compile();
+    // Specify optimizations
+    C.parallelize(i).vectorize(j, 4);
+
+    // Realize and compile the Tiramisu expression
+    C.realize(tiramisu::int32_t, {N});
+    C.codegen({(A, array_a), (B, array_b), (C, array_c)}, "generated_code.o");
 }
 ```
 
@@ -34,6 +45,9 @@ void foo(int N, int array_a[N], int array_b[N], int array_c[N])
 
 ### Publications
 
-[Tiramisu: A Code Optimization Framework for High Performance Systems](https://arxiv.org/abs/1804.10694).<br/>
+- [Tiramisu: A Code Optimization Framework for High Performance Systems](https://arxiv.org/abs/1804.10694).<br/>
 Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
 ArXiv e-prints. February, 2018.
+
+- [A Unified Compiler Backend for Distributed, Cooperative Heterogeneous Execution](http://groups.csail.mit.edu/commit/papers/18/jessica_master.pdf).
+Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Feb, 2018.
