@@ -30,6 +30,7 @@ var core_8h =
     [ "get_computation_annotated_in_a_node", "core_8h.html#ad4cd7fea3db95ce67795e7ca473f56f2", null ],
     [ "halide_pipeline_to_tiramisu_function", "core_8h.html#aa3eb480cc5c989b33dc094cddd437218", null ],
     [ "halide_stmt_dump", "core_8h.html#ac2454c860a3cfe6ae6c40e0d610fd9cd", null ],
+    [ "init", "core_8h.html#a2b01763c920aefc05dcf33df569a3080", null ],
     [ "isl_map_add_free_var", "core_8h.html#a8ba7206dfd9c807cfb8d5ccf22b2b7b0", null ],
     [ "loop_level_into_dynamic_dimension", "core_8h.html#a6fa222c4d946683f586d23fa5441ee3b", null ],
     [ "loop_level_into_static_dimension", "core_8h.html#a327829cf9a3c1accb6eb00f32eb9fbfd", null ],

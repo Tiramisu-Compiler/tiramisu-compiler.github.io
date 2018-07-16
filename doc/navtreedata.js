@@ -40,7 +40,7 @@ var NAVTREEINDEX =
 "_main_page_8h.html",
 "classtiramisu_1_1cuda__ast_1_1op.html#a02e3e25d1f690bee962c0263d027f4e6",
 "classtiramisu_1_1sync.html",
-"tutorials_2tutorial_03_8cpp-example.html"
+"structtiramisu_1_1xfer.html#a425b0796da81530358ab1c93f0d48ef6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

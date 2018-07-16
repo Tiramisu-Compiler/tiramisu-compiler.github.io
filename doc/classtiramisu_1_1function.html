@@ -129,7 +129,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a92b1a049a512671258cf346af4b59ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a set of constraints to the context of the program.  <a href="#a92b1a049a512671258cf346af4b59ec6">More...</a><br /></td></tr>
 <tr class="separator:a92b1a049a512671258cf346af4b59ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab166ee0cecf4afec3d75e17662976e20"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#ab166ee0cecf4afec3d75e17662976e20">align_schedules</a> ()</td></tr>
-<tr class="memdesc:ab166ee0cecf4afec3d75e17662976e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">This functions applies to the schedule of each computation in the function.  <a href="#ab166ee0cecf4afec3d75e17662976e20">More...</a><br /></td></tr>
+<tr class="memdesc:ab166ee0cecf4afec3d75e17662976e20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Align the schedules of all the computations of this function.  <a href="#ab166ee0cecf4afec3d75e17662976e20">More...</a><br /></td></tr>
 <tr class="separator:ab166ee0cecf4afec3d75e17662976e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3e42f31722b17263102734867aaaa71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#af3e42f31722b17263102734867aaaa71">allocate_and_map_buffers_automatically</a> ()</td></tr>
 <tr class="memdesc:af3e42f31722b17263102734867aaaa71"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each computation, allocate a buffer and map the computation to that buffer.  <a href="#af3e42f31722b17263102734867aaaa71">More...</a><br /></td></tr>
@@ -329,9 +329,8 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to represent functions in Tiramisu. </p>
 <p>A function in Tiramisu is composed of a set of computations (<a class="el" href="classtiramisu_1_1computation.html" title="A class that represents computations. ">tiramisu::computation</a>). </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="tutorials_2tutorial_06_8cpp-example.html#_a1">tutorials/tutorial_06.cpp</a>.</dd>
-</dl>
-<p>Definition at line <a class="el" href="core_8h_source.html#l00097">97</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+
+<p>Definition at line <a class="el" href="core_8h_source.html#l00104">104</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a41227e14c97d5e18d85797ea9000a646"></a>
 <div class="memitem">
@@ -425,10 +424,9 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add a set of constraints to the context of the program. </p>
-<p>This command is useful for providing constraints over the constants used within a tiramisu function. This call intersects the set <code>new_context</code> (input) with the context of the function.</p>
-<p>The context of a function is an ISL set that represents constraints over the parameters of the functions. A parameter of a function is a constant used in that function.</p>
-<p>An example of a context set is the following: "[N,M]-&gt;{: M&gt;0 and N&gt;0}" This context set indicates that the two parameters N and M are strictly positive.</p>
-<p><code>new_context</code> should have the same space as the context set. </p>
+<p>This command is useful for providing constraints over the constants used within a tiramisu function. The context of a function is represented as an ISL set that represents constraints over the parameters of the function (a parameter of a function is a constant used in that function).</p>
+<p>For example, if the constants M and N are known to be positive, it is beneficial to provide such an information to the Tiramisu compiler as follows: f.add_context_constraints("[N,M]-&gt;{: M&gt;0 and N&gt;0}"); This context set indicates that the two parameters N and M are strictly positive in the function f.</p>
+<p><code>new_context</code> should have the same space as the context set. This call intersects the set <code>new_context</code> (input) with the context of the function. </p>
 
 </div>
 </div>
@@ -603,8 +601,8 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>This functions applies to the schedule of each computation in the function. </p>
-<p>It makes the dimensions of the ranges of all the schedules equal. This is done by adding dimensions equal to 0 to the range of schedules. This function is called automatically when <a class="el" href="classtiramisu_1_1function.html#ab5792d0b53936a1ab74d2615810adbd4" title="Generate an isl AST that represents the function. ">gen_isl_ast()</a> or gen_time_processor_domain() are called. </p>
+<p>Align the schedules of all the computations of this function. </p>
+<p>This method applies to the schedule of each computation in the function. It makes the dimensions of the ranges of all the schedules equal. This is done by adding dimensions equal to 0 to the range of each schedule. This function is called automatically when <a class="el" href="classtiramisu_1_1function.html#ab5792d0b53936a1ab74d2615810adbd4" title="Generate an isl AST that represents the function. ">gen_isl_ast()</a> or gen_time_processor_domain() are called. </p>
 
 </div>
 </div>
@@ -868,8 +866,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Generate C code and print it on stdout. </p>
 <p>Currently C code code generation is very basic and does not support many features compared to the Halide code generator. Use this for debugging only. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="tutorials_2tutorial_06_8cpp-example.html#a21">tutorials/tutorial_06.cpp</a>.</dd>
-</dl>
+
 </div>
 </div>
 <a class="anchor" id="a919fa276486c0348dd626a3e75d10f0a"></a>
@@ -929,8 +926,7 @@ Protected Attributes</h2></td></tr>
 <p><code>os</code> indicates the target operating system (Halide::Target::OS).</p>
 <p><code>arch</code> indicates the architecture of the target (the instruction set).</p>
 <p><code>bits</code> indicate the bit-width of the target machine. must be 0 for unknown, or 32 or 64. For a full list of supported values for <code>os</code> and <code>arch</code> please check the documentation of Halide::Target (<a href="http://halide-lang.org/docs/struct_halide_1_1_target.html">http://halide-lang.org/docs/struct_halide_1_1_target.html</a>). If the machine parameters are not supplied, Halide detects the parameters of the host machine automatically. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="tutorials_2tutorial_06_8cpp-example.html#a22">tutorials/tutorial_06.cpp</a>.</dd>
-</dl>
+
 </div>
 </div>
 <a class="anchor" id="ac59a7d760c7fc07075ca0e94bc8d99c5"></a>
@@ -965,8 +961,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generate a Halide stmt that represents the function. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="tutorials_2tutorial_06_8cpp-example.html#a20">tutorials/tutorial_06.cpp</a>.</dd>
-</dl>
+
 </div>
 </div>
 <a class="anchor" id="ab5792d0b53936a1ab74d2615810adbd4"></a>
@@ -983,8 +978,7 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Generate an isl AST that represents the function. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="tutorials_2tutorial_06_8cpp-example.html#a19">tutorials/tutorial_06.cpp</a>.</dd>
-</dl>
+
 </div>
 </div>
 <a class="anchor" id="ab62a0194f9dbc0d549fa8074fa920411"></a>
@@ -1028,8 +1022,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Generate the time-space domain of the function. </p>
 <p>In this representation, the logical time of execution and the processor where the computation will be executed are both specified. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="tutorials_2tutorial_06_8cpp-example.html#a18">tutorials/tutorial_06.cpp</a>.</dd>
-</dl>
+
 </div>
 </div>
 <a class="anchor" id="abcd78d8fcd7cd75562a9fb9703afe1af"></a>
@@ -1649,8 +1642,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Set the arguments of the function. </p>
 <p>The arguments of the function are provided as a vector of pointers to buffers. Each buffer represents an argument to the function. During code generation, the arguments in the vector will become the arguments of the generated function (with the order of their appearance in the vector). </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="tutorials_2tutorial_06_8cpp-example.html#a17">tutorials/tutorial_06.cpp</a>.</dd>
-</dl>
+
 </div>
 </div>
 <a class="anchor" id="a1f58920ccc2ae149c678e452693a2d9c"></a>
@@ -1955,7 +1947,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Keeps track of allocation computations created using allocate_and_map_buffer_automatically() to schedule them during gen_ordering_schedules. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00432">432</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00439">439</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -1983,7 +1975,7 @@ Protected Attributes</h2></td></tr>
 <li>Each other computation should have exactly one computation scheduled before it. In other words, the graph should be a valid tree. Does not include allocation computations created using allocate_and_map_buffer_automatically(). </li>
 </ul>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00617">617</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00624">624</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -2007,7 +1999,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Same as sched_graph, except in reverse order (from after to before). </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00623">623</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00630">630</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -2032,7 +2024,7 @@ Protected Attributes</h2></td></tr>
 <p>The set of all computations that have no computation scheduled before them. </p>
 <p>Does not include allocation computations created using allocate_and_map_buffer_automatically(). </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00687">687</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00694">694</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -2057,7 +2049,7 @@ Protected Attributes</h2></td></tr>
 <p>A boolean set to true if low level scheduling was used in the program. </p>
 <p>If it is used, then high level scheduling commands such as .before(), .after(), ... </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00694">694</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00701">701</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>

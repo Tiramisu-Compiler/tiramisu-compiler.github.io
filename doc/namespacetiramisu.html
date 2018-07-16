@@ -215,6 +215,9 @@ Functions</h2></td></tr>
 <tr class="separator:a6fa222c4d946683f586d23fa5441ee3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a327829cf9a3c1accb6eb00f32eb9fbfd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetiramisu.html#a327829cf9a3c1accb6eb00f32eb9fbfd">loop_level_into_static_dimension</a> (int level)</td></tr>
 <tr class="separator:a327829cf9a3c1accb6eb00f32eb9fbfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b01763c920aefc05dcf33df569a3080"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetiramisu.html#a2b01763c920aefc05dcf33df569a3080">init</a> ()</td></tr>
+<tr class="memdesc:a2b01763c920aefc05dcf33df569a3080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Tiramisu compiler and set Tiramisu options to default values.  <a href="#a2b01763c920aefc05dcf33df569a3080">More...</a><br /></td></tr>
+<tr class="separator:a2b01763c920aefc05dcf33df569a3080"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2454c860a3cfe6ae6c40e0d610fd9cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetiramisu.html#ac2454c860a3cfe6ae6c40e0d610fd9cd">halide_stmt_dump</a> (Halide::Internal::Stmt s)</td></tr>
 <tr class="separator:ac2454c860a3cfe6ae6c40e0d610fd9cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19c604f9d050e8d3e98b543d2a2b191b"><td class="memItemLeft" align="right" valign="top">Halide::Module&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetiramisu.html#a19c604f9d050e8d3e98b543d2a2b191b">lower_halide_pipeline</a> (const std::string &amp;pipeline_name, const Halide::Target &amp;t, const std::vector&lt; Halide::Argument &gt; &amp;args, const Halide::Internal::LoweredFunc::LinkageType linkage_type, Halide::Internal::Stmt s)</td></tr>
@@ -865,6 +868,23 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a class="anchor" id="a2b01763c920aefc05dcf33df569a3080"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tiramisu::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize the Tiramisu compiler and set Tiramisu options to default values. </p>
+
+</div>
+</div>
 <a class="anchor" id="a8ba7206dfd9c807cfb8d5ccf22b2b7b0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1329,38 +1349,6 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="affe0a2848d3562af4d02d4518190b023"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespacetiramisu.html#ad253adb35b4ad01fa8ad1e1cca5d5231">only_integral</a>&lt;T&gt; tiramisu::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">T&#160;</td>
-          <td class="paramname"><em>val</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classtiramisu_1_1expr.html">tiramisu::expr</a> &amp;&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="expr_8h_source.html#l01835">1835</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
-
-<p>References <a class="el" href="namespacetiramisu.html#aa89be56f203bbdf5354d5d92a249c7bb">allocate()</a>, and <a class="el" href="namespacetiramisu.html#aaa65f0974c7ba0558c907444371ae181">memcpy()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a701aea4d88b496683c0c83607909d4ff"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1390,6 +1378,38 @@ template&lt;typename T &gt; </div>
 <p>Definition at line <a class="el" href="expr_8h_source.html#l01829">1829</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>Referenced by <a class="el" href="expr_8h_source.html#l00775">tiramisu::expr::is_equal()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="affe0a2848d3562af4d02d4518190b023"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacetiramisu.html#ad253adb35b4ad01fa8ad1e1cca5d5231">only_integral</a>&lt;T&gt; tiramisu::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classtiramisu_1_1expr.html">tiramisu::expr</a> &amp;&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="expr_8h_source.html#l01835">1835</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+
+<p>References <a class="el" href="namespacetiramisu.html#aa89be56f203bbdf5354d5d92a249c7bb">allocate()</a>, and <a class="el" href="namespacetiramisu.html#aaa65f0974c7ba0558c907444371ae181">memcpy()</a>.</p>
 
 </div>
 </div>

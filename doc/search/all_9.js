@@ -7,6 +7,7 @@ var searchData=
   ['if_5fcondition',['if_condition',['../classtiramisu_1_1cuda__ast_1_1if__condition.html#ad0bfa4d074ed007b82ed66f6f4e3882f',1,'tiramisu::cuda_ast::if_condition::if_condition(statement_ptr condition, statement_ptr then_body, statement_ptr else_body)'],['../classtiramisu_1_1cuda__ast_1_1if__condition.html#a7bf78bc0e159808ffc29e24fa926036a',1,'tiramisu::cuda_ast::if_condition::if_condition(statement_ptr condition, statement_ptr then_body)']]],
   ['if_5fcondition',['if_condition',['../classtiramisu_1_1cuda__ast_1_1if__condition.html',1,'tiramisu::cuda_ast']]],
   ['infix',['infix',['../structtiramisu_1_1cuda__ast_1_1op__data__t.html#a2e033a8aeb0ddb29932a30876a792ff3',1,'tiramisu::cuda_ast::op_data_t']]],
+  ['init',['init',['../namespacetiramisu.html#a2b01763c920aefc05dcf33df569a3080',1,'tiramisu']]],
   ['init_5f2d_5fbuffer_5finterleaving',['init_2D_buffer_interleaving',['../utils_8h.html#a0b5daa8d2b18c2c1be07345574050e36',1,'utils.h']]],
   ['init_5fbuffer',['init_buffer',['../utils_8h.html#a563cadfe883d4ea7d81f6bdee5dfeb9d',1,'utils.h']]],
   ['init_5fcomputation',['init_computation',['../classtiramisu_1_1computation.html#a603834cd99c57d0d8c72dc594951f45f',1,'tiramisu::computation']]],
