@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"classtiramisu_1_1send__recv.html#aefba37931f09dbd71c77b8ad42ef14f4":[2,0,0,17,0],
 "classtiramisu_1_1sync.html":[2,0,0,18],
 "classtiramisu_1_1sync.html#a8e86d9f88ae4c5f55d89d2da2fdf6035":[2,0,0,18,0],
 "classtiramisu_1_1utility.html":[2,0,0,19],
@@ -136,8 +137,8 @@ var NAVTREEINDEX2 =
 "externs_8h.html#af11c772bbad0269870ab46874baa2912":[3,0,3,4],
 "externs_8h_source.html":[3,0,3],
 "files.html":[3,0],
-"functions.html":[2,2,0,0],
 "functions.html":[2,2,0],
+"functions.html":[2,2,0,0],
 "functions_0x7e.html":[2,2,0,23],
 "functions_a.html":[2,2,0,1],
 "functions_b.html":[2,2,0,2],
@@ -205,8 +206,8 @@ var NAVTREEINDEX2 =
 "namespaces.html":[1,0],
 "namespacetiramisu.html":[1,0,0],
 "namespacetiramisu.html":[2,0,0],
-"namespacetiramisu_1_1cuda__ast.html":[2,0,0,0],
 "namespacetiramisu_1_1cuda__ast.html":[1,0,0,0],
+"namespacetiramisu_1_1cuda__ast.html":[2,0,0,0],
 "pages.html":[],
 "structtiramisu_1_1_halide_codegen_output.html":[2,0,0,9],
 "structtiramisu_1_1_halide_codegen_output.html#a1fa9c1828de9c1f3daab3767c1150ee8":[2,0,0,9,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "structtiramisu_1_1isl__id__deleter.html":[2,0,0,13],
 "structtiramisu_1_1isl__id__deleter.html#a5ebac2c16faed7002d93d8968500af45":[2,0,0,13,0],
 "structtiramisu_1_1isl__val__deleter.html":[2,0,0,14],
-"structtiramisu_1_1isl__val__deleter.html#a07672a38dd103740b9217a65f9781955":[2,0,0,14,0],
-"structtiramisu_1_1xfer.html":[2,0,0,22]
+"structtiramisu_1_1isl__val__deleter.html#a07672a38dd103740b9217a65f9781955":[2,0,0,14,0]
 };

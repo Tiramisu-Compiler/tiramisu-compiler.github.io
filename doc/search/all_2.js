@@ -7,7 +7,6 @@ var searchData=
   ['binary2',['BINARY2',['../cuda__ast_8h.html#a8ad8304bd177211f4d16f81d9206ad86',1,'cuda_ast.h']]],
   ['binary_5ftyped',['BINARY_TYPED',['../cuda__ast_8h.html#a53091d862f2740fd744e946107f63f7b',1,'cuda_ast.h']]],
   ['binary_5ftyped2',['BINARY_TYPED2',['../cuda__ast_8h.html#aa10c1996b0f20bc5076397a99834e40b',1,'cuda_ast.h']]],
-  ['bind_5fto',['bind_to',['../classtiramisu_1_1computation.html#a5b9d5764ae39e427bf252ba0ea736031',1,'tiramisu::computation']]],
   ['block',['BLOCK',['../structtiramisu_1_1cuda__ast_1_1gpu__iterator.html#aae8e3890724c255af094971262434908a4d34f53389ed7f28ca91fc31ea360a66',1,'tiramisu::cuda_ast::gpu_iterator::BLOCK()'],['../classtiramisu_1_1cuda__ast_1_1block.html#a2b0cfc1d48b03537d85ec9769041b176',1,'tiramisu::cuda_ast::block::block()'],['../namespacetiramisu.html#a2c28d62b0449ae58b8fa324db8f35d72adabaa42eaab6cfdcf99edf8cb1c32f61',1,'tiramisu::BLOCK()']]],
   ['block',['block',['../classtiramisu_1_1cuda__ast_1_1block.html',1,'tiramisu::cuda_ast']]],
   ['buffer',['buffer',['../classtiramisu_1_1cuda__ast_1_1buffer.html',1,'tiramisu::cuda_ast']]],

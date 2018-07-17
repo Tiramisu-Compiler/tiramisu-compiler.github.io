@@ -54,8 +54,8 @@ var searchData=
   ['start',['start',['../classtiramisu__timer.html#ab419ad18f8ea9028199941a6a807df89',1,'tiramisu_timer']]],
   ['start_5ftiming',['start_timing',['../classtiramisu__timer.html#a6c55a656730f563441e9784c54e997fc',1,'tiramisu_timer']]],
   ['starting_5fcomputations',['starting_computations',['../classtiramisu_1_1function.html#a587856ea73f0f552cc711091a3b8ced8',1,'tiramisu::function']]],
-  ['statement',['statement',['../classtiramisu_1_1cuda__ast_1_1statement.html',1,'tiramisu::cuda_ast']]],
   ['statement',['statement',['../classtiramisu_1_1cuda__ast_1_1statement.html#afb8f4b3d78c7604f9e35343475141135',1,'tiramisu::cuda_ast::statement']]],
+  ['statement',['statement',['../classtiramisu_1_1cuda__ast_1_1statement.html',1,'tiramisu::cuda_ast']]],
   ['statement_5fptr',['statement_ptr',['../namespacetiramisu_1_1cuda__ast.html#afccf9d5f28f50c164fd9f6b915d8d161',1,'tiramisu::cuda_ast']]],
   ['std_5ferr',['std_err',['../cuda__ast_8h.html#ac80c2ba86d187622d0bb360d15eec46e',1,'cuda_ast.h']]],
   ['std_5fout',['std_out',['../cuda__ast_8h.html#a1c94eec8f4711c6bc0291df742c07226',1,'cuda_ast.h']]],
@@ -63,13 +63,14 @@ var searchData=
   ['stop',['stop',['../classtiramisu__timer.html#a036e5a6c34ea0ed01d8f35a5adf7c5f1',1,'tiramisu_timer']]],
   ['storage_5ffold',['storage_fold',['../classtiramisu_1_1computation.html#a718678aa2f3dfddc06fbd6760db9c12f',1,'tiramisu::computation']]],
   ['store_5fat',['store_at',['../classtiramisu_1_1computation.html#ab741d4c5e5dfd5bc0f079fdd681196da',1,'tiramisu::computation']]],
+  ['store_5fin',['store_in',['../classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693',1,'tiramisu::computation::store_in(buffer *buff)'],['../classtiramisu_1_1computation.html#a655d4782a470c249eb38a68534772d23',1,'tiramisu::computation::store_in(buffer *buff, std::vector&lt; var &gt; iterators)']]],
   ['str_5ffrom_5ftiramisu_5ftype_5fexpr',['str_from_tiramisu_type_expr',['../namespacetiramisu.html#a2cee456aea40887ca6c3ada2088c5387',1,'tiramisu']]],
   ['str_5ffrom_5ftiramisu_5ftype_5fprimitive',['str_from_tiramisu_type_primitive',['../namespacetiramisu.html#a5c23498bdbf7101796d00029db08cec5',1,'tiramisu']]],
   ['str_5ftiramisu_5ftype_5fop',['str_tiramisu_type_op',['../namespacetiramisu.html#ad5de9f48001671ea2ffb26fdc3c25be5',1,'tiramisu']]],
   ['substitute',['substitute',['../classtiramisu_1_1expr.html#a3cbc1079941cf0c7c840b238e4d53b9a',1,'tiramisu::expr']]],
   ['substitute_5faccess',['substitute_access',['../classtiramisu_1_1expr.html#ae13f8ab7123bb8628297d7c13f839851',1,'tiramisu::expr']]],
   ['symbol',['symbol',['../structtiramisu_1_1cuda__ast_1_1op__data__t.html#aabb1023f974323792a2a7eba5b141480',1,'tiramisu::cuda_ast::op_data_t']]],
-  ['sync',['sync',['../classtiramisu_1_1cuda__ast_1_1sync.html',1,'tiramisu::cuda_ast']]],
+  ['sync',['sync',['../classtiramisu_1_1cuda__ast_1_1sync.html#a51800f1b88580d7566206bf2f6df72ff',1,'tiramisu::cuda_ast::sync::sync()'],['../classtiramisu_1_1sync.html#a8e86d9f88ae4c5f55d89d2da2fdf6035',1,'tiramisu::sync::sync()'],['../namespacetiramisu.html#a2c28d62b0449ae58b8fa324db8f35d72a49655e8a65c2564d4aac55794d984860',1,'tiramisu::SYNC()']]],
   ['sync',['sync',['../classtiramisu_1_1sync.html',1,'tiramisu']]],
-  ['sync',['sync',['../classtiramisu_1_1cuda__ast_1_1sync.html#a51800f1b88580d7566206bf2f6df72ff',1,'tiramisu::cuda_ast::sync::sync()'],['../classtiramisu_1_1sync.html#a8e86d9f88ae4c5f55d89d2da2fdf6035',1,'tiramisu::sync::sync()'],['../namespacetiramisu.html#a2c28d62b0449ae58b8fa324db8f35d72a49655e8a65c2564d4aac55794d984860',1,'tiramisu::SYNC()']]]
+  ['sync',['sync',['../classtiramisu_1_1cuda__ast_1_1sync.html',1,'tiramisu::cuda_ast']]]
 ];
