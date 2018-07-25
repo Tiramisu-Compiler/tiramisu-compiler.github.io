@@ -13,25 +13,31 @@ The following is an example of a Tiramisu program specified using the C++ API.
 ```cpp
 // C++ code with a Tiramisu expression.
 #include "tiramisu/tiramisu.h"
+using namespace tiramisu;
 
-void foo(int N, int array_a[N], int array_b[N], int array_c[N])
+void generate_code()
 {
     // Specify the name of the function that you want to create.
     tiramisu::init("foo");
 
-    // Declare two iterator variables (i and j) and two inputs (A and B)
-    tiramisu::var i("i"), j("j");
-    tiramisu::in A(i,j), B(i,j);
+    // Declare two iterator variables (i and j) such that 0<=i<100 and 0<=j<100.
+    tiramisu::var i("i", 0, 100), j("j", 0, 100);
 
-    // Declare the Tiramisu expression (algorithm)
-    tiramisu::comp C(i,j) = A(i,j) + B(i,j);
+    // Declare a Tiramisu expression (algorithm) that is equivalent to the following C code
+    // for (i=0; i<100; i++)
+    //   for (j=0; j<100; j++)
+    //     C(i,j) = 0;
+    tiramisu::computation C({i,j}, 0);
     
     // Specify optimizations
-    C.parallelize(i).vectorize(j, 4);
+    C.parallelize(i);
+    C.vectorize(j, 4);
+    
+    buffer b_C("b_C", {100, 100}, p_int32, a_output);
+    C.store_in(&b_C);
 
-    // Realize and compile the Tiramisu expression
-    C.realize(tiramisu::int32_t, {N});
-    C.codegen({(A, array_a), (B, array_b), (C, array_c)}, "generated_code.o");
+    // Generate code
+    C.codegen({&b_C}, "generated_code.o");
 }
 ```
 
