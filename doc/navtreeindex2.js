@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"classtiramisu_1_1send.html#a0337af888f54201bcd9028ad6b828398":[2,0,0,17,1],
 "classtiramisu_1_1send.html#a083813825ffb8af605c9f8c4acb6ac42":[2,0,0,17,6],
 "classtiramisu_1_1send.html#a1565f7e1e06adb3b86cc198ec347e2f6":[2,0,0,17,8],
 "classtiramisu_1_1send.html#a4c316a601f455d6649639240ac64d1b2":[2,0,0,17,11],
@@ -22,8 +23,6 @@ var NAVTREEINDEX2 =
 "classtiramisu_1_1var.html#a1ffcd1b65f3fd089b85f45433ab12aee":[2,0,0,21,3],
 "classtiramisu_1_1var.html#a51b8a261744d0daf7170ac3c0d7ab5f7":[2,0,0,21,1],
 "classtiramisu_1_1var.html#a5e17334960a65bc6aa05d63b10cc37e9":[2,0,0,21,0],
-"classtiramisu_1_1var.html#a961551844cc3eb08a2c2ada712cf20ed":[2,0,0,21,4],
-"classtiramisu_1_1var.html#ad070bcef6db8d92445d61a011f0f598a":[2,0,0,21,5],
 "classtiramisu_1_1wait.html":[2,0,0,22],
 "classtiramisu_1_1wait.html#a0d9b67a4db62c97b5656d20a6349934b":[2,0,0,22,1],
 "classtiramisu_1_1wait.html#a1d3920be5f7b708b29c9dd78b3f4f8c7":[2,0,0,22,2],
@@ -116,7 +115,6 @@ var NAVTREEINDEX2 =
 "cuda__ast_8h.html#ae3f7aec961c573c345260f0ab673af67":[3,0,1,47],
 "cuda__ast_8h.html#afccf9d5f28f50c164fd9f6b915d8d161":[3,0,1,67],
 "cuda__ast_8h_source.html":[3,0,1],
-"examples.html":[4],
 "expr_8h.html":[3,0,2],
 "expr_8h.html#a07a4f82a17a9a4065db34ceb4344fdd9":[3,0,2,19],
 "expr_8h.html#a2c1bc2939b0f573dfbe98edc40f0e226":[3,0,2,23],
@@ -166,8 +164,8 @@ var NAVTREEINDEX2 =
 "functions_e.html":[2,2,0,5],
 "functions_enum.html":[2,2,3],
 "functions_f.html":[2,2,0,6],
-"functions_func.html":[2,2,1],
 "functions_func.html":[2,2,1,0],
+"functions_func.html":[2,2,1],
 "functions_func_0x7e.html":[2,2,1,23],
 "functions_func_a.html":[2,2,1,1],
 "functions_func_b.html":[2,2,1,2],
@@ -223,8 +221,8 @@ var NAVTREEINDEX2 =
 "namespacemembers_func.html":[1,1,1],
 "namespacemembers_type.html":[1,1,2],
 "namespaces.html":[1,0],
-"namespacetiramisu.html":[2,0,0],
 "namespacetiramisu.html":[1,0,0],
+"namespacetiramisu.html":[2,0,0],
 "namespacetiramisu_1_1cuda__ast.html":[1,0,0,0],
 "namespacetiramisu_1_1cuda__ast.html":[2,0,0,0],
 "pages.html":[],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "structtiramisu_1_1cuda__ast_1_1op__data__t.html#a146b487c27b675b1c1051e4381279c6f":[2,0,0,0,25,9],
 "structtiramisu_1_1cuda__ast_1_1op__data__t.html#a19f020aae4f3b56ece5b0d0564fa40a9":[2,0,0,0,25,5],
 "structtiramisu_1_1cuda__ast_1_1op__data__t.html#a2be3070c7e0e9a822a918dca888499ee":[2,0,0,0,25,6],
-"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a2e033a8aeb0ddb29932a30876a792ff3":[2,0,0,0,25,8]
+"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a2e033a8aeb0ddb29932a30876a792ff3":[2,0,0,0,25,8],
+"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a35a252ff77c85ffa6f19c54d002cea61":[2,0,0,0,25,0],
+"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a3dace241cbfbf9420b71a1fe07419ede":[2,0,0,0,25,3]
 };

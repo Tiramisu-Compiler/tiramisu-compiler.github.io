@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "Tiramisu Compiler", "index.html", [
-    [ "Tiramisu Optimization Framework", "index.html", null ],
+    [ "Documentation of the Tiramisu Compiler API", "index.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -30,17 +30,16 @@ var NAVTREE =
         [ "Variables", "globals_vars.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
-    ] ],
-    [ "Examples", "examples.html", "examples" ]
+    ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
 "_main_page_8h.html",
-"classtiramisu_1_1cuda__ast_1_1kernel__call.html#a08b70576443706813893e4f3b046e83d",
-"classtiramisu_1_1send.html#a083813825ffb8af605c9f8c4acb6ac42",
-"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a35a252ff77c85ffa6f19c54d002cea61"
+"classtiramisu_1_1cuda__ast_1_1kernel__call.html",
+"classtiramisu_1_1send.html#a0337af888f54201bcd9028ad6b828398",
+"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a487eae9cf993f091757802b63d4e7839"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

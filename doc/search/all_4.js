@@ -13,5 +13,6 @@ var searchData=
   ['dump_5fsched_5fgraph',['dump_sched_graph',['../classtiramisu_1_1function.html#aba881339599024ba4424f5e96496e13b',1,'tiramisu::function']]],
   ['dump_5fschedule',['dump_schedule',['../classtiramisu_1_1function.html#a11a4ca9fa5e9577dbb1457642a08771e',1,'tiramisu::function::dump_schedule()'],['../classtiramisu_1_1computation.html#a1923f57930c0c415bc5706df6622e2e0',1,'tiramisu::computation::dump_schedule()']]],
   ['dump_5ftime_5fprocessor_5fdomain',['dump_time_processor_domain',['../classtiramisu_1_1function.html#abdf3c028806e84b71daf03140ecd2b26',1,'tiramisu::function']]],
-  ['dump_5ftrimmed_5ftime_5fprocessor_5fdomain',['dump_trimmed_time_processor_domain',['../classtiramisu_1_1function.html#a0a00f945e60bc4c1188345201cbb1c26',1,'tiramisu::function']]]
+  ['dump_5ftrimmed_5ftime_5fprocessor_5fdomain',['dump_trimmed_time_processor_domain',['../classtiramisu_1_1function.html#a0a00f945e60bc4c1188345201cbb1c26',1,'tiramisu::function']]],
+  ['documentation_20of_20the_20tiramisu_20compiler_20api',['Documentation of the Tiramisu Compiler API',['../index.html',1,'']]]
 ];

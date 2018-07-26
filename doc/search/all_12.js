@@ -1,7 +1,6 @@
 var searchData=
 [
   ['cuda_5fast',['cuda_ast',['../namespacetiramisu_1_1cuda__ast.html',1,'tiramisu']]],
-  ['tiramisu_20optimization_20framework',['Tiramisu Optimization Framework',['../index.html',1,'']]],
   ['tag_5fdistribute_5flevel',['tag_distribute_level',['../classtiramisu_1_1computation.html#a8de3bf0e99741287af84f3af8a4c5365',1,'tiramisu::computation::tag_distribute_level(tiramisu::var L)'],['../classtiramisu_1_1computation.html#a38935a2b30a261024a24e6257f6a25b2',1,'tiramisu::computation::tag_distribute_level(int L)']]],
   ['tag_5fgpu_5fconstant',['tag_gpu_constant',['../classtiramisu_1_1buffer.html#af602edc2fef9d8d09002cda1b82ab4fc',1,'tiramisu::buffer']]],
   ['tag_5fgpu_5fglobal',['tag_gpu_global',['../classtiramisu_1_1buffer.html#a4328725bffeff1bfd7dd9cdf1cbc7aa1',1,'tiramisu::buffer']]],

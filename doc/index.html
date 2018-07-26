@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Tiramisu Compiler: Tiramisu Optimization Framework</title>
+<title>Tiramisu Compiler: Documentation of the Tiramisu Compiler API</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -49,7 +49,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
       <li><a href="files.html"><span>Files</span></a></li>
-      <li><a href="examples.html"><span>Examples</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -99,14 +98,17 @@ $(document).ready(function(){initNavTree('index.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Tiramisu Optimization Framework </div>  </div>
+<div class="title">Documentation of the Tiramisu Compiler API </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Tiramisu is a library that is designed to simplify code optimization and code generation. The user can express his code in the Tiramisu intermediate representation (Tiramisu IR), he can use the Tiramisu API to perform different optimizations and finaly he can generate an LLVM code from the optimized Tiramisu IR.</p>
-<p>Tiramisu provides few classes to enable users to represent their program:</p><ul>
-<li>The <a class="el" href="classtiramisu_1_1function.html">tiramisu::function</a> class: a function is composed of multiple computations and a vector of arguments (functions arguments).</li>
-<li>The <a class="el" href="classtiramisu_1_1computation.html">tiramisu::computation</a> class: a computation is composed of an expression and an iteration space but is not associated with any memory location.</li>
-<li>The <a class="el" href="classtiramisu_1_1buffer.html">tiramisu::buffer</a> class: a class to represent memory buffers. </li>
+<div class="textblock"><p>Tiramisu provides few classes to enable users to represent their program:</p><ul>
+<li>The <a class="el" href="classtiramisu_1_1function.html">tiramisu::function</a> class: used to declare Tiramisu functions. A function in Tiramisu is equivalent to a function in C. It is composed of multiple computations where each computation is the equivalent of a statement in C.</li>
+<li>The <a class="el" href="classtiramisu_1_1input.html">tiramisu::input</a> class: used to represent inputs passed to Tiramisu. An input can represent a buffer or a scalar.</li>
+<li>The <a class="el" href="classtiramisu_1_1constant.html">tiramisu::constant</a> class: a constant is designed to represent constants that are supposed to be declared at the beginning of a Tiramisu function. This can be used only to declare constant scalars.</li>
+<li>The <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> class: used to represent loop iterators. Usually we declare a var (a loop iterator) and then use it for the declaration of computations. The range of that variable defines the range of the loop around the computation (its iteration domain). When used to declare a buffer it defines the buffer size and when used with an input it defines the input size.</li>
+<li>The <a class="el" href="classtiramisu_1_1computation.html">tiramisu::computation</a> class: used to declare a computation which is the equivalent of a statement in C. A computation has an expression (<a class="el" href="classtiramisu_1_1expr.html" title="A class to represent tiramisu expressions. ">tiramisu::expr</a>) and iteration domain defined using an iterator variable.</li>
+<li>The <a class="el" href="classtiramisu_1_1buffer.html">tiramisu::buffer</a> class: a class to represent memory buffers.</li>
+<li>The <a class="el" href="classtiramisu_1_1expr.html">tiramisu::expr</a> class: used to declare Tiramisu expressions (e.g., 4, 4 + 4, 4 * i, A(i, j), ...). </li>
 </ul>
 </div></div><!-- contents -->
 </div><!-- doc-content -->

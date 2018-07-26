@@ -46,7 +46,7 @@ var searchData=
   ['stop',['stop',['../classtiramisu__timer.html#a036e5a6c34ea0ed01d8f35a5adf7c5f1',1,'tiramisu_timer']]],
   ['storage_5ffold',['storage_fold',['../classtiramisu_1_1computation.html#a718678aa2f3dfddc06fbd6760db9c12f',1,'tiramisu::computation']]],
   ['store_5fat',['store_at',['../classtiramisu_1_1computation.html#ab741d4c5e5dfd5bc0f079fdd681196da',1,'tiramisu::computation']]],
-  ['store_5fin',['store_in',['../classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693',1,'tiramisu::computation::store_in(buffer *buff)'],['../classtiramisu_1_1computation.html#a655d4782a470c249eb38a68534772d23',1,'tiramisu::computation::store_in(buffer *buff, std::vector&lt; var &gt; iterators)']]],
+  ['store_5fin',['store_in',['../classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693',1,'tiramisu::computation::store_in(buffer *buff)'],['../classtiramisu_1_1computation.html#ac9c9d8987709a5b9f19746585dba6a3d',1,'tiramisu::computation::store_in(buffer *buff, std::vector&lt; expr &gt; iterators)']]],
   ['str_5ffrom_5ftiramisu_5ftype_5fexpr',['str_from_tiramisu_type_expr',['../namespacetiramisu.html#a2cee456aea40887ca6c3ada2088c5387',1,'tiramisu']]],
   ['str_5ffrom_5ftiramisu_5ftype_5fprimitive',['str_from_tiramisu_type_primitive',['../namespacetiramisu.html#a5c23498bdbf7101796d00029db08cec5',1,'tiramisu']]],
   ['str_5ftiramisu_5ftype_5fop',['str_tiramisu_type_op',['../namespacetiramisu.html#ad5de9f48001671ea2ffb26fdc3c25be5',1,'tiramisu']]],

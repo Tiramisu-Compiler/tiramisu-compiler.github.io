@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tiramisu_20optimization_20framework',['Tiramisu Optimization Framework',['../index.html',1,'']]]
+  ['documentation_20of_20the_20tiramisu_20compiler_20api',['Documentation of the Tiramisu Compiler API',['../index.html',1,'']]]
 ];

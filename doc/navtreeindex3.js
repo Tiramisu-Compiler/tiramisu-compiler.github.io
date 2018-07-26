@@ -1,7 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a35a252ff77c85ffa6f19c54d002cea61":[2,0,0,0,25,0],
-"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a3dace241cbfbf9420b71a1fe07419ede":[2,0,0,0,25,3],
 "structtiramisu_1_1cuda__ast_1_1op__data__t.html#a487eae9cf993f091757802b63d4e7839":[2,0,0,0,25,2],
 "structtiramisu_1_1cuda__ast_1_1op__data__t.html#a5d0d580947bd4ac488896491e8f5d96c":[2,0,0,0,25,1],
 "structtiramisu_1_1cuda__ast_1_1op__data__t.html#a7e822cd046630d8fa6e2e30262cec1b1":[2,0,0,0,25,4],
@@ -25,12 +23,6 @@ var NAVTREEINDEX3 =
 "structtiramisu_1_1xfer.html#ada81c942c12bcebf29b6afad873b118b":[2,0,0,23,2],
 "tiramisu_8h.html":[3,0,6],
 "tiramisu_8h_source.html":[3,0,6],
-"tutorials_2tutorial_01_8cpp-example.html":[4,0],
-"tutorials_2tutorial_02_8cpp-example.html":[4,1],
-"tutorials_2tutorial_03_8cpp-example.html":[4,2],
-"tutorials_2tutorial_04_8cpp-example.html":[4,3],
-"tutorials_2tutorial_05_8cpp-example.html":[4,4],
-"tutorials_2tutorial_06_8cpp-example.html":[4,5],
 "type_8h.html":[3,0,7],
 "type_8h.html#a0d83bca9b0437bcf906c15e170443aed":[3,0,7,0],
 "type_8h.html#a0d83bca9b0437bcf906c15e170443aeda241ff08aa2bef135ac9f6691651244f5":[3,0,7,0,2],

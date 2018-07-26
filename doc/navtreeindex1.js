@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"classtiramisu_1_1cuda__ast_1_1kernel__call.html":[2,0,0,0,21],
 "classtiramisu_1_1cuda__ast_1_1kernel__call.html#a08b70576443706813893e4f3b046e83d":[2,0,0,0,21,1],
 "classtiramisu_1_1cuda__ast_1_1kernel__call.html#a61b6f4ce946f14806c99541e8dc9a6f0":[2,0,0,0,21,0],
 "classtiramisu_1_1cuda__ast_1_1kernel__definition.html":[2,0,0,0,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "classtiramisu_1_1recv.html#ab3bf412f93a20197f10d0789cf97f2c1":[2,0,0,16,5],
 "classtiramisu_1_1recv.html#af34a02ece33a7dbcd23351463e57c472":[2,0,0,16,2],
 "classtiramisu_1_1recv.html#afdcef6e667d55ff6c12c3f8a9e1ac8f2":[2,0,0,16,3],
-"classtiramisu_1_1send.html":[2,0,0,17],
-"classtiramisu_1_1send.html#a0337af888f54201bcd9028ad6b828398":[2,0,0,17,1]
+"classtiramisu_1_1send.html":[2,0,0,17]
 };
