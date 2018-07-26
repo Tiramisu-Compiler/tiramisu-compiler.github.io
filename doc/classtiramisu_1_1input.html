@@ -453,7 +453,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="core_8h_source.html#l03919">3919</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03921">3921</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a58562f345c15508790e23a795a0c1d6e"></a>
 <div class="memitem">
@@ -494,15 +494,17 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor for an input. </p>
+<p>Declare an input.</p>
 <p><code>name</code> is the name of the input.</p>
-<p><code>iterator_variables</code> is a vector that represents the dimensions of the input.</p>
-<p><code>t</code> is the type of the input elements. Example of types include (p_uint8, p_uint16, p_uint32, ...).</p>
-<p>Usually, this constructor is used to declare a computation that represents an input.</p>
-<p>For example, if we have two iterator variables</p>
-<div class="fragment"><div class="line">var i(<span class="stringliteral">&quot;i&quot;</span>, 0, 20), j(<span class="stringliteral">&quot;j&quot;</span>, 0, 30);</div></div><!-- fragment --><p>and we have the following computation declaration</p>
-<div class="fragment"><div class="line"><a class="code" href="classtiramisu_1_1input.html#a58562f345c15508790e23a795a0c1d6e">input</a> A({i,j}, <a class="code" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354a30ef1bc35093eebdf14ea07eb4131c78">p_uint8</a>);</div></div><!-- fragment --><p>This can be used a wrapper on a buffer buf[20, 30] where the buffer elements are of type uint8. </p>
+<p><code>iterator_variables</code> is a vector that represents the dimensions of the input. It is used to define the size of the input.</p>
+<p><code>t</code> is the type of the input elements. Example of types include (p_uint8, p_uint16, p_uint32, ...). Types are defined in <a class="el" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354">tiramisu::primitive_t</a></p>
+<p>Example:</p>
+<p>To declare a buffer buf[20, 30] where the buffer elements are of type uint8. We can first declare two iterator variables</p>
+<div class="fragment"><div class="line">var i(<span class="stringliteral">&quot;i&quot;</span>, 0, 20), j(<span class="stringliteral">&quot;j&quot;</span>, 0, 30);</div></div><!-- fragment --><p>and then we can declare the following input</p>
+<div class="fragment"><div class="line"><a class="code" href="classtiramisu_1_1input.html#a58562f345c15508790e23a795a0c1d6e">input</a> A(<span class="stringliteral">&quot;A&quot;</span>, {i,j}, <a class="code" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354a30ef1bc35093eebdf14ea07eb4131c78">p_uint8</a>);</div></div><!-- fragment --><p>Later in the code (in Layer III), we need to actually declare the buffer and map this input to that buffer.</p>
+<p>An example is provided in tutorial 02. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03954">3954</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03962">3962</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -540,7 +542,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03964">3964</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03972">3972</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>

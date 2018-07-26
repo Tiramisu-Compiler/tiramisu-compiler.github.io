@@ -741,7 +741,7 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Generate code. </p>
-<p>This function generates an object file that declares the generated Tiramisu function. <code>obj_filename</code> is the relative path of the object file to be generated. If <code>gen_cuda_stmt</code> is set to true, CUDA code is generated instead of code targeting CPU (Halide IR then LLVM IR). </p>
+<p>This function generates the declared function and computations in an object file. <code>obj_filename</code> is the relative path of the object file to be generated. If <code>gen_cuda_stmt</code> is set to true, CUDA code is generated instead of code targeting CPU (i.e., instead of generating Halide IR then LLVM IR). </p>
 
 </div>
 </div>

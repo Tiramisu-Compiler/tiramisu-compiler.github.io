@@ -477,7 +477,7 @@ Protected Attributes</h2></td></tr>
 <li>Level III: this level is similar to Level 2 but it specifies where computations should be stored in memory and the data layout. </li>
 </ul>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l01312">1312</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l01314">1314</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac7bd79205a3bf5cc46d8560be5ded585"></a>
 <div class="memitem">
@@ -760,7 +760,7 @@ Protected Attributes</h2></td></tr>
 <div class="fragment"><div class="line">var i(<span class="stringliteral">&quot;i&quot;</span>, 0, 20), j(<span class="stringliteral">&quot;j&quot;</span>, 0, 30);</div></div><!-- fragment --><p>and we have the following computation declaration</p>
 <div class="fragment"><div class="line"><a class="code" href="classtiramisu_1_1computation.html#ac7bd79205a3bf5cc46d8560be5ded585">computation</a> S(<span class="stringliteral">&quot;S&quot;</span>, {i,j}, <a class="code" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354a30ef1bc35093eebdf14ea07eb4131c78">p_uint8</a>);</div></div><!-- fragment --><p>This can be used a wrapper on a buffer buf[20, 30] where the buffer elements are of type uint8. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l02660">2660</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l02662">2662</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 <p>References <a class="el" href="expr_8h_source.html#l00219">tiramisu::expr::dtype</a>.</p>
 
@@ -800,7 +800,7 @@ Protected Attributes</h2></td></tr>
 
 <p>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l02670">2670</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l02672">2672</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00131">tiramisu::a_temporary</a>, and <a class="el" href="expr_8h_source.html#l00219">tiramisu::expr::dtype</a>.</p>
 
@@ -1599,7 +1599,7 @@ Protected Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> (i=0; i&lt;N; i++)</div><div class="line">  <span class="keywordflow">for</span> (j=0; j&lt;N; j++)</div><div class="line">  {</div><div class="line">    S0;</div><div class="line">    S1;</div><div class="line">    S2;</div><div class="line">  }</div></div><!-- fragment --><p>Calling</p>
 <div class="fragment"><div class="line">S2.fuse_after(i, S1);</div><div class="line">S1.fuse_after(i, S0);</div></div><!-- fragment --><p>would result in the following code</p>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> (i=0; i&lt;N; i++)</div><div class="line">{</div><div class="line">  <span class="keywordflow">for</span> (j=0; j&lt;N; j++)</div><div class="line">    S0;</div><div class="line">  <span class="keywordflow">for</span> (j=0; j&lt;N; j++)</div><div class="line">    S1;</div><div class="line">  <span class="keywordflow">for</span> (j=0; j&lt;N; j++)</div><div class="line">    S2;</div><div class="line">}</div></div><!-- fragment --> 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03214">3214</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03216">3216</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 <p>References <a class="el" href="expr_8h_source.html#l00695">tiramisu::expr::get_name()</a>.</p>
 
@@ -1760,7 +1760,7 @@ Protected Attributes</h2></td></tr>
 <p>Search the time-space domain (the range of the schedule) and return the loop level number that correspond to the dimension named <code>dim</code>. </p>
 <p>In other words, translate the vector of dimension name (<code>dim_name</code>) into a loop level number. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03265">3265</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03267">3267</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -2506,7 +2506,7 @@ template&lt;typename... Args&gt; </div>
 <p>Access operator: C0(i,j) represents an access to the element (i,j) of the computation C0. </p>
 <p>C0(i,j) represents the value computed by the computation C0(i,j) </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03886">3886</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03888">3888</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00112">tiramisu::o_access</a>, and <a class="el" href="classtiramisu_1_1expr.html#a3cbc1079941cf0c7c840b238e4d53b9a">tiramisu::expr::substitute()</a>.</p>
 
@@ -3932,7 +3932,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>True if this computation represents a library call. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l02266">2266</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l02268">2268</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -3956,7 +3956,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>If the computation represents a library call, this is the name of the function. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l02271">2271</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l02273">2273</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -3995,7 +3995,7 @@ template&lt;typename... Args&gt; </div>
 </ul>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> (i=0; i&lt;N; i++)</div><div class="line">    <span class="keywordflow">for</span> (j=0; j&lt;N; j++) {</div><div class="line">        c1;</div><div class="line">        c0;</div><div class="line">    }</div></div><!-- fragment --><p>This means that c0 is after c1 starting from loop level 1, (before the loop level 1, c0 and c1 have the same order). </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03871">3871</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03873">3873</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -4019,7 +4019,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>Equivalent of <a class="el" href="classtiramisu_1_1computation.html#a7b874384f567f7bbf60bbf58f86e6ddc" title="root_dimension is a number used to specify the dimension level known as root. ">computation::root</a> but to be used with scheduling functions that take loop level (integers) as input instead of <a class="el" href="classtiramisu_1_1var.html" title="A class that represents constant variable references. ">tiramisu::var</a>. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03878">3878</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03880">3880</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -4043,7 +4043,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>An index expression just for the request buffer. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l02276">2276</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l02278">2278</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
