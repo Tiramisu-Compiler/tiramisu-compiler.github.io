@@ -356,7 +356,7 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class to represent tiramisu expressions. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00128">128</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00150">150</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="aa5c08ba0161a0cf52a8e4d3e21f9d7d1"></a>
 <div class="memitem">
@@ -381,7 +381,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Create an undefined expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00208">208</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00231">231</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00020">tiramisu::e_none</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00042">tiramisu::p_none</a>.</p>
 
@@ -427,7 +427,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Create a cast expression to type <code>t</code> (a unary operator). </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00220">220</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00243">243</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, and <a class="el" href="type_8h_source.html#l00077">tiramisu::o_cast</a>.</p>
 
@@ -467,9 +467,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Create an expression for a unary operator. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00235">235</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00258">258</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, <a class="el" href="expr_8h_source.html#l00664">get_data_type()</a>, <a class="el" href="type_8h_source.html#l00077">tiramisu::o_cast</a>, <a class="el" href="type_8h_source.html#l00058">tiramisu::o_floor</a>, <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>, and <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>.</p>
+<p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, <a class="el" href="expr_8h_source.html#l00687">get_data_type()</a>, <a class="el" href="type_8h_source.html#l00077">tiramisu::o_cast</a>, <a class="el" href="type_8h_source.html#l00058">tiramisu::o_floor</a>, <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>, and <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>.</p>
 
 </div>
 </div>
@@ -508,7 +508,7 @@ Protected Attributes</h2></td></tr>
 <p>Create an expression for a unary operator that applies on a variable. </p>
 <p>For example: allocate(A) or free(B). </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00254">254</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00277">277</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, and <a class="el" href="type_8h_source.html#l00042">tiramisu::p_none</a>.</p>
 
@@ -554,9 +554,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct an expression for a binary operator. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00267">267</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00290">290</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, and <a class="el" href="expr_8h_source.html#l00664">get_data_type()</a>.</p>
+<p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, and <a class="el" href="expr_8h_source.html#l00687">get_data_type()</a>.</p>
 
 </div>
 </div>
@@ -606,9 +606,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct an expression for a ternary operator. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00284">284</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00307">307</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, and <a class="el" href="expr_8h_source.html#l00664">get_data_type()</a>.</p>
+<p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, and <a class="el" href="expr_8h_source.html#l00687">get_data_type()</a>.</p>
 
 </div>
 </div>
@@ -658,7 +658,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct an access or a call. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00302">302</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00325">325</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, <a class="el" href="type_8h_source.html#l00112">tiramisu::o_access</a>, <a class="el" href="type_8h_source.html#l00113">tiramisu::o_address_of</a>, <a class="el" href="type_8h_source.html#l00118">tiramisu::o_buffer</a>, <a class="el" href="type_8h_source.html#l00111">tiramisu::o_call</a>, and <a class="el" href="type_8h_source.html#l00114">tiramisu::o_lin_index</a>.</p>
 
@@ -688,7 +688,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct an unsigned 8-bit integer expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00338">338</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00361">361</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00029">tiramisu::p_uint8</a>.</p>
 
@@ -718,7 +718,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct a signed 8-bit integer expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00351">351</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00374">374</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00033">tiramisu::p_int8</a>.</p>
 
@@ -748,7 +748,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct an unsigned 16-bit integer expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00364">364</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00387">387</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00030">tiramisu::p_uint16</a>.</p>
 
@@ -778,7 +778,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct a signed 16-bit integer expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00377">377</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00400">400</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00034">tiramisu::p_int16</a>.</p>
 
@@ -808,7 +808,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct an unsigned 32-bit integer expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00390">390</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00413">413</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00031">tiramisu::p_uint32</a>.</p>
 
@@ -838,7 +838,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct a signed 32-bit integer expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00403">403</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00426">426</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00035">tiramisu::p_int32</a>.</p>
 
@@ -868,7 +868,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct an unsigned 64-bit integer expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00416">416</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00439">439</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00032">tiramisu::p_uint64</a>.</p>
 
@@ -898,7 +898,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct a signed 64-bit integer expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00429">429</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00452">452</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00036">tiramisu::p_int64</a>.</p>
 
@@ -928,7 +928,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct a 32-bit float expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00442">442</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00465">465</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>.</p>
 
@@ -958,7 +958,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Construct a 64-bit float expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00460">460</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00483">483</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>.</p>
 
@@ -987,7 +987,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l01591">1591</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l01614">1614</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -1033,7 +1033,7 @@ Protected Attributes</h2></td></tr>
 <p>Dump the object on standard output (dump most of the fields of the expression class). </p>
 <p>This is mainly useful for debugging. If <code>exhaustive</code> is set to true, all the fields of the class are printed. This is useful to find potential initialization problems. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00991">991</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l01014">1014</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00020">tiramisu::e_none</a>, <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, <a class="el" href="type_8h_source.html#l00018">tiramisu::e_sync</a>, <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00017">tiramisu::e_var</a>, <a class="el" href="type_8h_source.html#l00112">tiramisu::o_access</a>, <a class="el" href="type_8h_source.html#l00078">tiramisu::o_address</a>, <a class="el" href="type_8h_source.html#l00113">tiramisu::o_address_of</a>, <a class="el" href="type_8h_source.html#l00074">tiramisu::o_allocate</a>, <a class="el" href="type_8h_source.html#l00111">tiramisu::o_call</a>, <a class="el" href="type_8h_source.html#l00075">tiramisu::o_free</a>, <a class="el" href="type_8h_source.html#l00114">tiramisu::o_lin_index</a>, <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>, <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>, <a class="el" href="type_8h_source.html#l00034">tiramisu::p_int16</a>, <a class="el" href="type_8h_source.html#l00035">tiramisu::p_int32</a>, <a class="el" href="type_8h_source.html#l00036">tiramisu::p_int64</a>, <a class="el" href="type_8h_source.html#l00033">tiramisu::p_int8</a>, <a class="el" href="type_8h_source.html#l00030">tiramisu::p_uint16</a>, <a class="el" href="type_8h_source.html#l00031">tiramisu::p_uint32</a>, <a class="el" href="type_8h_source.html#l00032">tiramisu::p_uint64</a>, <a class="el" href="type_8h_source.html#l00029">tiramisu::p_uint8</a>, <a class="el" href="namespacetiramisu.html#a2cee456aea40887ca6c3ada2088c5387">tiramisu::str_from_tiramisu_type_expr()</a>, <a class="el" href="namespacetiramisu.html#a5c23498bdbf7101796d00029db08cec5">tiramisu::str_from_tiramisu_type_primitive()</a>, and <a class="el" href="namespacetiramisu.html#ad5de9f48001671ea2ffb26fdc3c25be5">tiramisu::str_tiramisu_type_op()</a>.</p>
 
@@ -1063,7 +1063,7 @@ Protected Attributes</h2></td></tr>
 <p>Return a vector of the access of the computation or array. </p>
 <p>For example, for the computation C0(i,j), this function will return the vector {i, j} where i and j are both tiramisu expressions. For a buffer access A[i+1,j], it will return also {i+1, j}. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00732">732</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00755">755</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, <a class="el" href="type_8h_source.html#l00112">tiramisu::o_access</a>, <a class="el" href="type_8h_source.html#l00113">tiramisu::o_address_of</a>, <a class="el" href="type_8h_source.html#l00118">tiramisu::o_buffer</a>, <a class="el" href="type_8h_source.html#l00116">tiramisu::o_dummy</a>, and <a class="el" href="type_8h_source.html#l00114">tiramisu::o_lin_index</a>.</p>
 
@@ -1092,7 +1092,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the arguments of an external function call. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00745">745</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00768">768</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, and <a class="el" href="type_8h_source.html#l00111">tiramisu::o_call</a>.</p>
 
@@ -1121,9 +1121,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Get the data type of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00664">664</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00687">687</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>Referenced by <a class="el" href="expr_8h_source.html#l00235">expr()</a>, <a class="el" href="expr_8h_source.html#l01793">tiramisu::operator*()</a>, <a class="el" href="expr_8h_source.html#l01757">tiramisu::operator+()</a>, and <a class="el" href="expr_8h_source.html#l01769">tiramisu::operator-()</a>.</p>
+<p>Referenced by <a class="el" href="expr_8h_source.html#l00258">expr()</a>, <a class="el" href="expr_8h_source.html#l01851">tiramisu::operator*()</a>, <a class="el" href="expr_8h_source.html#l01815">tiramisu::operator+()</a>, and <a class="el" href="expr_8h_source.html#l01827">tiramisu::operator-()</a>.</p>
 
 </div>
 </div>
@@ -1148,11 +1148,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00609">609</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00632">632</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>, <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>, and <a class="el" href="cuda__ast_8h_source.html#l00700">result</a>.</p>
+<p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>, <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>, and <a class="el" href="cuda__ast_8h_source.html#l00704">result</a>.</p>
 
-<p>Referenced by <a class="el" href="expr_8h_source.html#l00775">is_equal()</a>.</p>
+<p>Referenced by <a class="el" href="expr_8h_source.html#l00798">is_equal()</a>.</p>
 
 </div>
 </div>
@@ -1179,7 +1179,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the type of the expression (tiramisu::expr_type). </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00656">656</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00679">679</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -1206,7 +1206,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the actual value of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00538">538</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00561">561</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, and <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>.</p>
 
@@ -1235,7 +1235,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the actual value of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00546">546</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00569">569</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, and <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>.</p>
 
@@ -1264,7 +1264,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the actual value of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00498">498</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00521">521</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, and <a class="el" href="type_8h_source.html#l00034">tiramisu::p_int16</a>.</p>
 
@@ -1293,7 +1293,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the actual value of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00514">514</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00537">537</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, and <a class="el" href="type_8h_source.html#l00035">tiramisu::p_int32</a>.</p>
 
@@ -1322,7 +1322,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the actual value of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00530">530</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00553">553</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, and <a class="el" href="type_8h_source.html#l00036">tiramisu::p_int64</a>.</p>
 
@@ -1351,7 +1351,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the actual value of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00482">482</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00505">505</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, and <a class="el" href="type_8h_source.html#l00033">tiramisu::p_int8</a>.</p>
 
@@ -1378,11 +1378,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00555">555</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00578">578</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>, <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>, <a class="el" href="type_8h_source.html#l00034">tiramisu::p_int16</a>, <a class="el" href="type_8h_source.html#l00035">tiramisu::p_int32</a>, <a class="el" href="type_8h_source.html#l00036">tiramisu::p_int64</a>, <a class="el" href="type_8h_source.html#l00033">tiramisu::p_int8</a>, <a class="el" href="type_8h_source.html#l00030">tiramisu::p_uint16</a>, <a class="el" href="type_8h_source.html#l00031">tiramisu::p_uint32</a>, <a class="el" href="type_8h_source.html#l00032">tiramisu::p_uint64</a>, <a class="el" href="type_8h_source.html#l00029">tiramisu::p_uint8</a>, and <a class="el" href="cuda__ast_8h_source.html#l00700">result</a>.</p>
+<p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>, <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>, <a class="el" href="type_8h_source.html#l00034">tiramisu::p_int16</a>, <a class="el" href="type_8h_source.html#l00035">tiramisu::p_int32</a>, <a class="el" href="type_8h_source.html#l00036">tiramisu::p_int64</a>, <a class="el" href="type_8h_source.html#l00033">tiramisu::p_int8</a>, <a class="el" href="type_8h_source.html#l00030">tiramisu::p_uint16</a>, <a class="el" href="type_8h_source.html#l00031">tiramisu::p_uint32</a>, <a class="el" href="type_8h_source.html#l00032">tiramisu::p_uint64</a>, <a class="el" href="type_8h_source.html#l00029">tiramisu::p_uint8</a>, and <a class="el" href="cuda__ast_8h_source.html#l00704">result</a>.</p>
 
-<p>Referenced by <a class="el" href="expr_8h_source.html#l00775">is_equal()</a>.</p>
+<p>Referenced by <a class="el" href="expr_8h_source.html#l00798">is_equal()</a>.</p>
 
 </div>
 </div>
@@ -1409,7 +1409,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the number of arguments of the operator. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00646">646</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00669">669</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>.</p>
 
@@ -1438,7 +1438,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Get the number of dimensions in the access vector. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00756">756</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00779">779</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, and <a class="el" href="type_8h_source.html#l00112">tiramisu::o_access</a>.</p>
 
@@ -1467,11 +1467,11 @@ Protected Attributes</h2></td></tr>
 
 <p>Get the name of the ID or the variable represented by this expressions. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00672">672</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00695">695</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00017">tiramisu::e_var</a>, <a class="el" href="type_8h_source.html#l00112">tiramisu::o_access</a>, <a class="el" href="type_8h_source.html#l00078">tiramisu::o_address</a>, <a class="el" href="type_8h_source.html#l00113">tiramisu::o_address_of</a>, <a class="el" href="type_8h_source.html#l00074">tiramisu::o_allocate</a>, <a class="el" href="type_8h_source.html#l00118">tiramisu::o_buffer</a>, <a class="el" href="type_8h_source.html#l00111">tiramisu::o_call</a>, <a class="el" href="type_8h_source.html#l00116">tiramisu::o_dummy</a>, <a class="el" href="type_8h_source.html#l00075">tiramisu::o_free</a>, and <a class="el" href="type_8h_source.html#l00114">tiramisu::o_lin_index</a>.</p>
 
-<p>Referenced by <a class="el" href="core_8h_source.html#l03041">tiramisu::computation::fuse_after()</a>.</p>
+<p>Referenced by <a class="el" href="core_8h_source.html#l03182">tiramisu::computation::fuse_after()</a>.</p>
 
 </div>
 </div>
@@ -1498,7 +1498,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Get the type of the operator (<a class="el" href="namespacetiramisu.html#a31386bf1844bd3c3291515b2389692c8" title="Types of tiramisu operators. ">tiramisu::op_t</a>). </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00719">719</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00742">742</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -1527,7 +1527,7 @@ Protected Attributes</h2></td></tr>
 <p>Return the value of the <code>i</code> 'th operand of the expression. </p>
 <p><code>i</code> can be 0, 1 or 2. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00635">635</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00658">658</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>.</p>
 
@@ -1556,7 +1556,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the actual value of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00490">490</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00513">513</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, and <a class="el" href="type_8h_source.html#l00030">tiramisu::p_uint16</a>.</p>
 
@@ -1585,7 +1585,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the actual value of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00506">506</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00529">529</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, and <a class="el" href="type_8h_source.html#l00031">tiramisu::p_uint32</a>.</p>
 
@@ -1614,7 +1614,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the actual value of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00522">522</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00545">545</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, and <a class="el" href="type_8h_source.html#l00032">tiramisu::p_uint64</a>.</p>
 
@@ -1643,7 +1643,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return the actual value of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00474">474</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00497">497</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, and <a class="el" href="type_8h_source.html#l00029">tiramisu::p_uint8</a>.</p>
 
@@ -1672,7 +1672,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return true if this expression is a literal constant (i.e., 0, 1, 2, ...). </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l01130">1130</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l01153">1153</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>.</p>
 
@@ -1701,7 +1701,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Return true if the expression is defined. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00767">767</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00790">790</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -1729,9 +1729,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Return true if <code>e</code> is identical to this expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00775">775</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00798">798</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>References <a class="el" href="expr_8h_source.html#l00196">dtype</a>, <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="expr_8h_source.html#l00201">etype</a>, <a class="el" href="expr_8h_source.html#l00609">get_double_val()</a>, <a class="el" href="expr_8h_source.html#l00555">get_int_val()</a>, <a class="el" href="expr_8h_source.html#l00191">name</a>, <a class="el" href="expr_8h_source.html#l01805">tiramisu::operator%()</a>, <a class="el" href="expr_8h_source.html#l01793">tiramisu::operator*()</a>, <a class="el" href="expr_8h_source.html#l01757">tiramisu::operator+()</a>, <a class="el" href="expr_8h_source.html#l01769">tiramisu::operator-()</a>, <a class="el" href="expr_8h_source.html#l01781">tiramisu::operator/()</a>, <a class="el" href="expr_8h_source.html#l01829">tiramisu::operator&lt;&lt;()</a>, <a class="el" href="expr_8h_source.html#l01817">tiramisu::operator&gt;&gt;()</a>, <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>, and <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>.</p>
+<p>References <a class="el" href="expr_8h_source.html#l00219">dtype</a>, <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="expr_8h_source.html#l00224">etype</a>, <a class="el" href="expr_8h_source.html#l00632">get_double_val()</a>, <a class="el" href="expr_8h_source.html#l00578">get_int_val()</a>, <a class="el" href="expr_8h_source.html#l00214">name</a>, <a class="el" href="expr_8h_source.html#l01863">tiramisu::operator%()</a>, <a class="el" href="expr_8h_source.html#l01851">tiramisu::operator*()</a>, <a class="el" href="expr_8h_source.html#l01815">tiramisu::operator+()</a>, <a class="el" href="expr_8h_source.html#l01827">tiramisu::operator-()</a>, <a class="el" href="expr_8h_source.html#l01839">tiramisu::operator/()</a>, <a class="el" href="expr_8h_source.html#l01887">tiramisu::operator&lt;&lt;()</a>, <a class="el" href="expr_8h_source.html#l01875">tiramisu::operator&gt;&gt;()</a>, <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>, and <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>.</p>
 
 </div>
 </div>
@@ -1756,7 +1756,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l01138">1138</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l01161">1161</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -1783,7 +1783,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Logical NOT of an expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00900">900</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00923">923</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00090">tiramisu::o_logical_not</a>.</p>
 
@@ -1813,7 +1813,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Comparison operator. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00915">915</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00938">938</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00092">tiramisu::o_ne</a>.</p>
 
@@ -1861,7 +1861,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Logical and of two expressions. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00876">876</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00899">899</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00088">tiramisu::o_logical_and</a>.</p>
 
@@ -1944,7 +1944,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Expression multiplied by (-1). </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00892">892</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00915">915</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00057">tiramisu::o_minus</a>.</p>
 
@@ -1992,7 +1992,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Less than operator. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00924">924</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00947">947</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00094">tiramisu::o_lt</a>.</p>
 
@@ -2040,7 +2040,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Less than or equal operator. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00932">932</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00955">955</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00093">tiramisu::o_le</a>.</p>
 
@@ -2086,7 +2086,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Comparison operator. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00911">911</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00934">934</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00091">tiramisu::o_eq</a>.</p>
 
@@ -2116,7 +2116,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Greater than operator. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00940">940</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00963">963</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00096">tiramisu::o_gt</a>.</p>
 
@@ -2146,7 +2146,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Greater than or equal operator. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00948">948</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00971">971</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00095">tiramisu::o_ge</a>.</p>
 
@@ -2194,7 +2194,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Logical and of two expressions. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00884">884</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00907">907</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00089">tiramisu::o_logical_or</a>.</p>
 
@@ -2232,11 +2232,11 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00702">702</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00725">725</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>References <a class="el" href="expr_8h_source.html#l00702">replace_op_in_expr()</a>.</p>
+<p>References <a class="el" href="expr_8h_source.html#l00725">replace_op_in_expr()</a>.</p>
 
-<p>Referenced by <a class="el" href="expr_8h_source.html#l00702">replace_op_in_expr()</a>.</p>
+<p>Referenced by <a class="el" href="expr_8h_source.html#l00725">replace_op_in_expr()</a>.</p>
 
 </div>
 </div>
@@ -2265,7 +2265,7 @@ Protected Attributes</h2></td></tr>
 <p>Set the access of a computation or an array. </p>
 <p>For example, for the computation C0, this function can set the vector {i, j} as an access vector. The result is that the computation C0 is accessed with C0(i,j). </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00960">960</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00983">983</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2304,7 +2304,7 @@ Protected Attributes</h2></td></tr>
 <p>Set an element of the vector of accesses of a computation. </p>
 <p>This changes only one dimension of the access vector. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00969">969</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00992">992</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2333,7 +2333,7 @@ Protected Attributes</h2></td></tr>
 <p>Set the arguments of an external function call. </p>
 <p>For example, for the call my_external(C0, 1, C1(i,j)), <code>vector</code> should be {C0, 1, C1(i,j)}. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00980">980</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l01003">1003</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2359,7 +2359,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00688">688</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00711">711</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00017">tiramisu::e_var</a>, <a class="el" href="type_8h_source.html#l00112">tiramisu::o_access</a>, <a class="el" href="type_8h_source.html#l00113">tiramisu::o_address_of</a>, <a class="el" href="type_8h_source.html#l00074">tiramisu::o_allocate</a>, <a class="el" href="type_8h_source.html#l00111">tiramisu::o_call</a>, <a class="el" href="type_8h_source.html#l00116">tiramisu::o_dummy</a>, <a class="el" href="type_8h_source.html#l00075">tiramisu::o_free</a>, and <a class="el" href="type_8h_source.html#l00114">tiramisu::o_lin_index</a>.</p>
 
@@ -2388,7 +2388,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Simplify the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l01149">1149</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l01172">1172</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00020">tiramisu::e_none</a>, <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00017">tiramisu::e_var</a>, <a class="el" href="type_8h_source.html#l00065">tiramisu::o_abs</a>, <a class="el" href="type_8h_source.html#l00112">tiramisu::o_access</a>, <a class="el" href="type_8h_source.html#l00063">tiramisu::o_acos</a>, <a class="el" href="type_8h_source.html#l00083">tiramisu::o_add</a>, <a class="el" href="type_8h_source.html#l00078">tiramisu::o_address</a>, <a class="el" href="type_8h_source.html#l00074">tiramisu::o_allocate</a>, <a class="el" href="type_8h_source.html#l00062">tiramisu::o_asin</a>, <a class="el" href="type_8h_source.html#l00064">tiramisu::o_atan</a>, <a class="el" href="type_8h_source.html#l00111">tiramisu::o_call</a>, <a class="el" href="type_8h_source.html#l00077">tiramisu::o_cast</a>, <a class="el" href="type_8h_source.html#l00069">tiramisu::o_ceil</a>, <a class="el" href="type_8h_source.html#l00107">tiramisu::o_cond</a>, <a class="el" href="type_8h_source.html#l00060">tiramisu::o_cos</a>, <a class="el" href="type_8h_source.html#l00086">tiramisu::o_div</a>, <a class="el" href="type_8h_source.html#l00091">tiramisu::o_eq</a>, <a class="el" href="type_8h_source.html#l00067">tiramisu::o_expo</a>, <a class="el" href="type_8h_source.html#l00058">tiramisu::o_floor</a>, <a class="el" href="type_8h_source.html#l00075">tiramisu::o_free</a>, <a class="el" href="type_8h_source.html#l00095">tiramisu::o_ge</a>, <a class="el" href="type_8h_source.html#l00096">tiramisu::o_gt</a>, <a class="el" href="type_8h_source.html#l00093">tiramisu::o_le</a>, <a class="el" href="type_8h_source.html#l00100">tiramisu::o_left_shift</a>, <a class="el" href="type_8h_source.html#l00108">tiramisu::o_lerp</a>, <a class="el" href="type_8h_source.html#l00068">tiramisu::o_log</a>, <a class="el" href="type_8h_source.html#l00088">tiramisu::o_logical_and</a>, <a class="el" href="type_8h_source.html#l00090">tiramisu::o_logical_not</a>, <a class="el" href="type_8h_source.html#l00089">tiramisu::o_logical_or</a>, <a class="el" href="type_8h_source.html#l00094">tiramisu::o_lt</a>, <a class="el" href="type_8h_source.html#l00097">tiramisu::o_max</a>, <a class="el" href="type_8h_source.html#l00098">tiramisu::o_min</a>, <a class="el" href="type_8h_source.html#l00057">tiramisu::o_minus</a>, <a class="el" href="type_8h_source.html#l00087">tiramisu::o_mod</a>, <a class="el" href="type_8h_source.html#l00085">tiramisu::o_mul</a>, <a class="el" href="type_8h_source.html#l00092">tiramisu::o_ne</a>, <a class="el" href="type_8h_source.html#l00099">tiramisu::o_right_shift</a>, <a class="el" href="type_8h_source.html#l00070">tiramisu::o_round</a>, <a class="el" href="type_8h_source.html#l00106">tiramisu::o_select</a>, <a class="el" href="type_8h_source.html#l00059">tiramisu::o_sin</a>, <a class="el" href="type_8h_source.html#l00066">tiramisu::o_sqrt</a>, <a class="el" href="type_8h_source.html#l00084">tiramisu::o_sub</a>, <a class="el" href="type_8h_source.html#l00061">tiramisu::o_tan</a>, <a class="el" href="type_8h_source.html#l00071">tiramisu::o_trunc</a>, and <a class="el" href="type_8h_source.html#l00035">tiramisu::p_int32</a>.</p>
 
@@ -2411,7 +2411,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns a new expression where for every (var, sub) pair in <code>substitutions</code>, var in the original expression is replaced by sub. </p>
 <p>For example: if <code>substitutions</code> is {(i, 5), (j, i)}, and the original expression is i + j * 2, then this method returns 5 + i * 2. </p>
 
-<p>Referenced by <a class="el" href="core_8h_source.html#l03704">tiramisu::computation::operator()()</a>.</p>
+<p>Referenced by <a class="el" href="core_8h_source.html#l03854">tiramisu::computation::operator()()</a>.</p>
 
 </div>
 </div>
@@ -2465,7 +2465,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l01276">1276</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l01299">1299</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00020">tiramisu::e_none</a>, <a class="el" href="type_8h_source.html#l00019">tiramisu::e_op</a>, <a class="el" href="type_8h_source.html#l00018">tiramisu::e_sync</a>, <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="type_8h_source.html#l00017">tiramisu::e_var</a>, <a class="el" href="type_8h_source.html#l00065">tiramisu::o_abs</a>, <a class="el" href="type_8h_source.html#l00112">tiramisu::o_access</a>, <a class="el" href="type_8h_source.html#l00063">tiramisu::o_acos</a>, <a class="el" href="type_8h_source.html#l00083">tiramisu::o_add</a>, <a class="el" href="type_8h_source.html#l00078">tiramisu::o_address</a>, <a class="el" href="type_8h_source.html#l00113">tiramisu::o_address_of</a>, <a class="el" href="type_8h_source.html#l00074">tiramisu::o_allocate</a>, <a class="el" href="type_8h_source.html#l00062">tiramisu::o_asin</a>, <a class="el" href="type_8h_source.html#l00064">tiramisu::o_atan</a>, <a class="el" href="type_8h_source.html#l00118">tiramisu::o_buffer</a>, <a class="el" href="type_8h_source.html#l00111">tiramisu::o_call</a>, <a class="el" href="type_8h_source.html#l00077">tiramisu::o_cast</a>, <a class="el" href="type_8h_source.html#l00069">tiramisu::o_ceil</a>, <a class="el" href="type_8h_source.html#l00107">tiramisu::o_cond</a>, <a class="el" href="type_8h_source.html#l00060">tiramisu::o_cos</a>, <a class="el" href="type_8h_source.html#l00086">tiramisu::o_div</a>, <a class="el" href="type_8h_source.html#l00091">tiramisu::o_eq</a>, <a class="el" href="type_8h_source.html#l00067">tiramisu::o_expo</a>, <a class="el" href="type_8h_source.html#l00058">tiramisu::o_floor</a>, <a class="el" href="type_8h_source.html#l00075">tiramisu::o_free</a>, <a class="el" href="type_8h_source.html#l00095">tiramisu::o_ge</a>, <a class="el" href="type_8h_source.html#l00096">tiramisu::o_gt</a>, <a class="el" href="type_8h_source.html#l00093">tiramisu::o_le</a>, <a class="el" href="type_8h_source.html#l00100">tiramisu::o_left_shift</a>, <a class="el" href="type_8h_source.html#l00108">tiramisu::o_lerp</a>, <a class="el" href="type_8h_source.html#l00114">tiramisu::o_lin_index</a>, <a class="el" href="type_8h_source.html#l00068">tiramisu::o_log</a>, <a class="el" href="type_8h_source.html#l00088">tiramisu::o_logical_and</a>, <a class="el" href="type_8h_source.html#l00090">tiramisu::o_logical_not</a>, <a class="el" href="type_8h_source.html#l00089">tiramisu::o_logical_or</a>, <a class="el" href="type_8h_source.html#l00094">tiramisu::o_lt</a>, <a class="el" href="type_8h_source.html#l00097">tiramisu::o_max</a>, <a class="el" href="type_8h_source.html#l00101">tiramisu::o_memcpy</a>, <a class="el" href="type_8h_source.html#l00098">tiramisu::o_min</a>, <a class="el" href="type_8h_source.html#l00057">tiramisu::o_minus</a>, <a class="el" href="type_8h_source.html#l00087">tiramisu::o_mod</a>, <a class="el" href="type_8h_source.html#l00085">tiramisu::o_mul</a>, <a class="el" href="type_8h_source.html#l00092">tiramisu::o_ne</a>, <a class="el" href="type_8h_source.html#l00099">tiramisu::o_right_shift</a>, <a class="el" href="type_8h_source.html#l00070">tiramisu::o_round</a>, <a class="el" href="type_8h_source.html#l00106">tiramisu::o_select</a>, <a class="el" href="type_8h_source.html#l00059">tiramisu::o_sin</a>, <a class="el" href="type_8h_source.html#l00066">tiramisu::o_sqrt</a>, <a class="el" href="type_8h_source.html#l00084">tiramisu::o_sub</a>, <a class="el" href="type_8h_source.html#l00061">tiramisu::o_tan</a>, <a class="el" href="type_8h_source.html#l00071">tiramisu::o_trunc</a>, <a class="el" href="type_8h_source.html#l00037">tiramisu::p_float32</a>, <a class="el" href="type_8h_source.html#l00038">tiramisu::p_float64</a>, <a class="el" href="type_8h_source.html#l00034">tiramisu::p_int16</a>, <a class="el" href="type_8h_source.html#l00035">tiramisu::p_int32</a>, <a class="el" href="type_8h_source.html#l00036">tiramisu::p_int64</a>, <a class="el" href="type_8h_source.html#l00033">tiramisu::p_int8</a>, <a class="el" href="type_8h_source.html#l00030">tiramisu::p_uint16</a>, <a class="el" href="type_8h_source.html#l00031">tiramisu::p_uint32</a>, <a class="el" href="type_8h_source.html#l00032">tiramisu::p_uint64</a>, and <a class="el" href="type_8h_source.html#l00029">tiramisu::p_uint8</a>.</p>
 
@@ -2495,9 +2495,9 @@ Protected Attributes</h2></td></tr>
 <p>Create a variable that can be used that a dimension is unbounded. </p>
 <p>i &lt; <a class="el" href="classtiramisu_1_1expr.html#a2fb9e9d5c6792533a65689601e5d081a" title="Create a variable that can be used that a dimension is unbounded. ">tiramisu::expr::unbounded()</a> means that i does not have an upper bound. i &gt; <a class="el" href="classtiramisu_1_1expr.html#a2fb9e9d5c6792533a65689601e5d081a" title="Create a variable that can be used that a dimension is unbounded. ">tiramisu::expr::unbounded()</a> means that i does not have a lower bound. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l01610">1610</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l01633">1633</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>References <a class="el" href="expr_8h_source.html#l00196">dtype</a>, <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="expr_8h_source.html#l00201">etype</a>, <a class="el" href="expr_8h_source.html#l00191">name</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00042">tiramisu::p_none</a>.</p>
+<p>References <a class="el" href="expr_8h_source.html#l00219">dtype</a>, <a class="el" href="type_8h_source.html#l00016">tiramisu::e_val</a>, <a class="el" href="expr_8h_source.html#l00224">etype</a>, <a class="el" href="expr_8h_source.html#l00214">name</a>, <a class="el" href="type_8h_source.html#l00120">tiramisu::o_none</a>, and <a class="el" href="type_8h_source.html#l00042">tiramisu::p_none</a>.</p>
 
 </div>
 </div>
@@ -2522,9 +2522,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Data type. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00196">196</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00219">219</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>Referenced by <a class="el" href="expr_8h_source.html#l00775">is_equal()</a>, and <a class="el" href="expr_8h_source.html#l01610">unbounded()</a>.</p>
+<p>Referenced by <a class="el" href="core_8h_source.html#l02642">tiramisu::computation::computation()</a>, <a class="el" href="expr_8h_source.html#l00798">is_equal()</a>, and <a class="el" href="expr_8h_source.html#l01633">unbounded()</a>.</p>
 
 </div>
 </div>
@@ -2548,9 +2548,9 @@ Protected Attributes</h2></td></tr>
 
 <p>The type of the expression. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00201">201</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00224">224</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>Referenced by <a class="el" href="expr_8h_source.html#l00775">is_equal()</a>, and <a class="el" href="expr_8h_source.html#l01610">unbounded()</a>.</p>
+<p>Referenced by <a class="el" href="expr_8h_source.html#l00798">is_equal()</a>, and <a class="el" href="expr_8h_source.html#l01633">unbounded()</a>.</p>
 
 </div>
 </div>
@@ -2564,7 +2564,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00159">159</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00182">182</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2578,7 +2578,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00160">160</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00183">183</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2592,7 +2592,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00154">154</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00177">177</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2606,7 +2606,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00156">156</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00179">179</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2620,7 +2620,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00158">158</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00181">181</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2634,7 +2634,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00152">152</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00175">175</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2658,9 +2658,9 @@ Protected Attributes</h2></td></tr>
 
 <p>Identifier name. </p>
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00191">191</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00214">214</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
-<p>Referenced by <a class="el" href="expr_8h_source.html#l00775">is_equal()</a>, and <a class="el" href="expr_8h_source.html#l01610">unbounded()</a>.</p>
+<p>Referenced by <a class="el" href="expr_8h_source.html#l00798">is_equal()</a>, and <a class="el" href="expr_8h_source.html#l01633">unbounded()</a>.</p>
 
 </div>
 </div>
@@ -2674,7 +2674,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00153">153</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00176">176</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2688,7 +2688,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00155">155</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00178">178</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2702,7 +2702,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00157">157</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00180">180</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>
@@ -2716,7 +2716,7 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="expr_8h_source.html#l00151">151</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
+<p>Definition at line <a class="el" href="expr_8h_source.html#l00174">174</a> of file <a class="el" href="expr_8h_source.html">expr.h</a>.</p>
 
 </div>
 </div>

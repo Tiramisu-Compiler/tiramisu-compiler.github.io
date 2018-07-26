@@ -6,5 +6,5 @@ var searchData=
   ['full_5floop_5flevel_5fcollapse',['full_loop_level_collapse',['../classtiramisu_1_1computation.html#adf462a6d70885f440e1438fad18de0c5',1,'tiramisu::computation']]],
   ['function',['function',['../classtiramisu_1_1function.html#a41227e14c97d5e18d85797ea9000a646',1,'tiramisu::function']]],
   ['function_5fcall',['function_call',['../classtiramisu_1_1cuda__ast_1_1function__call.html#ab503b8ef5c7219bc0af2ed36ad9e5dcf',1,'tiramisu::cuda_ast::function_call']]],
-  ['fuse_5fafter',['fuse_after',['../classtiramisu_1_1computation.html#a22df51bf61d7a9215c5ba183eb479be3',1,'tiramisu::computation']]]
+  ['fuse_5fafter',['fuse_after',['../classtiramisu_1_1computation.html#a42518d8d745906145cd7128d66245eab',1,'tiramisu::computation']]]
 ];

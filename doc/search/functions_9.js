@@ -1,10 +1,11 @@
 var searchData=
 [
   ['if_5fcondition',['if_condition',['../classtiramisu_1_1cuda__ast_1_1if__condition.html#ad0bfa4d074ed007b82ed66f6f4e3882f',1,'tiramisu::cuda_ast::if_condition::if_condition(statement_ptr condition, statement_ptr then_body, statement_ptr else_body)'],['../classtiramisu_1_1cuda__ast_1_1if__condition.html#a7bf78bc0e159808ffc29e24fa926036a',1,'tiramisu::cuda_ast::if_condition::if_condition(statement_ptr condition, statement_ptr then_body)']]],
-  ['init',['init',['../namespacetiramisu.html#a2b01763c920aefc05dcf33df569a3080',1,'tiramisu']]],
+  ['init',['init',['../namespacetiramisu.html#af963fafc81ee6c0d8a325787f3a9b557',1,'tiramisu::init(std::string name)'],['../namespacetiramisu.html#a2b01763c920aefc05dcf33df569a3080',1,'tiramisu::init()']]],
   ['init_5f2d_5fbuffer_5finterleaving',['init_2D_buffer_interleaving',['../utils_8h.html#a0b5daa8d2b18c2c1be07345574050e36',1,'utils.h']]],
   ['init_5fbuffer',['init_buffer',['../utils_8h.html#a563cadfe883d4ea7d81f6bdee5dfeb9d',1,'utils.h']]],
   ['init_5fcomputation',['init_computation',['../classtiramisu_1_1computation.html#a603834cd99c57d0d8c72dc594951f45f',1,'tiramisu::computation']]],
+  ['input',['input',['../classtiramisu_1_1input.html#aa1f129ed81e4d27dc9d30f899419527f',1,'tiramisu::input']]],
   ['interchange',['interchange',['../classtiramisu_1_1computation.html#a3370d2b63da2c87438a7d6da92afc0e5',1,'tiramisu::computation::interchange(tiramisu::var L0, tiramisu::var L1)'],['../classtiramisu_1_1computation.html#a3a8a259be046d45732ef4c723470fa89',1,'tiramisu::computation::interchange(int L0, int L1)']]],
   ['is_5fallocated',['is_allocated',['../classtiramisu_1_1buffer.html#ad008c71d9181d459f278ee6713e52d24',1,'tiramisu::buffer']]],
   ['is_5fauto_5fdata_5fmapping_5fset',['is_auto_data_mapping_set',['../classtiramisu_1_1global.html#a51af9608658920ed397bbdda6deaabb5',1,'tiramisu::global']]],

@@ -4,7 +4,6 @@ var expr_8h =
     [ "expr", "classtiramisu_1_1expr.html", "classtiramisu_1_1expr" ],
     [ "sync", "classtiramisu_1_1sync.html", "classtiramisu_1_1sync" ],
     [ "var", "classtiramisu_1_1var.html", "classtiramisu_1_1var" ],
-    [ "NVCC_BIN_DIR_ENV_VAR", "expr_8h.html#ab708c0f0f74f915098ba237f01d0fcc7", null ],
     [ "only_integral", "expr_8h.html#ad253adb35b4ad01fa8ad1e1cca5d5231", null ],
     [ "allocate", "expr_8h.html#aa89be56f203bbdf5354d5d92a249c7bb", null ],
     [ "cast", "expr_8h.html#a906c7026be46c954c1c88dc55f6480ba", null ],

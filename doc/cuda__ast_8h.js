@@ -47,6 +47,7 @@ var cuda__ast_8h =
     [ "FN_CALL2", "cuda__ast_8h.html#a29f58379ffaa089bf18834a3fef9ba3a", null ],
     [ "FN_CALL_TYPED", "cuda__ast_8h.html#a5865d018490dec6d6b9d61b9de9952b3", null ],
     [ "FN_CALL_TYPED2", "cuda__ast_8h.html#a48579d2122e573578d3309e900227b31", null ],
+    [ "NVCC_PATH", "cuda__ast_8h.html#ae3f7aec961c573c345260f0ab673af67", null ],
     [ "TERNARY", "cuda__ast_8h.html#a085de7f992fe3a92569f0d0a7b9c8eae", null ],
     [ "TERNARY2", "cuda__ast_8h.html#aa8c08010becdb354d810471a963c59c4", null ],
     [ "TERNARY_TYPED", "cuda__ast_8h.html#a24c3f264bfe85f26f475ec455cb4b46a", null ],

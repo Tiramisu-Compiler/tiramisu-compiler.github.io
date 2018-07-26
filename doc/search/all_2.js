@@ -11,7 +11,7 @@ var searchData=
   ['block',['block',['../classtiramisu_1_1cuda__ast_1_1block.html',1,'tiramisu::cuda_ast']]],
   ['buffer',['buffer',['../classtiramisu_1_1cuda__ast_1_1buffer.html',1,'tiramisu::cuda_ast']]],
   ['buffer',['buffer',['../classtiramisu_1_1buffer.html',1,'tiramisu']]],
-  ['buffer',['buffer',['../classtiramisu_1_1buffer.html#a496861583d4f43e8dccf0dc1ffaf4238',1,'tiramisu::buffer::buffer()'],['../classtiramisu_1_1cuda__ast_1_1buffer.html#a138fd126c758b6c9ba4d9d9a743bf927',1,'tiramisu::cuda_ast::buffer::buffer()']]],
+  ['buffer',['buffer',['../classtiramisu_1_1buffer.html#a07daad692dd430bb14d1dc9607545346',1,'tiramisu::buffer::buffer()'],['../classtiramisu_1_1cuda__ast_1_1buffer.html#a138fd126c758b6c9ba4d9d9a743bf927',1,'tiramisu::cuda_ast::buffer::buffer()']]],
   ['buffer_5faccess',['buffer_access',['../classtiramisu_1_1cuda__ast_1_1buffer__access.html#a18dfda0e79fec1b4b3cc1351f246da69',1,'tiramisu::cuda_ast::buffer_access']]],
   ['buffer_5faccess',['buffer_access',['../classtiramisu_1_1cuda__ast_1_1buffer__access.html',1,'tiramisu::cuda_ast']]],
   ['buffer_5fassignment',['buffer_assignment',['../classtiramisu_1_1cuda__ast_1_1buffer__assignment.html',1,'tiramisu::cuda_ast']]],

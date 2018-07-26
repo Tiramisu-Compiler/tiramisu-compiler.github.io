@@ -17,6 +17,7 @@ var searchData=
   ['unroll',['unroll',['../classtiramisu_1_1computation.html#a68cc2dc757dfb181548b739c901ed6f9',1,'tiramisu::computation::unroll(tiramisu::var L, int fac)'],['../classtiramisu_1_1computation.html#a566d1284eef9d999112660a3fff30561',1,'tiramisu::computation::unroll(tiramisu::var L, int fac, tiramisu::var L_outer, tiramisu::var L_inner)']]],
   ['unschedule_5fthis_5fcomputation',['unschedule_this_computation',['../classtiramisu_1_1computation.html#a7afeafbe16b09b6b2a8f58d00ce3870b',1,'tiramisu::computation']]],
   ['update_5fproducer_5fexpr_5fname',['update_producer_expr_name',['../classtiramisu_1_1generator.html#a73cbe63d72d8526b59a4a69413dc29cb',1,'tiramisu::generator']]],
+  ['upper',['upper',['../classtiramisu_1_1var.html#ad070bcef6db8d92445d61a011f0f598a',1,'tiramisu::var']]],
   ['use_5flow_5flevel_5fscheduling_5fcommands',['use_low_level_scheduling_commands',['../classtiramisu_1_1function.html#a67c71ad05ac2b8c0312dc5ab667e0cf4',1,'tiramisu::function']]],
   ['utility',['utility',['../classtiramisu_1_1utility.html',1,'tiramisu']]],
   ['utils_2eh',['utils.h',['../utils_8h.html',1,'']]]

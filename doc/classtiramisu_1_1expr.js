@@ -74,6 +74,7 @@ var classtiramisu_1_1expr =
     [ "to_str", "classtiramisu_1_1expr.html#ac20a1ebf31591f0ce44c5009aaa16576", null ],
     [ "computation", "classtiramisu_1_1expr.html#a3afeb3fb3766ba7554c360c091cfb29c", null ],
     [ "generator", "classtiramisu_1_1expr.html#ad4b9aabc98c246fa597657e56a42d80d", null ],
+    [ "input", "classtiramisu_1_1expr.html#a0a8814941837a9542fbb768e740fd03b", null ],
     [ "sync", "classtiramisu_1_1expr.html#a8622bb5f1b49e8e4a0023f3300a29851", null ],
     [ "var", "classtiramisu_1_1expr.html#afc150fe027cd12dd501a9d615a787f19", null ],
     [ "dtype", "classtiramisu_1_1expr.html#a627e7d254a48f8cfc02e199ea5e58be3", null ],

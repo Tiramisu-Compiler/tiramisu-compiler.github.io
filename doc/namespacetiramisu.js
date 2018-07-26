@@ -10,6 +10,7 @@ var namespacetiramisu =
     [ "generator", "classtiramisu_1_1generator.html", null ],
     [ "global", "classtiramisu_1_1global.html", "classtiramisu_1_1global" ],
     [ "HalideCodegenOutput", "structtiramisu_1_1_halide_codegen_output.html", "structtiramisu_1_1_halide_codegen_output" ],
+    [ "input", "classtiramisu_1_1input.html", "classtiramisu_1_1input" ],
     [ "isl_ast_expr_deleter", "structtiramisu_1_1isl__ast__expr__deleter.html", "structtiramisu_1_1isl__ast__expr__deleter" ],
     [ "isl_ast_node_deleter", "structtiramisu_1_1isl__ast__node__deleter.html", "structtiramisu_1_1isl__ast__node__deleter" ],
     [ "isl_ast_node_list_deleter", "structtiramisu_1_1isl__ast__node__list__deleter.html", "structtiramisu_1_1isl__ast__node__list__deleter" ],

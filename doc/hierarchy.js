@@ -9,7 +9,8 @@ var hierarchy =
         [ "tiramisu::send_recv", "classtiramisu_1_1send__recv.html", null ],
         [ "tiramisu::wait", "classtiramisu_1_1wait.html", null ]
       ] ],
-      [ "tiramisu::constant", "classtiramisu_1_1constant.html", null ]
+      [ "tiramisu::constant", "classtiramisu_1_1constant.html", null ],
+      [ "tiramisu::input", "classtiramisu_1_1input.html", null ]
     ] ],
     [ "tiramisu::cuda_ast::abstract_node", "classtiramisu_1_1cuda__ast_1_1abstract__node.html", [
       [ "tiramisu::cuda_ast::statement", "classtiramisu_1_1cuda__ast_1_1statement.html", [

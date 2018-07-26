@@ -17,6 +17,7 @@ var searchData=
   ['set_5fdim_5fsize',['set_dim_size',['../classtiramisu_1_1buffer.html#a749c7b699af74322280515ab6b0f0d91',1,'tiramisu::buffer']]],
   ['set_5fdimension',['set_dimension',['../classtiramisu_1_1cuda__ast_1_1kernel.html#ade2fbeb8a919cf948ae0136f12a35e84',1,'tiramisu::cuda_ast::kernel']]],
   ['set_5fexpression',['set_expression',['../classtiramisu_1_1computation.html#abc5d65959a7499510d81a0bafe9a078d',1,'tiramisu::computation']]],
+  ['set_5fimplicit_5ffunction',['set_implicit_function',['../classtiramisu_1_1global.html#a2bb7db280a691512f8e93e1c5e934519',1,'tiramisu::global']]],
   ['set_5finline',['set_inline',['../classtiramisu_1_1computation.html#a1cca4650b13a542a52b12a300e35bc92',1,'tiramisu::computation']]],
   ['set_5fiterator_5fnames',['set_iterator_names',['../classtiramisu_1_1function.html#a4e91d4e3ffd5bf6127156ab45fc32e88',1,'tiramisu::function']]],
   ['set_5floop_5fiterator_5ftype',['set_loop_iterator_type',['../classtiramisu_1_1global.html#a61594e1c1c9f82241db6e5a65fb0ee2e',1,'tiramisu::global']]],

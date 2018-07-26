@@ -184,9 +184,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af1ae28c38afbfbd44b8c73ceb323ec76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#af1ae28c38afbfbd44b8c73ceb323ec76">set_arguments</a> (const std::vector&lt; <a class="el" href="classtiramisu_1_1buffer.html">tiramisu::buffer</a> * &gt; &amp;buffer_vec)</td></tr>
 <tr class="memdesc:af1ae28c38afbfbd44b8c73ceb323ec76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the arguments of the function.  <a href="#af1ae28c38afbfbd44b8c73ceb323ec76">More...</a><br /></td></tr>
 <tr class="separator:af1ae28c38afbfbd44b8c73ceb323ec76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1958c4935e7f81bf6b5e8853c2116f39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#a1958c4935e7f81bf6b5e8853c2116f39">codegen</a> (const std::vector&lt; <a class="el" href="classtiramisu_1_1buffer.html">tiramisu::buffer</a> * &gt; &amp;buffer_vec, const std::string obj_filename)</td></tr>
-<tr class="memdesc:a1958c4935e7f81bf6b5e8853c2116f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for all the functions required to run code generation of a tiramisu program.  <a href="#a1958c4935e7f81bf6b5e8853c2116f39">More...</a><br /></td></tr>
-<tr class="separator:a1958c4935e7f81bf6b5e8853c2116f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a906ddc55a0006ec9e5c445773cdd76f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#a906ddc55a0006ec9e5c445773cdd76f9">codegen</a> (const std::vector&lt; <a class="el" href="classtiramisu_1_1buffer.html">tiramisu::buffer</a> * &gt; &amp;arguments, const std::string obj_filename, const bool <a class="el" href="classtiramisu_1_1function.html#a919fa276486c0348dd626a3e75d10f0a">gen_cuda_stmt</a>=false)</td></tr>
+<tr class="memdesc:a906ddc55a0006ec9e5c445773cdd76f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for all the functions required to run code generation of a tiramisu program.  <a href="#a906ddc55a0006ec9e5c445773cdd76f9">More...</a><br /></td></tr>
+<tr class="separator:a906ddc55a0006ec9e5c445773cdd76f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f58920ccc2ae149c678e452693a2d9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#a1f58920ccc2ae149c678e452693a2d9c">set_context_set</a> (const std::string &amp;context)</td></tr>
 <tr class="memdesc:a1f58920ccc2ae149c678e452693a2d9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the context of the function.  <a href="#a1f58920ccc2ae149c678e452693a2d9c">More...</a><br /></td></tr>
 <tr class="separator:a1f58920ccc2ae149c678e452693a2d9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,9 +241,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ae3ec5f97912774ffcd55e1c0423071e6"><td class="memItemLeft" align="right" valign="top">Halide::Internal::Stmt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#ae3ec5f97912774ffcd55e1c0423071e6">get_halide_stmt</a> () const </td></tr>
 <tr class="memdesc:ae3ec5f97912774ffcd55e1c0423071e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the Halide statement that represents the whole function.  <a href="#ae3ec5f97912774ffcd55e1c0423071e6">More...</a><br /></td></tr>
 <tr class="separator:ae3ec5f97912774ffcd55e1c0423071e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2948ab3eda80bb89ad5ee594e36fbe3a"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classtiramisu_1_1constant.html">tiramisu::constant</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#a2948ab3eda80bb89ad5ee594e36fbe3a">get_invariants</a> () const </td></tr>
-<tr class="memdesc:a2948ab3eda80bb89ad5ee594e36fbe3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a vector representing the invariants of the function (symbolic constants or variables that are invariant to the function i.e.  <a href="#a2948ab3eda80bb89ad5ee594e36fbe3a">More...</a><br /></td></tr>
-<tr class="separator:a2948ab3eda80bb89ad5ee594e36fbe3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a574ee164e7f7d0ae9d8beb9e8abe19d8"><td class="memItemLeft" align="right" valign="top">isl_ast_node *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#a574ee164e7f7d0ae9d8beb9e8abe19d8">get_isl_ast</a> () const </td></tr>
 <tr class="memdesc:a574ee164e7f7d0ae9d8beb9e8abe19d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return an ISL AST that represents this function.  <a href="#a574ee164e7f7d0ae9d8beb9e8abe19d8">More...</a><br /></td></tr>
 <tr class="separator:a574ee164e7f7d0ae9d8beb9e8abe19d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -307,6 +304,13 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a59b42857aaf7ff54007d5b67efa2d298"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#a59b42857aaf7ff54007d5b67efa2d298">lift_dist_comps</a> ()</td></tr>
 <tr class="memdesc:a59b42857aaf7ff54007d5b67efa2d298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lift certain computations for distributed execution to function calls.  <a href="#a59b42857aaf7ff54007d5b67efa2d298">More...</a><br /></td></tr>
 <tr class="separator:a59b42857aaf7ff54007d5b67efa2d298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a2948ab3eda80bb89ad5ee594e36fbe3a"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; <a class="el" href="classtiramisu_1_1constant.html">tiramisu::constant</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#a2948ab3eda80bb89ad5ee594e36fbe3a">get_invariants</a> () const </td></tr>
+<tr class="memdesc:a2948ab3eda80bb89ad5ee594e36fbe3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a vector representing the invariants of the function (symbolic constants or variables that are invariant to the function i.e.  <a href="#a2948ab3eda80bb89ad5ee594e36fbe3a">More...</a><br /></td></tr>
+<tr class="separator:a2948ab3eda80bb89ad5ee594e36fbe3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a144a01bf5e08788d8d07cff66b1a5"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1function.html#a76a144a01bf5e08788d8d07cff66b1a5">get_invariant_names</a> () const </td></tr>
+<tr class="memdesc:a76a144a01bf5e08788d8d07cff66b1a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a vector representing the invariants of the function (symbolic constants or variables that are invariant to the function i.e.  <a href="#a76a144a01bf5e08788d8d07cff66b1a5">More...</a><br /></td></tr>
+<tr class="separator:a76a144a01bf5e08788d8d07cff66b1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -330,7 +334,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>A class to represent functions in Tiramisu. </p>
 <p>A function in Tiramisu is composed of a set of computations (<a class="el" href="classtiramisu_1_1computation.html" title="A class that represents computations. ">tiramisu::computation</a>). </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00104">104</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00129">129</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a41227e14c97d5e18d85797ea9000a646"></a>
 <div class="memitem">
@@ -627,7 +631,7 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1958c4935e7f81bf6b5e8853c2116f39"></a>
+<a class="anchor" id="a906ddc55a0006ec9e5c445773cdd76f9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -635,13 +639,19 @@ Protected Attributes</h2></td></tr>
           <td class="memname">void tiramisu::function::codegen </td>
           <td>(</td>
           <td class="paramtype">const std::vector&lt; <a class="el" href="classtiramisu_1_1buffer.html">tiramisu::buffer</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>buffer_vec</em>, </td>
+          <td class="paramname"><em>arguments</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string&#160;</td>
-          <td class="paramname"><em>obj_filename</em>&#160;</td>
+          <td class="paramname"><em>obj_filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool&#160;</td>
+          <td class="paramname"><em>gen_cuda_stmt</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1228,6 +1238,33 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a76a144a01bf5e08788d8d07cff66b1a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;std::string&gt; tiramisu::function::get_invariant_names </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return a vector representing the invariants of the function (symbolic constants or variables that are invariant to the function i.e. </p>
+<p>do not change their value during the execution of the function).</p>
+<p><a class="el" href="classtiramisu_1_1function.html#a76a144a01bf5e08788d8d07cff66b1a5" title="Return a vector representing the invariants of the function (symbolic constants or variables that are...">get_invariant_names()</a> returns the names of the variants. </p>
+
+</div>
+</div>
 <a class="anchor" id="a2948ab3eda80bb89ad5ee594e36fbe3a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1250,7 +1287,8 @@ Protected Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return a vector representing the invariants of the function (symbolic constants or variables that are invariant to the function i.e. </p>
-<p>do not change their value during the execution of the function). </p>
+<p>do not change their value during the execution of the function).</p>
+<p><a class="el" href="classtiramisu_1_1function.html#a76a144a01bf5e08788d8d07cff66b1a5" title="Return a vector representing the invariants of the function (symbolic constants or variables that are...">get_invariant_names()</a> returns the names of the variants. </p>
 
 </div>
 </div>
@@ -1947,7 +1985,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Keeps track of allocation computations created using allocate_and_map_buffer_automatically() to schedule them during gen_ordering_schedules. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00439">439</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00464">464</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -1975,7 +2013,7 @@ Protected Attributes</h2></td></tr>
 <li>Each other computation should have exactly one computation scheduled before it. In other words, the graph should be a valid tree. Does not include allocation computations created using allocate_and_map_buffer_automatically(). </li>
 </ul>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00624">624</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00654">654</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -1999,7 +2037,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Same as sched_graph, except in reverse order (from after to before). </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00630">630</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00660">660</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -2024,7 +2062,7 @@ Protected Attributes</h2></td></tr>
 <p>The set of all computations that have no computation scheduled before them. </p>
 <p>Does not include allocation computations created using allocate_and_map_buffer_automatically(). </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00694">694</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00724">724</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -2049,7 +2087,7 @@ Protected Attributes</h2></td></tr>
 <p>A boolean set to true if low level scheduling was used in the program. </p>
 <p>If it is used, then high level scheduling commands such as .before(), .after(), ... </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00701">701</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l00731">731</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>

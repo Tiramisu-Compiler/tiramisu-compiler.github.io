@@ -1,6 +1,6 @@
 var classtiramisu_1_1buffer =
 [
-    [ "buffer", "classtiramisu_1_1buffer.html#a496861583d4f43e8dccf0dc1ffaf4238", null ],
+    [ "buffer", "classtiramisu_1_1buffer.html#a07daad692dd430bb14d1dc9607545346", null ],
     [ "allocate_at", "classtiramisu_1_1buffer.html#a7158f8659b2913fd3036e51ad615c801", null ],
     [ "allocate_at", "classtiramisu_1_1buffer.html#a36e578830ba0b76f281587faeffdf97c", null ],
     [ "dump", "classtiramisu_1_1buffer.html#a64118f1ea5f944543099b506ddd9af96", null ],

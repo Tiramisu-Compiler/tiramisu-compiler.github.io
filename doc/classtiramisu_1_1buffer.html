@@ -121,9 +121,9 @@ $(document).ready(function(){initNavTree('classtiramisu_1_1buffer.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a496861583d4f43e8dccf0dc1ffaf4238"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1buffer.html#a496861583d4f43e8dccf0dc1ffaf4238">buffer</a> (std::string name, std::vector&lt; <a class="el" href="classtiramisu_1_1expr.html">tiramisu::expr</a> &gt; dim_sizes, <a class="el" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354">tiramisu::primitive_t</a> type, <a class="el" href="namespacetiramisu.html#a0d83bca9b0437bcf906c15e170443aed">tiramisu::argument_t</a> argt, <a class="el" href="classtiramisu_1_1function.html">tiramisu::function</a> *fct)</td></tr>
-<tr class="memdesc:a496861583d4f43e8dccf0dc1ffaf4238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a tiramisu buffer.  <a href="#a496861583d4f43e8dccf0dc1ffaf4238">More...</a><br /></td></tr>
-<tr class="separator:a496861583d4f43e8dccf0dc1ffaf4238"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07daad692dd430bb14d1dc9607545346"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1buffer.html#a07daad692dd430bb14d1dc9607545346">buffer</a> (std::string name, std::vector&lt; <a class="el" href="classtiramisu_1_1expr.html">tiramisu::expr</a> &gt; dim_sizes, <a class="el" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354">tiramisu::primitive_t</a> type, <a class="el" href="namespacetiramisu.html#a0d83bca9b0437bcf906c15e170443aed">tiramisu::argument_t</a> argt, <a class="el" href="classtiramisu_1_1function.html">tiramisu::function</a> *fct=<a class="el" href="classtiramisu_1_1global.html#a7196335db97fe2b76b0d09bf0f4f842a">global::get_implicit_function</a>())</td></tr>
+<tr class="memdesc:a07daad692dd430bb14d1dc9607545346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a tiramisu buffer.  <a href="#a07daad692dd430bb14d1dc9607545346">More...</a><br /></td></tr>
+<tr class="separator:a07daad692dd430bb14d1dc9607545346"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64118f1ea5f944543099b506ddd9af96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1buffer.html#a64118f1ea5f944543099b506ddd9af96">dump</a> (bool exhaustive) const </td></tr>
 <tr class="memdesc:a64118f1ea5f944543099b506ddd9af96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dump the function on standard output.  <a href="#a64118f1ea5f944543099b506ddd9af96">More...</a><br /></td></tr>
 <tr class="separator:a64118f1ea5f944543099b506ddd9af96"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,9 +190,9 @@ Protected Member Functions</h2></td></tr>
 <li>used to represent input arguments to functions. </li>
 </ul>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l00982">982</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l01012">1012</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a496861583d4f43e8dccf0dc1ffaf4238"></a>
+<a class="anchor" id="a07daad692dd430bb14d1dc9607545346"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -224,7 +224,7 @@ Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classtiramisu_1_1function.html">tiramisu::function</a> *&#160;</td>
-          <td class="paramname"><em>fct</em>&#160;</td>
+          <td class="paramname"><em>fct</em> = <code><a class="el" href="classtiramisu_1_1global.html#a7196335db97fe2b76b0d09bf0f4f842a">global::get_implicit_function</a>()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -242,7 +242,7 @@ Protected Member Functions</h2></td></tr>
 <p><code>name</code> is the name of the buffer.</p>
 <p><code>dim_sizes</code> is a vector of tiramisu expressions that represent the size of each dimension in the buffer. Assuming we want to declare the buffer buf[N0][N1][N2], then the vector of sizes should be {N0, N1, N2}. Buffer dimensions in Tiramisu have the same semantics as in C/C++.</p>
 <p><code>type</code> is the type of the elements of the buffer. It must be a primitive type (i.e. p_uint8, p_uint16, ...). Possible types are declared in <a class="el" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354" title="tiramisu data types. ">tiramisu::primitive_t</a> (<a class="el" href="type_8h.html">type.h</a>).</p>
-<p><code>fct</code> is a pointer to a Tiramisu function where the buffer is declared or used.</p>
+<p><code>fct</code> is a pointer to a Tiramisu function where the buffer is declared or used. If this argument is not provided, the implicit Tiramisu function is used (i.e., the function created during Tiramisu initialization).</p>
 <p><code>is_argument</code> indicates whether the buffer is passed to the function as an argument. All the buffers passed as arguments to the function should be allocated by the user outside the function. Buffers that are not passed to the function as arguments are allocated automatically at the beginning of the function and deallocated at the end of the function. They are called temporary buffers (of type a_temporary). Temporary buffers cannot be used outside the function in which they were allocated.</p>
 <p>Buffer names should not start with _ (an underscore). Names starting with _ are reserved names. </p>
 
