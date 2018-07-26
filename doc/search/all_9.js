@@ -12,7 +12,7 @@ var searchData=
   ['init_5fbuffer',['init_buffer',['../utils_8h.html#a563cadfe883d4ea7d81f6bdee5dfeb9d',1,'utils.h']]],
   ['init_5fcomputation',['init_computation',['../classtiramisu_1_1computation.html#a603834cd99c57d0d8c72dc594951f45f',1,'tiramisu::computation']]],
   ['input',['input',['../classtiramisu_1_1input.html',1,'tiramisu']]],
-  ['input',['input',['../classtiramisu_1_1input.html#aa1f129ed81e4d27dc9d30f899419527f',1,'tiramisu::input']]],
+  ['input',['input',['../classtiramisu_1_1input.html#a58562f345c15508790e23a795a0c1d6e',1,'tiramisu::input::input(std::string name, std::vector&lt; var &gt; iterator_variables, primitive_t t)'],['../classtiramisu_1_1input.html#aa1f129ed81e4d27dc9d30f899419527f',1,'tiramisu::input::input(std::vector&lt; var &gt; iterator_variables, primitive_t t)']]],
   ['int16_5fvalue',['int16_value',['../classtiramisu_1_1expr.html#a4f770c7bfbcfaf0367705de3eeb60745',1,'tiramisu::expr']]],
   ['int32_5fvalue',['int32_value',['../classtiramisu_1_1expr.html#a894c2a1885c4202ce5c7566e6ab8334e',1,'tiramisu::expr']]],
   ['int64_5fvalue',['int64_value',['../classtiramisu_1_1expr.html#ac2e4877fff8702253122dbbbdf36a2f5',1,'tiramisu::expr']]],

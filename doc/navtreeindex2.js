@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"classtiramisu_1_1send.html#a083813825ffb8af605c9f8c4acb6ac42":[2,0,0,17,6],
 "classtiramisu_1_1send.html#a1565f7e1e06adb3b86cc198ec347e2f6":[2,0,0,17,8],
 "classtiramisu_1_1send.html#a4c316a601f455d6649639240ac64d1b2":[2,0,0,17,11],
 "classtiramisu_1_1send.html#a5f296e0c53b6539710f957ec721961fe":[2,0,0,17,3],
@@ -155,8 +156,8 @@ var NAVTREEINDEX2 =
 "externs_8h.html#af11c772bbad0269870ab46874baa2912":[3,0,3,4],
 "externs_8h_source.html":[3,0,3],
 "files.html":[3,0],
-"functions.html":[2,2,0,0],
 "functions.html":[2,2,0],
+"functions.html":[2,2,0,0],
 "functions_0x7e.html":[2,2,0,23],
 "functions_a.html":[2,2,0,1],
 "functions_b.html":[2,2,0,2],
@@ -165,8 +166,8 @@ var NAVTREEINDEX2 =
 "functions_e.html":[2,2,0,5],
 "functions_enum.html":[2,2,3],
 "functions_f.html":[2,2,0,6],
-"functions_func.html":[2,2,1,0],
 "functions_func.html":[2,2,1],
+"functions_func.html":[2,2,1,0],
 "functions_func_0x7e.html":[2,2,1,23],
 "functions_func_a.html":[2,2,1,1],
 "functions_func_b.html":[2,2,1,2],
@@ -212,8 +213,8 @@ var NAVTREEINDEX2 =
 "globals_func.html":[3,1,1],
 "globals_vars.html":[3,1,2],
 "hierarchy.html":[2,1],
-"index.html":[0],
 "index.html":[],
+"index.html":[0],
 "mpi__comm_8h.html":[3,0,5],
 "mpi__comm_8h_source.html":[3,0,5],
 "namespacemembers.html":[1,1,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "structtiramisu_1_1cuda__ast_1_1op__data__t.html#a146b487c27b675b1c1051e4381279c6f":[2,0,0,0,25,9],
 "structtiramisu_1_1cuda__ast_1_1op__data__t.html#a19f020aae4f3b56ece5b0d0564fa40a9":[2,0,0,0,25,5],
 "structtiramisu_1_1cuda__ast_1_1op__data__t.html#a2be3070c7e0e9a822a918dca888499ee":[2,0,0,0,25,6],
-"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a2e033a8aeb0ddb29932a30876a792ff3":[2,0,0,0,25,8],
-"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a35a252ff77c85ffa6f19c54d002cea61":[2,0,0,0,25,0]
+"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a2e033a8aeb0ddb29932a30876a792ff3":[2,0,0,0,25,8]
 };

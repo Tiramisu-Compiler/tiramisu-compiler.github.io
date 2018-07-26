@@ -119,8 +119,11 @@ $(document).ready(function(){initNavTree('classtiramisu_1_1input.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a58562f345c15508790e23a795a0c1d6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1input.html#a58562f345c15508790e23a795a0c1d6e">input</a> (std::string name, std::vector&lt; <a class="el" href="classtiramisu_1_1var.html">var</a> &gt; iterator_variables, <a class="el" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354">primitive_t</a> t)</td></tr>
+<tr class="memdesc:a58562f345c15508790e23a795a0c1d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for an input.  <a href="#a58562f345c15508790e23a795a0c1d6e">More...</a><br /></td></tr>
+<tr class="separator:a58562f345c15508790e23a795a0c1d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1f129ed81e4d27dc9d30f899419527f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1input.html#aa1f129ed81e4d27dc9d30f899419527f">input</a> (std::vector&lt; <a class="el" href="classtiramisu_1_1var.html">var</a> &gt; iterator_variables, <a class="el" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354">primitive_t</a> t)</td></tr>
-<tr class="memdesc:aa1f129ed81e4d27dc9d30f899419527f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for an input.  <a href="#aa1f129ed81e4d27dc9d30f899419527f">More...</a><br /></td></tr>
+<tr class="memdesc:aa1f129ed81e4d27dc9d30f899419527f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts.  <a href="#aa1f129ed81e4d27dc9d30f899419527f">More...</a><br /></td></tr>
 <tr class="separator:aa1f129ed81e4d27dc9d30f899419527f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classtiramisu_1_1computation"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classtiramisu_1_1computation')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classtiramisu_1_1computation.html">tiramisu::computation</a></td></tr>
 <tr class="memitem:a802535b5fb6144e54a83051f7b612b86 inherit pub_methods_classtiramisu_1_1computation"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1computation.html#a802535b5fb6144e54a83051f7b612b86">computation</a> (std::string iteration_domain, <a class="el" href="classtiramisu_1_1expr.html">tiramisu::expr</a> e, bool schedule_this_computation, <a class="el" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354">tiramisu::primitive_t</a> t, <a class="el" href="classtiramisu_1_1function.html">tiramisu::function</a> *fct)</td></tr>
@@ -450,6 +453,57 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock">
 <p>Definition at line <a class="el" href="core_8h_source.html#l03887">3887</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a58562f345c15508790e23a795a0c1d6e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">tiramisu::input::input </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classtiramisu_1_1var.html">var</a> &gt;&#160;</td>
+          <td class="paramname"><em>iterator_variables</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354">primitive_t</a>&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor for an input. </p>
+<p><code>name</code> is the name of the input.</p>
+<p><code>iterator_variables</code> is a vector that represents the dimensions of the input.</p>
+<p><code>t</code> is the type of the input elements. Example of types include (p_uint8, p_uint16, p_uint32, ...).</p>
+<p>Usually, this constructor is used to declare a computation that represents an input.</p>
+<p>For example, if we have two iterator variables</p>
+<div class="fragment"><div class="line">var i(<span class="stringliteral">&quot;i&quot;</span>, 0, 20), j(<span class="stringliteral">&quot;j&quot;</span>, 0, 30);</div></div><!-- fragment --><p>and we have the following computation declaration</p>
+<div class="fragment"><div class="line"><a class="code" href="classtiramisu_1_1input.html#a58562f345c15508790e23a795a0c1d6e">input</a> A({i,j}, <a class="code" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354a30ef1bc35093eebdf14ea07eb4131c78">p_uint8</a>);</div></div><!-- fragment --><p>This can be used a wrapper on a buffer buf[20, 30] where the buffer elements are of type uint8. </p>
+
+<p>Definition at line <a class="el" href="core_8h_source.html#l03922">3922</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aa1f129ed81e4d27dc9d30f899419527f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -482,15 +536,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructor for an input. </p>
-<p><code>iterator_variables</code> is a vector that represents the dimensions of the input.</p>
-<p><code>t</code> is the type of the input elements. Example of types include (p_uint8, p_uint16, p_uint32, ...).</p>
-<p>Usually, this constructor is used to declare a computation that represents an input.</p>
-<p>For example, if we have two iterator variables</p>
-<div class="fragment"><div class="line">var i(<span class="stringliteral">&quot;i&quot;</span>, 0, 20), j(<span class="stringliteral">&quot;j&quot;</span>, 0, 30);</div></div><!-- fragment --><p>and we have the following computation declaration</p>
-<div class="fragment"><div class="line"><a class="code" href="classtiramisu_1_1input.html#aa1f129ed81e4d27dc9d30f899419527f">input</a> A({i,j}, <a class="code" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354a30ef1bc35093eebdf14ea07eb4131c78">p_uint8</a>);</div></div><!-- fragment --><p>This can be used a wrapper on a buffer buf[20, 30] where the buffer elements are of type uint8. </p>
+<p>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03920">3920</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03932">3932</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
