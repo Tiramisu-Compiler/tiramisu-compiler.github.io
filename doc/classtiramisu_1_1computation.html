@@ -260,16 +260,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab20ae0ad5898c983c07f8fdf7539d754"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a284f6a8c4a388d15ffa3b40bbfaf5693"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693">store_in</a> (<a class="el" href="classtiramisu_1_1buffer.html">buffer</a> *buff)</td></tr>
-<tr class="memdesc:a284f6a8c4a388d15ffa3b40bbfaf5693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind this computation to a buffer.  <a href="#a284f6a8c4a388d15ffa3b40bbfaf5693">More...</a><br /></td></tr>
+<tr class="memdesc:a284f6a8c4a388d15ffa3b40bbfaf5693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store this computation in <code>buff</code>.  <a href="#a284f6a8c4a388d15ffa3b40bbfaf5693">More...</a><br /></td></tr>
 <tr class="separator:a284f6a8c4a388d15ffa3b40bbfaf5693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9c9d8987709a5b9f19746585dba6a3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1computation.html#ac9c9d8987709a5b9f19746585dba6a3d">store_in</a> (<a class="el" href="classtiramisu_1_1buffer.html">buffer</a> *buff, std::vector&lt; <a class="el" href="classtiramisu_1_1expr.html">expr</a> &gt; iterators)</td></tr>
-<tr class="memdesc:ac9c9d8987709a5b9f19746585dba6a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind this computation to a buffer.  <a href="#ac9c9d8987709a5b9f19746585dba6a3d">More...</a><br /></td></tr>
+<tr class="memdesc:ac9c9d8987709a5b9f19746585dba6a3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store this computation in <code>buff</code>.  <a href="#ac9c9d8987709a5b9f19746585dba6a3d">More...</a><br /></td></tr>
 <tr class="separator:ac9c9d8987709a5b9f19746585dba6a3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2b2f3533b7bc2cdfd7adeb524fa6aa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1computation.html#ac2b2f3533b7bc2cdfd7adeb524fa6aa0">compute_at</a> (<a class="el" href="classtiramisu_1_1computation.html">computation</a> &amp;consumer, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L)</td></tr>
 <tr class="memdesc:ac2b2f3533b7bc2cdfd7adeb524fa6aa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function assumes that <code>consumer</code> consumes values produced by this computation (which is the producer).  <a href="#ac2b2f3533b7bc2cdfd7adeb524fa6aa0">More...</a><br /></td></tr>
 <tr class="separator:ac2b2f3533b7bc2cdfd7adeb524fa6aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4e20ef79cfe01a33adf299a9bfb1f93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1computation.html#aa4e20ef79cfe01a33adf299a9bfb1f93">compute_at</a> (<a class="el" href="classtiramisu_1_1computation.html">computation</a> &amp;consumer, int L)</td></tr>
-<tr class="memdesc:aa4e20ef79cfe01a33adf299a9bfb1f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind this computation to a buffer.  <a href="#aa4e20ef79cfe01a33adf299a9bfb1f93">More...</a><br /></td></tr>
+<tr class="memdesc:aa4e20ef79cfe01a33adf299a9bfb1f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store this computation in <code>buff</code>.  <a href="#aa4e20ef79cfe01a33adf299a9bfb1f93">More...</a><br /></td></tr>
 <tr class="separator:aa4e20ef79cfe01a33adf299a9bfb1f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6392098da556121e4374966a4f1dc58"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1computation.html#ab6392098da556121e4374966a4f1dc58">compute_maximal_AST_depth</a> ()</td></tr>
 <tr class="memdesc:ab6392098da556121e4374966a4f1dc58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the time-space domain and construct an AST that scans that time-space domain, then compute the depth of this AST.  <a href="#ab6392098da556121e4374966a4f1dc58">More...</a><br /></td></tr>
@@ -323,13 +323,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9ab5a1055aba6dd921819da184e9862b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tile the computation and then tag the outermost tile dimension to be mapped to GPU blocks and tag the innermost tile dimensions to be mapped to GPU threads.  <a href="#a9ab5a1055aba6dd921819da184e9862b">More...</a><br /></td></tr>
 <tr class="separator:a9ab5a1055aba6dd921819da184e9862b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a472f916f4550eaa3e04e4736dfbaa7f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1computation.html#a472f916f4550eaa3e04e4736dfbaa7f1">gpu_tile</a> (<a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L0, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L1, int sizeX, int sizeY, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L0_outer, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L1_outer, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L0_inner, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L1_inner)</td></tr>
-<tr class="memdesc:a472f916f4550eaa3e04e4736dfbaa7f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind this computation to a buffer.  <a href="#a472f916f4550eaa3e04e4736dfbaa7f1">More...</a><br /></td></tr>
+<tr class="memdesc:a472f916f4550eaa3e04e4736dfbaa7f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store this computation in <code>buff</code>.  <a href="#a472f916f4550eaa3e04e4736dfbaa7f1">More...</a><br /></td></tr>
 <tr class="separator:a472f916f4550eaa3e04e4736dfbaa7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaaf69c837e5565afb53a1f241e1f3c97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1computation.html#aaaf69c837e5565afb53a1f241e1f3c97">gpu_tile</a> (<a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L0, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L1, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L2, int sizeX, int sizeY, int sizeZ)</td></tr>
-<tr class="memdesc:aaaf69c837e5565afb53a1f241e1f3c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind this computation to a buffer.  <a href="#aaaf69c837e5565afb53a1f241e1f3c97">More...</a><br /></td></tr>
+<tr class="memdesc:aaaf69c837e5565afb53a1f241e1f3c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store this computation in <code>buff</code>.  <a href="#aaaf69c837e5565afb53a1f241e1f3c97">More...</a><br /></td></tr>
 <tr class="separator:aaaf69c837e5565afb53a1f241e1f3c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ec0e40b795bb05c002b9410386d95ff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1computation.html#a1ec0e40b795bb05c002b9410386d95ff">gpu_tile</a> (<a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L0, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L1, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L2, int sizeX, int sizeY, int sizeZ, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L0_outer, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L1_outer, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L2_outer, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L0_inner, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L1_inner, <a class="el" href="classtiramisu_1_1var.html">tiramisu::var</a> L2_inner)</td></tr>
-<tr class="memdesc:a1ec0e40b795bb05c002b9410386d95ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bind this computation to a buffer.  <a href="#a1ec0e40b795bb05c002b9410386d95ff">More...</a><br /></td></tr>
+<tr class="memdesc:a1ec0e40b795bb05c002b9410386d95ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store this computation in <code>buff</code>.  <a href="#a1ec0e40b795bb05c002b9410386d95ff">More...</a><br /></td></tr>
 <tr class="separator:a1ec0e40b795bb05c002b9410386d95ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a7f412d1ba941c990f18225d43f0fb621"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1computation.html#a7f412d1ba941c990f18225d43f0fb621">set_access</a> (std::string access_str)</td></tr>
@@ -477,7 +477,7 @@ Protected Attributes</h2></td></tr>
 <li>Level III: this level is similar to Level 2 but it specifies where computations should be stored in memory and the data layout. </li>
 </ul>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l01297">1297</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l01312">1312</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac7bd79205a3bf5cc46d8560be5ded585"></a>
 <div class="memitem">
@@ -760,7 +760,7 @@ Protected Attributes</h2></td></tr>
 <div class="fragment"><div class="line">var i(<span class="stringliteral">&quot;i&quot;</span>, 0, 20), j(<span class="stringliteral">&quot;j&quot;</span>, 0, 30);</div></div><!-- fragment --><p>and we have the following computation declaration</p>
 <div class="fragment"><div class="line"><a class="code" href="classtiramisu_1_1computation.html#ac7bd79205a3bf5cc46d8560be5ded585">computation</a> S(<span class="stringliteral">&quot;S&quot;</span>, {i,j}, <a class="code" href="namespacetiramisu.html#adacb3196c1c6ddd14350580e70717354a30ef1bc35093eebdf14ea07eb4131c78">p_uint8</a>);</div></div><!-- fragment --><p>This can be used a wrapper on a buffer buf[20, 30] where the buffer elements are of type uint8. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l02645">2645</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l02660">2660</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 <p>References <a class="el" href="expr_8h_source.html#l00219">tiramisu::expr::dtype</a>.</p>
 
@@ -800,7 +800,7 @@ Protected Attributes</h2></td></tr>
 
 <p>This is an overloaded member function, provided for convenience. It differs from the above function only in what argument(s) it accepts. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l02655">2655</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l02670">2670</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00131">tiramisu::a_temporary</a>, and <a class="el" href="expr_8h_source.html#l00219">tiramisu::expr::dtype</a>.</p>
 
@@ -1271,18 +1271,20 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bind this computation to a buffer. </p>
-<p>i.e., create a one-to-one data mapping between the computation and the buffer.</p>
+<p>Store this computation in <code>buff</code>. </p>
 <p>Let us assume that we have a computation C:</p>
-<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> to indicate that as follows:</p>
-<div class="fragment"><div class="line">C.store_in(bufC)</div></div><!-- fragment --><p>This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[i]-&gt;bufC[i]}&quot;</span>);</div></div><!-- fragment --><p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
-<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm]. This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm]}&quot;</span>);</div></div><!-- fragment --><p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
+<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> to indicate that as follows:</p>
+<div class="fragment"><div class="line">C.store_in(&amp;bufC)</div></div><!-- fragment --><p>This mans that each computation C(i) will be stored in the buffer location bufC[i].</p>
+<p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
+<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm].</p>
+<p>This can be used to store the data in many ways (reordering the storage, storing into modulo buffers, ...).</p>
+<p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
 <div class="fragment"><div class="line">{D[i,j]: 0&lt;=i&lt;N and 0&lt;=j&lt;N}</div></div><!-- fragment --><p>and assuming we have a buffer bufD.</p>
-<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> function can be used to implement many type of data mappings:</p><ul>
-<li>Map a computation to a scalar: D.store_in(bufD, {}). This is equivalent to D.set_access("{D[i,j]-&gt;bufD[0]}")</li>
-<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(i); </li>
+<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> function can be used to implement many types of data mappings:</p><ul>
+<li>Store the computation D to a scalar: D.store_in(&amp;bufD, {}). This mans that D(i) will be stored in bufD[0] (which represents a scalar).</li>
+<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(&amp;bufD, {i});</li>
+<li>Change the order of storage. D.store_in(&amp;bufD, {j, i}) will store D(i,j) in bufD(j,i).</li>
+<li>Store the computation in a circular buffer (modulo storage). D.store_in(&amp;bufD, {i%4, j%4}); This will store D(i,j) in bufD[i%4, j%4]. Assuming the buffer bufD is a 4x4 buffer. </li>
 </ul>
 
 </div>
@@ -1597,7 +1599,7 @@ Protected Attributes</h2></td></tr>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> (i=0; i&lt;N; i++)</div><div class="line">  <span class="keywordflow">for</span> (j=0; j&lt;N; j++)</div><div class="line">  {</div><div class="line">    S0;</div><div class="line">    S1;</div><div class="line">    S2;</div><div class="line">  }</div></div><!-- fragment --><p>Calling</p>
 <div class="fragment"><div class="line">S2.fuse_after(i, S1);</div><div class="line">S1.fuse_after(i, S0);</div></div><!-- fragment --><p>would result in the following code</p>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> (i=0; i&lt;N; i++)</div><div class="line">{</div><div class="line">  <span class="keywordflow">for</span> (j=0; j&lt;N; j++)</div><div class="line">    S0;</div><div class="line">  <span class="keywordflow">for</span> (j=0; j&lt;N; j++)</div><div class="line">    S1;</div><div class="line">  <span class="keywordflow">for</span> (j=0; j&lt;N; j++)</div><div class="line">    S2;</div><div class="line">}</div></div><!-- fragment --> 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03195">3195</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03214">3214</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 <p>References <a class="el" href="expr_8h_source.html#l00695">tiramisu::expr::get_name()</a>.</p>
 
@@ -1758,7 +1760,7 @@ Protected Attributes</h2></td></tr>
 <p>Search the time-space domain (the range of the schedule) and return the loop level number that correspond to the dimension named <code>dim</code>. </p>
 <p>In other words, translate the vector of dimension name (<code>dim_name</code>) into a loop level number. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03246">3246</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03265">3265</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -1987,18 +1989,20 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bind this computation to a buffer. </p>
-<p>i.e., create a one-to-one data mapping between the computation and the buffer.</p>
+<p>Store this computation in <code>buff</code>. </p>
 <p>Let us assume that we have a computation C:</p>
-<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> to indicate that as follows:</p>
-<div class="fragment"><div class="line">C.store_in(bufC)</div></div><!-- fragment --><p>This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[i]-&gt;bufC[i]}&quot;</span>);</div></div><!-- fragment --><p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
-<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm]. This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm]}&quot;</span>);</div></div><!-- fragment --><p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
+<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> to indicate that as follows:</p>
+<div class="fragment"><div class="line">C.store_in(&amp;bufC)</div></div><!-- fragment --><p>This mans that each computation C(i) will be stored in the buffer location bufC[i].</p>
+<p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
+<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm].</p>
+<p>This can be used to store the data in many ways (reordering the storage, storing into modulo buffers, ...).</p>
+<p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
 <div class="fragment"><div class="line">{D[i,j]: 0&lt;=i&lt;N and 0&lt;=j&lt;N}</div></div><!-- fragment --><p>and assuming we have a buffer bufD.</p>
-<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> function can be used to implement many type of data mappings:</p><ul>
-<li>Map a computation to a scalar: D.store_in(bufD, {}). This is equivalent to D.set_access("{D[i,j]-&gt;bufD[0]}")</li>
-<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(i); </li>
+<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> function can be used to implement many types of data mappings:</p><ul>
+<li>Store the computation D to a scalar: D.store_in(&amp;bufD, {}). This mans that D(i) will be stored in bufD[0] (which represents a scalar).</li>
+<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(&amp;bufD, {i});</li>
+<li>Change the order of storage. D.store_in(&amp;bufD, {j, i}) will store D(i,j) in bufD(j,i).</li>
+<li>Store the computation in a circular buffer (modulo storage). D.store_in(&amp;bufD, {i%4, j%4}); This will store D(i,j) in bufD[i%4, j%4]. Assuming the buffer bufD is a 4x4 buffer. </li>
 </ul>
 
 </div>
@@ -2051,18 +2055,20 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bind this computation to a buffer. </p>
-<p>i.e., create a one-to-one data mapping between the computation and the buffer.</p>
+<p>Store this computation in <code>buff</code>. </p>
 <p>Let us assume that we have a computation C:</p>
-<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> to indicate that as follows:</p>
-<div class="fragment"><div class="line">C.store_in(bufC)</div></div><!-- fragment --><p>This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[i]-&gt;bufC[i]}&quot;</span>);</div></div><!-- fragment --><p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
-<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm]. This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm]}&quot;</span>);</div></div><!-- fragment --><p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
+<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> to indicate that as follows:</p>
+<div class="fragment"><div class="line">C.store_in(&amp;bufC)</div></div><!-- fragment --><p>This mans that each computation C(i) will be stored in the buffer location bufC[i].</p>
+<p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
+<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm].</p>
+<p>This can be used to store the data in many ways (reordering the storage, storing into modulo buffers, ...).</p>
+<p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
 <div class="fragment"><div class="line">{D[i,j]: 0&lt;=i&lt;N and 0&lt;=j&lt;N}</div></div><!-- fragment --><p>and assuming we have a buffer bufD.</p>
-<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> function can be used to implement many type of data mappings:</p><ul>
-<li>Map a computation to a scalar: D.store_in(bufD, {}). This is equivalent to D.set_access("{D[i,j]-&gt;bufD[0]}")</li>
-<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(i); </li>
+<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> function can be used to implement many types of data mappings:</p><ul>
+<li>Store the computation D to a scalar: D.store_in(&amp;bufD, {}). This mans that D(i) will be stored in bufD[0] (which represents a scalar).</li>
+<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(&amp;bufD, {i});</li>
+<li>Change the order of storage. D.store_in(&amp;bufD, {j, i}) will store D(i,j) in bufD(j,i).</li>
+<li>Store the computation in a circular buffer (modulo storage). D.store_in(&amp;bufD, {i%4, j%4}); This will store D(i,j) in bufD[i%4, j%4]. Assuming the buffer bufD is a 4x4 buffer. </li>
 </ul>
 
 </div>
@@ -2151,18 +2157,20 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Bind this computation to a buffer. </p>
-<p>i.e., create a one-to-one data mapping between the computation and the buffer.</p>
+<p>Store this computation in <code>buff</code>. </p>
 <p>Let us assume that we have a computation C:</p>
-<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> to indicate that as follows:</p>
-<div class="fragment"><div class="line">C.store_in(bufC)</div></div><!-- fragment --><p>This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[i]-&gt;bufC[i]}&quot;</span>);</div></div><!-- fragment --><p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
-<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm]. This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm]}&quot;</span>);</div></div><!-- fragment --><p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
+<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> to indicate that as follows:</p>
+<div class="fragment"><div class="line">C.store_in(&amp;bufC)</div></div><!-- fragment --><p>This mans that each computation C(i) will be stored in the buffer location bufC[i].</p>
+<p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
+<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm].</p>
+<p>This can be used to store the data in many ways (reordering the storage, storing into modulo buffers, ...).</p>
+<p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
 <div class="fragment"><div class="line">{D[i,j]: 0&lt;=i&lt;N and 0&lt;=j&lt;N}</div></div><!-- fragment --><p>and assuming we have a buffer bufD.</p>
-<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> function can be used to implement many type of data mappings:</p><ul>
-<li>Map a computation to a scalar: D.store_in(bufD, {}). This is equivalent to D.set_access("{D[i,j]-&gt;bufD[0]}")</li>
-<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(i); </li>
+<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> function can be used to implement many types of data mappings:</p><ul>
+<li>Store the computation D to a scalar: D.store_in(&amp;bufD, {}). This mans that D(i) will be stored in bufD[0] (which represents a scalar).</li>
+<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(&amp;bufD, {i});</li>
+<li>Change the order of storage. D.store_in(&amp;bufD, {j, i}) will store D(i,j) in bufD(j,i).</li>
+<li>Store the computation in a circular buffer (modulo storage). D.store_in(&amp;bufD, {i%4, j%4}); This will store D(i,j) in bufD[i%4, j%4]. Assuming the buffer bufD is a 4x4 buffer. </li>
 </ul>
 
 </div>
@@ -2498,7 +2506,7 @@ template&lt;typename... Args&gt; </div>
 <p>Access operator: C0(i,j) represents an access to the element (i,j) of the computation C0. </p>
 <p>C0(i,j) represents the value computed by the computation C0(i,j) </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03867">3867</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03886">3886</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 <p>References <a class="el" href="type_8h_source.html#l00112">tiramisu::o_access</a>, and <a class="el" href="classtiramisu_1_1expr.html#a3cbc1079941cf0c7c840b238e4d53b9a">tiramisu::expr::substitute()</a>.</p>
 
@@ -2519,7 +2527,7 @@ template&lt;typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p>Tag the loop level <code>L</code> to be parallelized. </p>
-<p>This function is equivalent to the function <a class="el" href="classtiramisu_1_1computation.html#a37ba81bf0611bb2f058ae7659fefd561" title="Tag the loop level L to be parallelized. ">tag_parallel_level()</a>. There is no difference between the two. </p>
+<p>This function is equivalent to the function <a class="el" href="classtiramisu_1_1computation.html#a37ba81bf0611bb2f058ae7659fefd561">tiramisu::computation::tag_parallel_level()</a> . There is no difference between the two. </p>
 
 </div>
 </div>
@@ -3024,18 +3032,20 @@ template&lt;typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Bind this computation to a buffer. </p>
-<p>i.e., create a one-to-one data mapping between the computation and the buffer.</p>
+<p>Store this computation in <code>buff</code>. </p>
 <p>Let us assume that we have a computation C:</p>
-<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> to indicate that as follows:</p>
-<div class="fragment"><div class="line">C.store_in(bufC)</div></div><!-- fragment --><p>This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[i]-&gt;bufC[i]}&quot;</span>);</div></div><!-- fragment --><p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
-<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm]. This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm]}&quot;</span>);</div></div><!-- fragment --><p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
+<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> to indicate that as follows:</p>
+<div class="fragment"><div class="line">C.store_in(&amp;bufC)</div></div><!-- fragment --><p>This mans that each computation C(i) will be stored in the buffer location bufC[i].</p>
+<p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
+<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm].</p>
+<p>This can be used to store the data in many ways (reordering the storage, storing into modulo buffers, ...).</p>
+<p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
 <div class="fragment"><div class="line">{D[i,j]: 0&lt;=i&lt;N and 0&lt;=j&lt;N}</div></div><!-- fragment --><p>and assuming we have a buffer bufD.</p>
-<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> function can be used to implement many type of data mappings:</p><ul>
-<li>Map a computation to a scalar: D.store_in(bufD, {}). This is equivalent to D.set_access("{D[i,j]-&gt;bufD[0]}")</li>
-<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(i); </li>
+<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> function can be used to implement many types of data mappings:</p><ul>
+<li>Store the computation D to a scalar: D.store_in(&amp;bufD, {}). This mans that D(i) will be stored in bufD[0] (which represents a scalar).</li>
+<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(&amp;bufD, {i});</li>
+<li>Change the order of storage. D.store_in(&amp;bufD, {j, i}) will store D(i,j) in bufD(j,i).</li>
+<li>Store the computation in a circular buffer (modulo storage). D.store_in(&amp;bufD, {i%4, j%4}); This will store D(i,j) in bufD[i%4, j%4]. Assuming the buffer bufD is a 4x4 buffer. </li>
 </ul>
 
 </div>
@@ -3064,18 +3074,20 @@ template&lt;typename... Args&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Bind this computation to a buffer. </p>
-<p>i.e., create a one-to-one data mapping between the computation and the buffer.</p>
+<p>Store this computation in <code>buff</code>. </p>
 <p>Let us assume that we have a computation C:</p>
-<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> to indicate that as follows:</p>
-<div class="fragment"><div class="line">C.store_in(bufC)</div></div><!-- fragment --><p>This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[i]-&gt;bufC[i]}&quot;</span>);</div></div><!-- fragment --><p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
-<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm]. This is equivalent to calling</p>
-<div class="fragment"><div class="line">C.set_access(<span class="stringliteral">&quot;{C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm]}&quot;</span>);</div></div><!-- fragment --><p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
+<div class="fragment"><div class="line">{C[i]: 0&lt;=i&lt;N}</div></div><!-- fragment --><p>and that we want to store each C(i) in bufC[i]. Then we can use <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> to indicate that as follows:</p>
+<div class="fragment"><div class="line">C.store_in(&amp;bufC)</div></div><!-- fragment --><p>This mans that each computation C(i) will be stored in the buffer location bufC[i].</p>
+<p>If <code>iterators</code> is specified, the <code>iterators</code> are used to specify how the computation is mapped to the buffer. If the dimensions of this computation are in0, in1, ..., inn and if <code>iterators</code> are equal to im0, im1, ..., imm then the computation is mapped as follows</p>
+<div class="fragment"><div class="line">C[in0, in1, ..., inn]-&gt;bufC[im0, im1, ..., imm].</div></div><!-- fragment --><p>i.e., the computation C[in0, in1, ..., inn] is stored in bufC[im0, im1, ..., imm].</p>
+<p>This can be used to store the data in many ways (reordering the storage, storing into modulo buffers, ...).</p>
+<p>Assuming we have have computation D(i,j) that has the following iteration domain:</p>
 <div class="fragment"><div class="line">{D[i,j]: 0&lt;=i&lt;N and 0&lt;=j&lt;N}</div></div><!-- fragment --><p>and assuming we have a buffer bufD.</p>
-<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Bind this computation to a buffer. ">store_in()</a> function can be used to implement many type of data mappings:</p><ul>
-<li>Map a computation to a scalar: D.store_in(bufD, {}). This is equivalent to D.set_access("{D[i,j]-&gt;bufD[0]}")</li>
-<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(i); </li>
+<p>The <a class="el" href="classtiramisu_1_1computation.html#a284f6a8c4a388d15ffa3b40bbfaf5693" title="Store this computation in buff. ">store_in()</a> function can be used to implement many types of data mappings:</p><ul>
+<li>Store the computation D to a scalar: D.store_in(&amp;bufD, {}). This mans that D(i) will be stored in bufD[0] (which represents a scalar).</li>
+<li>Store a 2 dimensional computation into a 1-dimensional buffer: D.store_in(&amp;bufD, {i});</li>
+<li>Change the order of storage. D.store_in(&amp;bufD, {j, i}) will store D(i,j) in bufD(j,i).</li>
+<li>Store the computation in a circular buffer (modulo storage). D.store_in(&amp;bufD, {i%4, j%4}); This will store D(i,j) in bufD[i%4, j%4]. Assuming the buffer bufD is a 4x4 buffer. </li>
 </ul>
 
 </div>
@@ -3920,7 +3932,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>True if this computation represents a library call. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l02251">2251</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l02266">2266</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -3944,7 +3956,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>If the computation represents a library call, this is the name of the function. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l02256">2256</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l02271">2271</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -3983,7 +3995,7 @@ template&lt;typename... Args&gt; </div>
 </ul>
 <div class="fragment"><div class="line"><span class="keywordflow">for</span> (i=0; i&lt;N; i++)</div><div class="line">    <span class="keywordflow">for</span> (j=0; j&lt;N; j++) {</div><div class="line">        c1;</div><div class="line">        c0;</div><div class="line">    }</div></div><!-- fragment --><p>This means that c0 is after c1 starting from loop level 1, (before the loop level 1, c0 and c1 have the same order). </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03852">3852</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03871">3871</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -4007,7 +4019,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>Equivalent of <a class="el" href="classtiramisu_1_1computation.html#a7b874384f567f7bbf60bbf58f86e6ddc" title="root_dimension is a number used to specify the dimension level known as root. ">computation::root</a> but to be used with scheduling functions that take loop level (integers) as input instead of <a class="el" href="classtiramisu_1_1var.html" title="A class that represents constant variable references. ">tiramisu::var</a>. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l03859">3859</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l03878">3878</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
@@ -4031,7 +4043,7 @@ template&lt;typename... Args&gt; </div>
 
 <p>An index expression just for the request buffer. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l02261">2261</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l02276">2276</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 
 </div>
 </div>
