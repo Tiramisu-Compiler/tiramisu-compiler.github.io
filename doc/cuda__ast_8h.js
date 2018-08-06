@@ -73,6 +73,7 @@ var cuda__ast_8h =
       [ "host", "cuda__ast_8h.html#acfb6308d43d7336f88869b77ed15841da67b3dba8bc6778101892eb77249db32e", null ],
       [ "global", "cuda__ast_8h.html#acfb6308d43d7336f88869b77ed15841da9c70933aff6b2a6d08c687a6cbb6b765", null ],
       [ "shared", "cuda__ast_8h.html#acfb6308d43d7336f88869b77ed15841da9e81e7b963c71363e2fb3eefcfecfc0e", null ],
+      [ "local", "cuda__ast_8h.html#acfb6308d43d7336f88869b77ed15841daf5ddaf0ca7929578b408c909429f68f2", null ],
       [ "constant", "cuda__ast_8h.html#acfb6308d43d7336f88869b77ed15841da617ac08757d38a5a7ed91c224f0e90a0", null ],
       [ "reg", "cuda__ast_8h.html#acfb6308d43d7336f88869b77ed15841da33c0ee425e2c0efe834afc1aa1e33a4c", null ]
     ] ],

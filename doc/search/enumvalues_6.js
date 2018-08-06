@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mpi',['MPI',['../namespacetiramisu.html#a2c28d62b0449ae58b8fa324db8f35d72ae9583bd264381e74877636f771231dfa',1,'tiramisu']]]
+  ['local',['local',['../namespacetiramisu_1_1cuda__ast.html#acfb6308d43d7336f88869b77ed15841daf5ddaf0ca7929578b408c909429f68f2',1,'tiramisu::cuda_ast']]]
 ];

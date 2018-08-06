@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x',['x',['../structtiramisu_1_1cuda__ast_1_1gpu__iterator.html#a9f81920f61b3c4bb6d7a47a74d716892a9dd4e461268c8034f5c8564e155c67a6',1,'tiramisu::cuda_ast::gpu_iterator']]]
+  ['thread',['THREAD',['../structtiramisu_1_1cuda__ast_1_1gpu__iterator.html#aae8e3890724c255af094971262434908a57f8b9e1bf05e9058d703c68ac2d53b0',1,'tiramisu::cuda_ast::gpu_iterator']]]
 ];

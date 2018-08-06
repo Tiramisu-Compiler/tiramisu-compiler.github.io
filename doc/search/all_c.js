@@ -9,8 +9,7 @@ var searchData=
   ['mark_5fas_5flet_5fstatement',['mark_as_let_statement',['../classtiramisu_1_1computation.html#a4bb92906d4541d1ab073bf9a164bc31c',1,'tiramisu::computation']]],
   ['mark_5fas_5flibrary_5fcall',['mark_as_library_call',['../classtiramisu_1_1computation.html#af556bb9e098aaa4329981257ae45cf9a',1,'tiramisu::computation']]],
   ['median',['median',['../utils_8h.html#a3e5fcf2d9e3bd77099a451020cc4e3fc',1,'utils.h']]],
-  ['memcpy',['memcpy',['../classtiramisu_1_1cuda__ast_1_1memcpy.html',1,'tiramisu::cuda_ast']]],
-  ['memcpy',['memcpy',['../classtiramisu_1_1cuda__ast_1_1memcpy.html#a025ebfd1049ca9e2c825fa6997cff303',1,'tiramisu::cuda_ast::memcpy::memcpy()'],['../namespacetiramisu.html#aaa65f0974c7ba0558c907444371ae181',1,'tiramisu::memcpy()']]],
+  ['memcpy',['memcpy',['../classtiramisu_1_1cuda__ast_1_1memcpy.html',1,'tiramisu::cuda_ast::memcpy'],['../classtiramisu_1_1cuda__ast_1_1memcpy.html#a025ebfd1049ca9e2c825fa6997cff303',1,'tiramisu::cuda_ast::memcpy::memcpy()'],['../namespacetiramisu.html#aaa65f0974c7ba0558c907444371ae181',1,'tiramisu::memcpy()']]],
   ['memory_5flocation',['memory_location',['../namespacetiramisu_1_1cuda__ast.html#acfb6308d43d7336f88869b77ed15841d',1,'tiramisu::cuda_ast']]],
   ['mpi',['MPI',['../namespacetiramisu.html#a2c28d62b0449ae58b8fa324db8f35d72ae9583bd264381e74877636f771231dfa',1,'tiramisu']]],
   ['mpi_5fcomm_2eh',['mpi_comm.h',['../mpi__comm_8h.html',1,'']]]

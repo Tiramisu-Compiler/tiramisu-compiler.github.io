@@ -28,7 +28,7 @@ var core_8h =
       [ "GPU2CPU", "core_8h.html#a2c28d62b0449ae58b8fa324db8f35d72a0ad0cc9e458b72a64174d47135618883", null ],
       [ "GPU2GPU", "core_8h.html#a2c28d62b0449ae58b8fa324db8f35d72a7f2b43c5b92e5fc78abcaf589f27a770", null ]
     ] ],
-    [ "codegen", "core_8h.html#ad173f9a9034ac39eb0276fde5a58128f", null ],
+    [ "codegen", "core_8h.html#aa1cf7a519166e22546820fb953a17eaf", null ],
     [ "generate_new_computation_name", "core_8h.html#af52717988a1433be91009b659740f34c", null ],
     [ "get_computation_annotated_in_a_node", "core_8h.html#ad4cd7fea3db95ce67795e7ca473f56f2", null ],
     [ "halide_pipeline_to_tiramisu_function", "core_8h.html#aa3eb480cc5c989b33dc094cddd437218", null ],
