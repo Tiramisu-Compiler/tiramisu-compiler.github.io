@@ -55,8 +55,8 @@ void generate_code()
 Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
 ArXiv e-prints. February, 2018.
 
-- [Extending the Capabilities of Tiramisu](http://groups.csail.mit.edu/commit/papers/18/thesis_malek.pdf).
+- [Extending the Capabilities of Tiramisu](http://groups.csail.mit.edu/commit/papers/18/thesis_malek.pdf).<br/>
 Malek Ben Romdhane. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Jun, 2018.
 
-- [A Unified Compiler Backend for Distributed, Cooperative Heterogeneous Execution](http://groups.csail.mit.edu/commit/papers/18/jessica_master.pdf).
+- [A Unified Compiler Backend for Distributed, Cooperative Heterogeneous Execution](http://groups.csail.mit.edu/commit/papers/18/jessica_master.pdf).<br/>
 Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Feb, 2018.
