@@ -55,7 +55,7 @@ void generate_code()
 Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo, Patricia Suriana, Abdurrahman Akkas, Shoaib Kamil, Yunming Zhang, Saman Amarasinghe.
 International Symposium on Code Generation and Optimization. Washington DC, USA. Feb., 2019.
 
-- [A Unified Backend for Targeting FPGAs from DSLs](A Unified Backend for Targeting FPGAs from DSLs).<br/>
+- [A Unified Backend for Targeting FPGAs from DSLs](https://ieeexplore.ieee.org/document/8445108).<br/>
 Emanuele Del Sozzo ; Riyadh Baghdadi ; Saman Amarasinghe ; Marco D. Santambrogio
 2018 IEEE 29th International Conference on Application-specific Systems, Architectures and Processors (ASAP).
 Milan, Italy. July, 2018.
