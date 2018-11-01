@@ -53,7 +53,12 @@ void generate_code()
 
 - [Tiramisu: A Code Optimization Framework for High Performance Systems](https://arxiv.org/abs/1804.10694).<br/>
 Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo, Patricia Suriana, Abdurrahman Akkas, Shoaib Kamil, Yunming Zhang, Saman Amarasinghe.
-ArXiv e-prints. February, 2018.
+International Symposium on Code Generation and Optimization. Washington DC, USA. Feb., 2019.
+
+- [A Unified Backend for Targeting FPGAs from DSLs](A Unified Backend for Targeting FPGAs from DSLs).<br/>
+Emanuele Del Sozzo ; Riyadh Baghdadi ; Saman Amarasinghe ; Marco D. Santambrogio
+2018 IEEE 29th International Conference on Application-specific Systems, Architectures and Processors (ASAP).
+Milan, Italy. July, 2018.
 
 - [Extending the Capabilities of Tiramisu](http://groups.csail.mit.edu/commit/papers/18/thesis_malek.pdf).<br/>
 Malek Ben Romdhane. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Jun, 2018.
