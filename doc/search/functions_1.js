@@ -3,7 +3,7 @@ var searchData=
   ['abstract_5fidentifier',['abstract_identifier',['../classtiramisu_1_1cuda__ast_1_1abstract__identifier.html#aaea589a53ca616aeb79ec3c07a54d9c6',1,'tiramisu::cuda_ast::abstract_identifier']]],
   ['add_5fassociated_5flet_5fstmt',['add_associated_let_stmt',['../classtiramisu_1_1computation.html#ac731631b840bb6853af793ecc8b96253',1,'tiramisu::computation']]],
   ['add_5fattr',['add_attr',['../classtiramisu_1_1xfer__prop.html#aaa0459613466237960534e152714397b',1,'tiramisu::xfer_prop']]],
-  ['add_5fbuffer',['add_buffer',['../classtiramisu_1_1function.html#a223e03dc3c572a4619be27c048e1aa05',1,'tiramisu::function']]],
+  ['add_5fbuffer',['add_buffer',['../classtiramisu_1_1function.html#af457b5e0a82d5f72f3b8b79b59176ea9',1,'tiramisu::function']]],
   ['add_5fcomputation',['add_computation',['../classtiramisu_1_1function.html#a14af8c1e4fbb05b4f0e1d1d521ad8ab1',1,'tiramisu::function']]],
   ['add_5fcontext_5fconstraints',['add_context_constraints',['../classtiramisu_1_1function.html#a92b1a049a512671258cf346af4b59ec6',1,'tiramisu::function']]],
   ['add_5fdefinitions',['add_definitions',['../classtiramisu_1_1computation.html#a3bbac0c76308eea25b37462028bff3c4',1,'tiramisu::computation::add_definitions()'],['../classtiramisu_1_1send.html#a0337af888f54201bcd9028ad6b828398',1,'tiramisu::send::add_definitions()'],['../classtiramisu_1_1recv.html#a8a2661c43f388090fbb6f78f336f6f95',1,'tiramisu::recv::add_definitions()'],['../classtiramisu_1_1wait.html#a1d3920be5f7b708b29c9dd78b3f4f8c7',1,'tiramisu::wait::add_definitions()']]],
@@ -23,7 +23,7 @@ var searchData=
   ['allocate_5fand_5fmap_5fbuffer_5fautomatically',['allocate_and_map_buffer_automatically',['../classtiramisu_1_1computation.html#aeff7cfc17026f57393b1c315a686f5cd',1,'tiramisu::computation']]],
   ['allocate_5fand_5fmap_5fbuffers_5fautomatically',['allocate_and_map_buffers_automatically',['../classtiramisu_1_1function.html#af3e42f31722b17263102734867aaaa71',1,'tiramisu::function']]],
   ['allocate_5fat',['allocate_at',['../classtiramisu_1_1buffer.html#a7158f8659b2913fd3036e51ad615c801',1,'tiramisu::buffer::allocate_at(tiramisu::computation &amp;C, tiramisu::var level)'],['../classtiramisu_1_1buffer.html#a36e578830ba0b76f281587faeffdf97c',1,'tiramisu::buffer::allocate_at(tiramisu::computation &amp;C, int level)']]],
-  ['apply_5fto_5foperands',['apply_to_operands',['../classtiramisu_1_1expr.html#a149bd803d4bddd23b65b9c1cb5598f23',1,'tiramisu::expr']]],
+  ['apply_5fto_5foperands',['apply_to_operands',['../classtiramisu_1_1expr.html#a7a854677ab2307c5b514e5e3ed1fa33f',1,'tiramisu::expr']]],
   ['apply_5ftransformation_5fon_5fschedule',['apply_transformation_on_schedule',['../classtiramisu_1_1computation.html#a58c50e1fde5b2ebc3e27575d10448769',1,'tiramisu::computation']]],
   ['assignment',['assignment',['../classtiramisu_1_1cuda__ast_1_1assignment.html#acbd809d603205b4b1ff7bbe3169fe794',1,'tiramisu::cuda_ast::assignment']]],
   ['attr_5fto_5fstring',['attr_to_string',['../classtiramisu_1_1xfer__prop.html#a8043230c1a71036b439285626b06e8c2',1,'tiramisu::xfer_prop']]]

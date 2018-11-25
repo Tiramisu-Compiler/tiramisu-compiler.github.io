@@ -11,6 +11,7 @@ var namespacetiramisu =
     [ "global", "classtiramisu_1_1global.html", "classtiramisu_1_1global" ],
     [ "HalideCodegenOutput", "structtiramisu_1_1_halide_codegen_output.html", "structtiramisu_1_1_halide_codegen_output" ],
     [ "input", "classtiramisu_1_1input.html", "classtiramisu_1_1input" ],
+    [ "Input", "classtiramisu_1_1_input.html", "classtiramisu_1_1_input" ],
     [ "isl_ast_expr_deleter", "structtiramisu_1_1isl__ast__expr__deleter.html", "structtiramisu_1_1isl__ast__expr__deleter" ],
     [ "isl_ast_node_deleter", "structtiramisu_1_1isl__ast__node__deleter.html", "structtiramisu_1_1isl__ast__node__deleter" ],
     [ "isl_ast_node_list_deleter", "structtiramisu_1_1isl__ast__node__list__deleter.html", "structtiramisu_1_1isl__ast__node__list__deleter" ],
@@ -22,6 +23,7 @@ var namespacetiramisu =
     [ "sync", "classtiramisu_1_1sync.html", "classtiramisu_1_1sync" ],
     [ "utility", "classtiramisu_1_1utility.html", null ],
     [ "var", "classtiramisu_1_1var.html", "classtiramisu_1_1var" ],
+    [ "view", "classtiramisu_1_1view.html", "classtiramisu_1_1view" ],
     [ "wait", "classtiramisu_1_1wait.html", "classtiramisu_1_1wait" ],
     [ "xfer", "structtiramisu_1_1xfer.html", "structtiramisu_1_1xfer" ],
     [ "xfer_prop", "classtiramisu_1_1xfer__prop.html", "classtiramisu_1_1xfer__prop" ]

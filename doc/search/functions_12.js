@@ -25,6 +25,6 @@ var searchData=
   ['tiramisu_5faddress_5fof_5fuint8',['tiramisu_address_of_uint8',['../externs_8h.html#a7190a3c97011b3cc7d04b21c0b7c7b47',1,'externs.h']]],
   ['tiramisu_5foperation_5fdescription',['tiramisu_operation_description',['../namespacetiramisu_1_1cuda__ast.html#a72ceeaf6f1d1c6013612149004b3b6d6',1,'tiramisu::cuda_ast']]],
   ['tiramisu_5ftype_5fto_5fcuda_5ftype',['tiramisu_type_to_cuda_type',['../namespacetiramisu_1_1cuda__ast.html#ac7a084ae29d8385c801f75e85d6bf90e',1,'tiramisu::cuda_ast']]],
-  ['to_5fstr',['to_str',['../classtiramisu_1_1expr.html#a5b6f9023c258decd3919de46b23e9a94',1,'tiramisu::expr']]],
-  ['traverse_5fexpr_5fand_5fextract_5faccesses',['traverse_expr_and_extract_accesses',['../classtiramisu_1_1generator.html#a37eff048313a47c404d8f3e56ef59002',1,'tiramisu::generator']]]
+  ['to_5fstr',['to_str',['../classtiramisu_1_1expr.html#ac20a1ebf31591f0ce44c5009aaa16576',1,'tiramisu::expr']]],
+  ['traverse_5fexpr_5fand_5fextract_5faccesses',['traverse_expr_and_extract_accesses',['../classtiramisu_1_1generator.html#a48fac88a194919a3353c5c2b736b5b4c',1,'tiramisu::generator']]]
 ];

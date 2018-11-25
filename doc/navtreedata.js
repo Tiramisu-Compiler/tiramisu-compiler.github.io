@@ -1,32 +1,9 @@
-/*
-@ @licstart  The following is the entire license notice for the
-JavaScript code in this file.
-
-Copyright (C) 1997-2017 by Dimitri van Heesch
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-
-@licend  The above is the entire license notice
-for the JavaScript code in this file
-*/
 var NAVTREE =
 [
   [ "Tiramisu Compiler", "index.html", [
     [ "Documentation of the Tiramisu Compiler API", "index.html", null ],
-    [ "Namespaces", "namespaces.html", [
-      [ "Namespace List", "namespaces.html", "namespaces_dup" ],
+    [ "Namespaces", null, [
+      [ "Namespace List", "namespaces.html", "namespaces" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
@@ -45,8 +22,8 @@ var NAVTREE =
         [ "Enumerations", "functions_enum.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
@@ -60,9 +37,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_main_page_8h.html",
-"classtiramisu_1_1cuda__ast_1_1kernel.html#ade2fbeb8a919cf948ae0136f12a35e84",
-"classtiramisu_1_1recv.html#ac7f5dc540540833e3a79b2e6849890d0",
-"structtiramisu_1_1cuda__ast_1_1op__data__t.html#a3dace241cbfbf9420b71a1fe07419ede"
+"classtiramisu_1_1cuda__ast_1_1kernel.html#a6b7f0fc08d80267db5bacbe15be392bd",
+"classtiramisu_1_1recv.html#a9d1c9b98f7d35937d13eefefd13a2e7d",
+"structtiramisu_1_1cuda__ast_1_1gpu__iterator.html#a9f81920f61b3c4bb6d7a47a74d716892a415290769594460e2e485922904f345d"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

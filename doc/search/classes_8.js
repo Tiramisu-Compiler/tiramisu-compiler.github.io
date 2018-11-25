@@ -1,7 +1,7 @@
 var searchData=
 [
   ['if_5fcondition',['if_condition',['../classtiramisu_1_1cuda__ast_1_1if__condition.html',1,'tiramisu::cuda_ast']]],
-  ['input',['input',['../classtiramisu_1_1input.html',1,'tiramisu']]],
+  ['input',['Input',['../classtiramisu_1_1_input.html',1,'tiramisu::Input'],['../classtiramisu_1_1input.html',1,'tiramisu::input']]],
   ['isl_5fast_5fexpr_5fdeleter',['isl_ast_expr_deleter',['../structtiramisu_1_1isl__ast__expr__deleter.html',1,'tiramisu']]],
   ['isl_5fast_5fnode_5fdeleter',['isl_ast_node_deleter',['../structtiramisu_1_1isl__ast__node__deleter.html',1,'tiramisu']]],
   ['isl_5fast_5fnode_5flist_5fdeleter',['isl_ast_node_list_deleter',['../structtiramisu_1_1isl__ast__node__list__deleter.html',1,'tiramisu']]],

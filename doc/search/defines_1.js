@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['fn_5fcall',['FN_CALL',['../cuda__ast_8h.html#a6a973517a9b0bf70090e065dd7c9a2c5',1,'cuda_ast.h']]],
-  ['fn_5fcall2',['FN_CALL2',['../cuda__ast_8h.html#a29f58379ffaa089bf18834a3fef9ba3a',1,'cuda_ast.h']]],
-  ['fn_5fcall_5ftyped',['FN_CALL_TYPED',['../cuda__ast_8h.html#a5865d018490dec6d6b9d61b9de9952b3',1,'cuda_ast.h']]],
-  ['fn_5fcall_5ftyped2',['FN_CALL_TYPED2',['../cuda__ast_8h.html#a48579d2122e573578d3309e900227b31',1,'cuda_ast.h']]]
+  ['cast',['cast',['../macros_8h.html#a40265318c67433ff5f4850fd919fc5dd',1,'macros.h']]],
+  ['clamp',['clamp',['../macros_8h.html#a332804c580b9dfaa2b60075107da2055',1,'macros.h']]]
 ];
