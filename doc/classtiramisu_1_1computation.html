@@ -2964,7 +2964,7 @@ template&lt;typename... Args&gt; </div>
 </div><div class="memdoc">
 
 <p>Apply loop skewing on the loop levels <code>i</code> and <code>j</code>. </p>
-<p>The names of the new loop levels is <code>new_i</code> and <code>new_j</code>.</p>
+<p>The names of the new loop levels is <code>ni</code> and <code>nj</code>.</p>
 <p>This command transforms the loop (i, j) into the loop (i, i+j). For example if you have the following loop</p>
 <div class="fragment"><div class="line">  <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; N; i++)</div><div class="line"><span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 1; j &lt; M; j++)</div><div class="line">  a[i][j] = a[i - 1][j] + a[i][j - 1];</div></div><!-- fragment --><p>and apply</p>
 <div class="fragment"><div class="line">a.skew(i, j, ni, nj)</div></div><!-- fragment --><p>you would get</p>
