@@ -49,14 +49,15 @@ var searchData=
   ['simplified_5fname',['simplified_name',['../structtiramisu_1_1cuda__ast_1_1gpu__iterator.html#ae8c19bc0c40d80bbe7b8684f005b98b9',1,'tiramisu::cuda_ast::gpu_iterator']]],
   ['simplify',['simplify',['../classtiramisu_1_1expr.html#a17efd4380305ebef31a7e485fd20dc16',1,'tiramisu::expr']]],
   ['size',['size',['../structtiramisu_1_1cuda__ast_1_1gpu__iterator.html#a9b7cf2279ee8012a1e9b2bc103d5998d',1,'tiramisu::cuda_ast::gpu_iterator']]],
+  ['skew',['skew',['../classtiramisu_1_1computation.html#ac6bca384648d9f3b88726863b781ece4',1,'tiramisu::computation::skew(tiramisu::var i, tiramisu::var j, tiramisu::var ni, tiramisu::var nj)'],['../classtiramisu_1_1computation.html#a6f623a85d63b6780d9b0eff79064609c',1,'tiramisu::computation::skew(tiramisu::var i, tiramisu::var j)'],['../classtiramisu_1_1computation.html#a8a15fdb8048a2afdcbd2b5fdaf5f07ef',1,'tiramisu::computation::skew(int i, int j)']]],
   ['split',['split',['../classtiramisu_1_1computation.html#a71ba41faf9403d2db864c886db0301d4',1,'tiramisu::computation::split(tiramisu::var L0, int sizeX)'],['../classtiramisu_1_1computation.html#a6781ec005a7e9696b77f06d29d0d8e14',1,'tiramisu::computation::split(tiramisu::var L0, int sizeX, tiramisu::var L0_outer, tiramisu::var L0_inner)'],['../classtiramisu_1_1computation.html#ab7f5c3c9ca7a9dad31d53936cd268ee9',1,'tiramisu::computation::split(int L0, int sizeX)']]],
   ['split_5fstring',['split_string',['../namespacetiramisu.html#a4c3653ce8b36f093662a5a7a1b031ea9',1,'tiramisu']]],
   ['sr',['sr',['../structtiramisu_1_1xfer.html#ada81c942c12bcebf29b6afad873b118b',1,'tiramisu::xfer']]],
   ['start',['start',['../classtiramisu__timer.html#ab419ad18f8ea9028199941a6a807df89',1,'tiramisu_timer']]],
   ['start_5ftiming',['start_timing',['../classtiramisu__timer.html#a6c55a656730f563441e9784c54e997fc',1,'tiramisu_timer']]],
   ['starting_5fcomputations',['starting_computations',['../classtiramisu_1_1function.html#a587856ea73f0f552cc711091a3b8ced8',1,'tiramisu::function']]],
-  ['statement',['statement',['../classtiramisu_1_1cuda__ast_1_1statement.html#afb8f4b3d78c7604f9e35343475141135',1,'tiramisu::cuda_ast::statement']]],
   ['statement',['statement',['../classtiramisu_1_1cuda__ast_1_1statement.html',1,'tiramisu::cuda_ast']]],
+  ['statement',['statement',['../classtiramisu_1_1cuda__ast_1_1statement.html#afb8f4b3d78c7604f9e35343475141135',1,'tiramisu::cuda_ast::statement']]],
   ['statement_5fptr',['statement_ptr',['../namespacetiramisu_1_1cuda__ast.html#afccf9d5f28f50c164fd9f6b915d8d161',1,'tiramisu::cuda_ast']]],
   ['std_5ferr',['std_err',['../cuda__ast_8h.html#ac80c2ba86d187622d0bb360d15eec46e',1,'cuda_ast.h']]],
   ['std_5fout',['std_out',['../cuda__ast_8h.html#a1c94eec8f4711c6bc0291df742c07226',1,'cuda_ast.h']]],
@@ -72,7 +73,7 @@ var searchData=
   ['substitute',['substitute',['../classtiramisu_1_1expr.html#a3cbc1079941cf0c7c840b238e4d53b9a',1,'tiramisu::expr']]],
   ['substitute_5faccess',['substitute_access',['../classtiramisu_1_1expr.html#ae13f8ab7123bb8628297d7c13f839851',1,'tiramisu::expr']]],
   ['symbol',['symbol',['../structtiramisu_1_1cuda__ast_1_1op__data__t.html#aabb1023f974323792a2a7eba5b141480',1,'tiramisu::cuda_ast::op_data_t']]],
+  ['sync',['sync',['../classtiramisu_1_1cuda__ast_1_1sync.html#a51800f1b88580d7566206bf2f6df72ff',1,'tiramisu::cuda_ast::sync::sync()'],['../classtiramisu_1_1sync.html#a8e86d9f88ae4c5f55d89d2da2fdf6035',1,'tiramisu::sync::sync()'],['../namespacetiramisu.html#a2c28d62b0449ae58b8fa324db8f35d72a49655e8a65c2564d4aac55794d984860',1,'tiramisu::SYNC()']]],
   ['sync',['sync',['../classtiramisu_1_1cuda__ast_1_1sync.html',1,'tiramisu::cuda_ast']]],
-  ['sync',['sync',['../classtiramisu_1_1sync.html',1,'tiramisu']]],
-  ['sync',['sync',['../classtiramisu_1_1cuda__ast_1_1sync.html#a51800f1b88580d7566206bf2f6df72ff',1,'tiramisu::cuda_ast::sync::sync()'],['../classtiramisu_1_1sync.html#a8e86d9f88ae4c5f55d89d2da2fdf6035',1,'tiramisu::sync::sync()'],['../namespacetiramisu.html#a2c28d62b0449ae58b8fa324db8f35d72a49655e8a65c2564d4aac55794d984860',1,'tiramisu::SYNC()']]]
+  ['sync',['sync',['../classtiramisu_1_1sync.html',1,'tiramisu']]]
 ];
