@@ -140,9 +140,9 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:ab9279bdb5421fe161232ff093213a66d"><td class="memItemLeft" align="right" valign="top">static isl_constraint *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1generator.html#ab9279bdb5421fe161232ff093213a66d">get_constraint_for_access</a> (int access_dimension, const <a class="el" href="classtiramisu_1_1expr.html">tiramisu::expr</a> &amp;access_expression, isl_map *access_relation, isl_constraint *cst, int coeff, const <a class="el" href="classtiramisu_1_1function.html">tiramisu::function</a> *fct)</td></tr>
 <tr class="memdesc:ab9279bdb5421fe161232ff093213a66d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analyze the <code>access_expression</code> and return a set of constraints that correspond to the access pattern of the access_expression.  <a href="#ab9279bdb5421fe161232ff093213a66d">More...</a><br /></td></tr>
 <tr class="separator:ab9279bdb5421fe161232ff093213a66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a749e586da44d8b34dbfcc2794639b4e6"><td class="memItemLeft" align="right" valign="top">static Halide::Internal::Stmt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1generator.html#a749e586da44d8b34dbfcc2794639b4e6">halide_stmt_from_isl_node</a> (const <a class="el" href="classtiramisu_1_1function.html">tiramisu::function</a> &amp;fct, isl_ast_node *node, int level, std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;tagged_stmts, bool is_a_child_block, std::unordered_map&lt; std::string, std::list&lt; <a class="el" href="namespacetiramisu_1_1cuda__ast.html#a9ee638b6ecbe46064b254c73be6e40d7">cuda_ast::kernel_ptr</a> &gt;&gt; &amp;iterator_to_kernel_map)</td></tr>
-<tr class="memdesc:a749e586da44d8b34dbfcc2794639b4e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a Halide statement from an ISL ast node object in the ISL ast tree.  <a href="#a749e586da44d8b34dbfcc2794639b4e6">More...</a><br /></td></tr>
-<tr class="separator:a749e586da44d8b34dbfcc2794639b4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b0aa9f4b68c050a42d77f16f023f09f"><td class="memItemLeft" align="right" valign="top">static Halide::Internal::Stmt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1generator.html#a4b0aa9f4b68c050a42d77f16f023f09f">halide_stmt_from_isl_node</a> (const <a class="el" href="classtiramisu_1_1function.html">tiramisu::function</a> &amp;fct, isl_ast_node *node, int level, std::vector&lt; std::pair&lt; std::string, std::string &gt;&gt; &amp;tagged_stmts, bool is_a_child_block)</td></tr>
+<tr class="memdesc:a4b0aa9f4b68c050a42d77f16f023f09f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a Halide statement from an ISL ast node object in the ISL ast tree.  <a href="#a4b0aa9f4b68c050a42d77f16f023f09f">More...</a><br /></td></tr>
+<tr class="separator:a4b0aa9f4b68c050a42d77f16f023f09f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae73117bba46430da206684c3c767018e"><td class="memItemLeft" align="right" valign="top">static Halide::Internal::Stmt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1generator.html#ae73117bba46430da206684c3c767018e">make_halide_block</a> (const Halide::Internal::Stmt &amp;first, const Halide::Internal::Stmt &amp;second)</td></tr>
 <tr class="separator:ae73117bba46430da206684c3c767018e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22836d6bb7692da178536f03f92937bf"><td class="memItemLeft" align="right" valign="top">static Halide::Internal::Stmt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtiramisu_1_1generator.html#a22836d6bb7692da178536f03f92937bf">make_buffer_alloc</a> (<a class="el" href="classtiramisu_1_1buffer.html">buffer</a> *b, const std::vector&lt; Halide::Expr &gt; &amp;extents, Halide::Internal::Stmt &amp;stmt)</td></tr>
@@ -190,7 +190,7 @@ Static Protected Member Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A class for code generation. </p>
 
-<p>Definition at line <a class="el" href="core_8h_source.html#l04246">4246</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
+<p>Definition at line <a class="el" href="core_8h_source.html#l04288">4288</a> of file <a class="el" href="core_8h_source.html">core.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ac7aebd0964431ddf52db5f2264f6b878"></a>
 <div class="memitem">
@@ -563,7 +563,7 @@ Static Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a749e586da44d8b34dbfcc2794639b4e6"></a>
+<a class="anchor" id="a4b0aa9f4b68c050a42d77f16f023f09f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -598,13 +598,7 @@ Static Protected Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>is_a_child_block</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::unordered_map&lt; std::string, std::list&lt; <a class="el" href="namespacetiramisu_1_1cuda__ast.html#a9ee638b6ecbe46064b254c73be6e40d7">cuda_ast::kernel_ptr</a> &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>iterator_to_kernel_map</em>&#160;</td>
+          <td class="paramname"><em>is_a_child_block</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

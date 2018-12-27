@@ -13,7 +13,6 @@ var namespacetiramisu =
     [ "input", "classtiramisu_1_1input.html", "classtiramisu_1_1input" ],
     [ "Input", "classtiramisu_1_1_input.html", "classtiramisu_1_1_input" ],
     [ "isl_ast_expr_deleter", "structtiramisu_1_1isl__ast__expr__deleter.html", "structtiramisu_1_1isl__ast__expr__deleter" ],
-    [ "isl_ast_node_deleter", "structtiramisu_1_1isl__ast__node__deleter.html", "structtiramisu_1_1isl__ast__node__deleter" ],
     [ "isl_ast_node_list_deleter", "structtiramisu_1_1isl__ast__node__list__deleter.html", "structtiramisu_1_1isl__ast__node__list__deleter" ],
     [ "isl_id_deleter", "structtiramisu_1_1isl__id__deleter.html", "structtiramisu_1_1isl__id__deleter" ],
     [ "isl_val_deleter", "structtiramisu_1_1isl__val__deleter.html", "structtiramisu_1_1isl__val__deleter" ],

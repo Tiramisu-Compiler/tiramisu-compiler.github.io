@@ -2,7 +2,6 @@ var cuda__ast_8h =
 [
     [ "isl_ast_expr_deleter", "structtiramisu_1_1isl__ast__expr__deleter.html", "structtiramisu_1_1isl__ast__expr__deleter" ],
     [ "isl_id_deleter", "structtiramisu_1_1isl__id__deleter.html", "structtiramisu_1_1isl__id__deleter" ],
-    [ "isl_ast_node_deleter", "structtiramisu_1_1isl__ast__node__deleter.html", "structtiramisu_1_1isl__ast__node__deleter" ],
     [ "isl_ast_node_list_deleter", "structtiramisu_1_1isl__ast__node__list__deleter.html", "structtiramisu_1_1isl__ast__node__list__deleter" ],
     [ "isl_val_deleter", "structtiramisu_1_1isl__val__deleter.html", "structtiramisu_1_1isl__val__deleter" ],
     [ "op_data_t", "structtiramisu_1_1cuda__ast_1_1op__data__t.html", "structtiramisu_1_1cuda__ast_1_1op__data__t" ],
@@ -61,7 +60,6 @@ var cuda__ast_8h =
     [ "buffer_ptr", "cuda__ast_8h.html#aa5790576eb12843432b4a007bcfe2790", null ],
     [ "isl_ast_expr_ptr", "cuda__ast_8h.html#a22bad767c5c912261aa9f8e31c8d4a15", null ],
     [ "isl_ast_node_list_ptr", "cuda__ast_8h.html#ab8441fff6c8a299bdf7a5b944185ac8c", null ],
-    [ "isl_ast_node_ptr", "cuda__ast_8h.html#a168311852a27d4422aa92366a9a86406", null ],
     [ "isl_id_ptr", "cuda__ast_8h.html#a184d0af0435bbbec20d098a48e64722d", null ],
     [ "isl_val_ptr", "cuda__ast_8h.html#a064829da0c562c5efffa6f2b8031a06f", null ],
     [ "kernel_ptr", "cuda__ast_8h.html#a9ee638b6ecbe46064b254c73be6e40d7", null ],
