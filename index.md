@@ -51,9 +51,9 @@ void generate_code()
 
 ### Publications
 
-- [Tiramisu: A Code Optimization Framework for High Performance Systems](https://arxiv.org/abs/1804.10694).<br/>
-Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo, Patricia Suriana, Abdurrahman Akkas, Shoaib Kamil, Yunming Zhang, Saman Amarasinghe.
-International Symposium on Code Generation and Optimization. Washington DC, USA. Feb., 2019.
+- [Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code](https://arxiv.org/abs/1804.10694).<br/>
+Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo,  Abdurrahman Akkas, Yunming Zhang, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
+International Symposium on Code Generation and Optimization (CGO'19). Washington DC, USA. Feb., 2019.
 
 - [A Unified Backend for Targeting FPGAs from DSLs](https://ieeexplore.ieee.org/document/8445108).<br/>
 Emanuele Del Sozzo, Riyadh Baghdadi, Saman Amarasinghe, Marco D. Santambrogio.
