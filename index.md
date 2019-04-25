@@ -40,12 +40,12 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
   <tr>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="859" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56705143-c3c84b80-66dd-11e9-9942-a5801899494f.png">
+        <img width="859" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56705582-777e0b00-66df-11e9-8eb7-d9414810d5dc.png">
         GEMM - Comparison with Polyhedral Compilers (CPU)</div>
     </th>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="861" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56704989-34bb3380-66dd-11e9-9444-dc97a21b59d7.png">
+        <img width="859" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56705509-2ff77f00-66df-11e9-878d-5fda8e40e5d8.png">
         GEMM - Comparison with Polyhedral Compilers (GPU)</div>
     </th>
   </tr>
