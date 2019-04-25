@@ -5,6 +5,35 @@ Tiramisu is a polyhedral compiler for expressing fast and portable data parallel
 
 The Tiramisu compiler is based on the polyhedral model thus it can express a large set of loop optimizations and data layout transformations.  Currently it targets (1) multicore X86 CPUs, (2) Nvidia GPUs, (3) Xilinx FPGAs (Vivado HLS) and (4) distributed machines (using MPI).  It is designed to enable easy integration of code generators for new architectures.
 
+### Where to Use Tiramisu?
+
+<p align="center">
+<div align="center">
+<table style="margin: 0px auto;">
+  <tr>
+    <th>
+        <div style="width:image width px; font-size:80%; text-align:center;">
+        <img src="https://user-images.githubusercontent.com/9944372/56697114-dfbaf580-66bb-11e9-8655-b9af8127cb83.jpg" alt="drawing" width="200"/>
+        </br>
+        Image Processing</div>
+    </th>
+    <th>
+        <div style="width:image width px; font-size:80%; text-align:center;">
+        <img src="https://user-images.githubusercontent.com/9944372/56697898-109c2a00-66be-11e9-858e-7ef46271bc27.png" alt="drawing" width="300"/>
+        </br>
+        Deep Learning</div>
+    </th>
+    <th>
+        <div style="width:image width px; font-size:80%; text-align:center;">
+        <img src="https://user-images.githubusercontent.com/9944372/56697914-1c87ec00-66be-11e9-86fe-dde11657ea41.gif" alt="drawing" width="200"/>
+        </br>
+        Scientific Computing</div>
+    </th>
+  </tr>
+</table>
+</div>
+</p>
+
 ### Example
 
 
