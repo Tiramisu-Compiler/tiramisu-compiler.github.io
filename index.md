@@ -18,7 +18,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
     </th>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img src="https://user-images.githubusercontent.com/9944372/56697898-109c2a00-66be-11e9-858e-7ef46271bc27.png" alt="drawing" width="305"/>
+        <img src="https://user-images.githubusercontent.com/9944372/56697898-109c2a00-66be-11e9-858e-7ef46271bc27.png" alt="drawing" width="315"/>
         Deep Learning</div>
     </th>
     <th>
