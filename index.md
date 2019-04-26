@@ -31,8 +31,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 </div>
 </p>
 
-
-### Performance Comparison
+### Performance in Deep Learning
 
 <p align="center">
 <div align="center">
@@ -40,19 +39,37 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
   <tr>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="859" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56705582-777e0b00-66df-11e9-8eb7-d9414810d5dc.png">
-        GEMM - Comparison with Polyhedral Compilers (CPU)</div>
+        <img width="600" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835085-36057100-6841-11e9-9535-4925e0d6e9cb.png">
+        Convolution - Comparing Tiramisu and Intel MKL for Different Sizes (CPU)</div>
     </th>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="859" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56705509-2ff77f00-66df-11e9-878d-5fda8e40e5d8.png">
-        GEMM - Comparison with Polyhedral Compilers (GPU)</div>
+        <img width="600" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56835090-37cf3480-6841-11e9-980c-c559c3b78280.png">
+        GEMM - Comparing Tiramisu and Intel MKL for Different Sizes (CPU) </div>
     </th>
   </tr>
 </table>
 </div>
 </p>
 
+<p align="center">
+<div align="center">
+<table style="margin: 0px auto;">
+  <tr>
+    <th>
+        <div style="width:image width px; font-size:80%; text-align:center;">
+        <img width="600" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835478-53870a80-6842-11e9-916b-00a3a709369a.png">
+        Comparing DNN Compilers for LSTM (GPU)</div>
+    </th>
+    <th>
+        <div style="width:image width px; font-size:80%; text-align:center;">
+        <img width="600" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56835172-8250b100-6841-11e9-9fd8-f8c87e0f1b27.png">
+        Various DNN Blocks - Comparing Tiramisu and Intel (GPU)</div>
+    </th>
+  </tr>
+</table>
+</div>
+</p>
 
 ### Example
 
@@ -114,3 +131,26 @@ Malek Ben Romdhane. MEng Thesis, Massachusetts Institute of Technology. Cambridg
 
 - [A Unified Compiler Backend for Distributed, Cooperative Heterogeneous Execution](http://groups.csail.mit.edu/commit/papers/18/jessica_master.pdf).<br/>
 Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Feb, 2018.
+
+
+### Comparison with Polyhedral Compilers
+
+<p align="center">
+<div align="center">
+<table style="margin: 0px auto;">
+  <tr>
+    <th>
+        <div style="width:image width px; font-size:80%; text-align:center;">
+        <img width="600" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835016-06566900-6841-11e9-9e51-7fb25502ad9b.png">
+        GEMM - Comparison with Polyhedral Compilers (CPU)</div>
+    </th>
+    <th>
+        <div style="width:image width px; font-size:80%; text-align:center;">
+        <img width="600" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56835033-153d1b80-6841-11e9-90a6-4d42b34bc24d.png">
+        GEMM - Comparison with Polyhedral Compilers (GPU)</div>
+    </th>
+  </tr>
+</table>
+</div>
+</p>
+
