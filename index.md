@@ -32,12 +32,13 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 </p>
 
 ### Why Tiramisu?
-* Tiramisu can perform complex loop transformations.
-* Tiramisu generates efficient code.
-* Tiramisu is designed to target different hardware architectures.
-* Tiramisu can express programs with cycles in their data-flow graph (e.g., recurrent neural networks), unlike many state-of-the-art DSL compilers.
-* Tiramisu supports naturally non-rectangular iteration spaces.
-* Tiramisu uses dependence analysis to guarantee the correctness of optimizations.
+* Tiramisu is designed to target different hardware architectures (thanks to its multi-layer IR).
+* Tiramisu generates efficient code (thanks to its scheduling language).
+* Tiramisu is a polyhedral compiler, therefore:
+    * It can perform complex loop transformations.
+    * It can express programs with cycles in their data-flow graph (e.g., recurrent neural networks), unlike many state-of-the-art DSL compilers.
+    * It supports naturally non-rectangular iteration spaces.
+    * It uses dependence analysis to guarantee the correctness of optimizations.
 
 ### Performance in Deep Learning
 
@@ -130,7 +131,7 @@ Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridg
   <tr>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="600" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835478-53870a80-6842-11e9-916b-00a3a709369a.png">
+        <img width="850" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835478-53870a80-6842-11e9-916b-00a3a709369a.png">
         LSTM (GPU)</div>
     </th>
     <th>
