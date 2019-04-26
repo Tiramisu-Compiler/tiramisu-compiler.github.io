@@ -52,25 +52,6 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 </div>
 </p>
 
-<p align="center">
-<div align="center">
-<table style="margin: 0px auto;">
-  <tr>
-    <th>
-        <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="600" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835478-53870a80-6842-11e9-916b-00a3a709369a.png">
-        Comparing DNN Compilers for LSTM (GPU)</div>
-    </th>
-    <th>
-        <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="600" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56835172-8250b100-6841-11e9-9fd8-f8c87e0f1b27.png">
-        Various DNN Blocks - Comparing Tiramisu and Intel (GPU)</div>
-    </th>
-  </tr>
-</table>
-</div>
-</p>
-
 ### Example
 
 
@@ -131,6 +112,28 @@ Malek Ben Romdhane. MEng Thesis, Massachusetts Institute of Technology. Cambridg
 
 - [A Unified Compiler Backend for Distributed, Cooperative Heterogeneous Execution](http://groups.csail.mit.edu/commit/papers/18/jessica_master.pdf).<br/>
 Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Feb, 2018.
+
+
+### More Deep Learning Comparisons
+
+<p align="center">
+<div align="center">
+<table style="margin: 0px auto;">
+  <tr>
+    <th>
+        <div style="width:image width px; font-size:80%; text-align:center;">
+        <img width="600" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835478-53870a80-6842-11e9-916b-00a3a709369a.png">
+        Comparing DNN Compilers for LSTM (GPU)</div>
+    </th>
+    <th>
+        <div style="width:image width px; font-size:80%; text-align:center;">
+        <img width="600" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56835172-8250b100-6841-11e9-9fd8-f8c87e0f1b27.png">
+        Various DNN Blocks - Comparing Tiramisu and Intel (GPU)</div>
+    </th>
+  </tr>
+</table>
+</div>
+</p>
 
 
 ### Comparison with Polyhedral Compilers
