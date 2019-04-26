@@ -36,7 +36,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 * Tiramisu generates efficient code (thanks to its scheduling language).
 * Tiramisu is a polyhedral compiler, therefore:
     * It can perform complex loop transformations.
-    * It can express programs with cycles in their data-flow graph (e.g., recurrent neural networks), unlike many state-of-the-art DSL compilers.
+    * It can express programs with cycles in their data-flow graph (e.g., RNNs).
     * It supports naturally non-rectangular iteration spaces.
     * It uses dependence analysis to guarantee the correctness of optimizations.
 
