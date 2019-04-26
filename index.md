@@ -54,7 +54,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
         <img width="600" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56835090-37cf3480-6841-11e9-980c-c559c3b78280.png">
-        GEMM - Comparing Tiramisu and Intel MKL for Different Sizes (CPU) </div>
+        GEMM - Comparing Tiramisu and Intel MKL for Different Matrix Sizes (CPU) </div>
     </th>
   </tr>
 </table>
