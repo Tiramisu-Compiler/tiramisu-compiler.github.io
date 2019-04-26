@@ -5,7 +5,7 @@ Tiramisu is a polyhedral compiler for expressing fast and portable data parallel
 
 The Tiramisu compiler is based on the polyhedral model thus it can express a large set of loop optimizations and data layout transformations.  Currently it targets (1) multicore X86 CPUs, (2) Nvidia GPUs, (3) Xilinx FPGAs (Vivado HLS) and (4) distributed machines (using MPI).  It is designed to enable easy integration of code generators for new architectures.
 
-### Where to Use Tiramisu?
+## Where to Use Tiramisu?
 
 <p align="center">
 <div align="center">
@@ -31,7 +31,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 </div>
 </p>
 
-### Why Tiramisu?
+## Why Tiramisu?
 * Tiramisu is designed to target different hardware architectures (thanks to its multi-layer IR).
 * Tiramisu generates efficient code (thanks to its scheduling language).
 * Tiramisu is a polyhedral compiler, therefore:
@@ -40,7 +40,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
     * It supports naturally non-rectangular iteration spaces.
     * It uses dependence analysis to guarantee the correctness of optimizations.
 
-### Performance in Deep Learning
+## Performance in Deep Learning
 
 <p align="center">
 <div align="center">
@@ -61,7 +61,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 </div>
 </p>
 
-### Example
+## Example
 
 
 The following is an example of a Tiramisu program specified using the C++ API.
@@ -97,7 +97,7 @@ void generate_code()
 }
 ```
 
-### Getting Started
+## Getting Started
 - Build [Tiramisu](https://github.com/Tiramisu-Compiler/tiramisu/).
 - Read the [Tutorials](https://github.com/Tiramisu-Compiler/tiramisu/blob/master/tutorials/README.md).
 - Read the [Tiramisu Paper](https://arxiv.org/abs/1804.10694).
@@ -105,7 +105,7 @@ void generate_code()
 - Read the compiler [internal documentation](https://tiramisu-compiler.github.io/doc/) (if you want to contribute to the compiler).
 
 
-### Publications
+## Publications
 
 - [Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code](https://arxiv.org/abs/1804.10694).<br/>
 Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo,  Abdurrahman Akkas, Yunming Zhang, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
@@ -123,7 +123,7 @@ Malek Ben Romdhane. MEng Thesis, Massachusetts Institute of Technology. Cambridg
 Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Feb, 2018.
 
 
-### More Deep Learning Comparisons
+## More Deep Learning Comparisons
 
 <p align="center">
 <div align="center">
@@ -145,7 +145,7 @@ Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridg
 </p>
 
 
-### Comparison with Polyhedral Compilers
+## Comparison with Polyhedral Compilers
 
 <p align="center">
 <div align="center">
