@@ -1,7 +1,7 @@
 {% include includes.html %}
 
 ## Overview
-Tiramisu is a polyhedral compiler for expressing fast and portable data parallel algorithms.  It provides a simple C++ API for expressing algorithms (`Tiramisu expressions`) and how these algorithms should be optimized by the compiler.  Tiramisu can be used in areas such as linear and tensor algebra, deep learning, image processing, stencil computations and machine learning.
+Tiramisu is a polyhedral compiler for expressing fast and portable data parallel algorithms.  It provides a simple C++ API for expressing algorithms and how these algorithms should be optimized by the compiler.
 
 The Tiramisu compiler is based on the polyhedral model thus it can express a large set of loop optimizations and data layout transformations.  Currently it targets (1) multicore X86 CPUs, (2) Nvidia GPUs, (3) Xilinx FPGAs (Vivado HLS) and (4) distributed machines (using MPI).  It is designed to enable easy integration of code generators for new architectures.
 
@@ -31,6 +31,14 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 </div>
 </p>
 
+### Why Tiramisu?
+* Tiramisu can perform complex loop transformations.
+* Tiramisu generates efficient code.
+* Tiramisu is designed to target different hardware architectures.
+* Tiramisu can express programs with cycles in their data-flow graph (e.g., recurrent neural networks), unlike many state-of-the-art DSL compilers.
+* Tiramisu supports naturally non-rectangular iteration spaces.
+* Tiramisu uses dependence analysis to guarantee the correctness of optimizations.
+
 ### Performance in Deep Learning
 
 <p align="center">
@@ -39,8 +47,8 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
   <tr>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="600" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835085-36057100-6841-11e9-9535-4925e0d6e9cb.png">
-        Convolution - Comparing Tiramisu and Intel MKL for Different Sizes (CPU)</div>
+        <img width="510" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835085-36057100-6841-11e9-9535-4925e0d6e9cb.png">
+        Convolution - Comparing Tiramisu and Intel MKL for Different ResNet Layer Sizes (CPU)</div>
     </th>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
@@ -123,12 +131,12 @@ Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridg
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
         <img width="600" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835478-53870a80-6842-11e9-916b-00a3a709369a.png">
-        Comparing DNN Compilers for LSTM (GPU)</div>
+        LSTM (GPU)</div>
     </th>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
         <img width="600" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56835172-8250b100-6841-11e9-9fd8-f8c87e0f1b27.png">
-        Various DNN Blocks - Comparing Tiramisu and Intel (GPU)</div>
+        DNN Blocks and Tensor Operations (CPU)</div>
     </th>
   </tr>
 </table>
