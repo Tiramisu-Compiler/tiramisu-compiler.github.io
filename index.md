@@ -39,6 +39,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
     * It can express programs with cycles in their data-flow graph (e.g., RNNs).
     * It supports naturally non-rectangular iteration spaces.
     * It uses dependence analysis to guarantee the correctness of optimizations.
+* Tiramisu provides a platform for research on using machine learning for automatic optimization (it has an automatic code generator, examples of performance models, ...).
 
 ## Performance in Deep Learning
 
@@ -48,18 +49,22 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
   <tr>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="510" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835085-36057100-6841-11e9-9535-4925e0d6e9cb.png">
-        Convolution - Comparing Tiramisu and Intel MKL for Different ResNet Layer Sizes (CPU)</div>
+        <img width="650" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835085-36057100-6841-11e9-9535-4925e0d6e9cb.png">
+        Performance of a convolution implemented in Tiramisu compared to Intel MKL (CPU) for different input sizes (*).</div>
     </th>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="600" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56835090-37cf3480-6841-11e9-980c-c559c3b78280.png">
-        GEMM - Comparing Tiramisu and Intel MKL for Different Matrix Sizes (CPU) </div>
+        <img width="750" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835478-53870a80-6842-11e9-916b-00a3a709369a.png">
+        Performance of LSTM implemented in Tiramisu compared to cuDNN (GPU) (**).</div>
     </th>
   </tr>
 </table>
 </div>
 </p>
+
+(*) The different sizes are extracted from the ResNet paper. CXY is the size of the layer X in ResNet and Y indicates the batch size (Y=0 for a batch size of 32, Y=1 for 64 and Y=2 for 100).
+
+(**) Tensor Comprehensions and Halide do not support LSTMs.
 
 ## Example
 
@@ -123,28 +128,6 @@ Malek Ben Romdhane. MEng Thesis, Massachusetts Institute of Technology. Cambridg
 Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Feb, 2018.
 
 
-## More Deep Learning Comparisons
-
-<p align="center">
-<div align="center">
-<table style="margin: 0px auto;">
-  <tr>
-    <th>
-        <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="850" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835478-53870a80-6842-11e9-916b-00a3a709369a.png">
-        LSTM (GPU)</div>
-    </th>
-    <th>
-        <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="600" alt="GPU" src="https://user-images.githubusercontent.com/9944372/56835172-8250b100-6841-11e9-9fd8-f8c87e0f1b27.png">
-        DNN Blocks and Tensor Operations (CPU)</div>
-    </th>
-  </tr>
-</table>
-</div>
-</p>
-
-
 ## Comparison with Polyhedral Compilers
 
 <p align="center">
@@ -166,3 +149,4 @@ Jessica Morgan Ray. MEng Thesis, Massachusetts Institute of Technology. Cambridg
 </div>
 </p>
 
+Matrix dimension sizes for CPU: 1060x1060x1060. GPU: 3072x3072x3072.
