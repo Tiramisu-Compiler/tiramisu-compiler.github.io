@@ -64,7 +64,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 
 (*) The different sizes are extracted from the ResNet paper. CXY is the size of the layer X in ResNet and Y indicates the batch size (Y=0 for a batch size of 32, Y=1 for 64 and Y=2 for 100).
 
-(**) Tensor Comprehensions and Halide do not support LSTMs.
+(**) Tensor Comprehensions and Halide cannot express LSTM because LSTM is a recurrent algorithm that creates a cycle in the data-flow graph.
 
 ## Example
 
@@ -93,12 +93,9 @@ void generate_code()
     // Specify optimizations
     C.parallelize(i);
     C.vectorize(j, 4);
-    
-    buffer b_C("b_C", {100, 100}, p_int32, a_output);
-    C.store_in(&b_C);
 
     // Generate code
-    C.codegen({&b_C}, "generated_code.o");
+    C.codegen({&C.get_buffer()}, "generated_code.o");
 }
 ```
 
@@ -110,7 +107,7 @@ void generate_code()
 - Read the compiler [internal documentation](https://tiramisu-compiler.github.io/doc/) (if you want to contribute to the compiler).
 
 
-## Publications
+## Selected Publications
 
 - [Tiramisu: A Polyhedral Compiler for Expressing Fast and Portable Code](https://arxiv.org/abs/1804.10694).<br/>
 Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo,  Abdurrahman Akkas, Yunming Zhang, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
