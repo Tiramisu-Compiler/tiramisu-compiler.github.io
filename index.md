@@ -49,7 +49,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
   <tr>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="650" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835085-36057100-6841-11e9-9535-4925e0d6e9cb.png">
+        <img width="650" alt="CPU" src="https://user-images.githubusercontent.com/9944372/58507188-27231e80-815f-11e9-8aa5-095ac4364dbe.png">
         Performance of a convolution implemented in Tiramisu compared to Intel MKL (CPU) for different input sizes (*).</div>
     </th>
     <th>
