@@ -118,6 +118,9 @@ Emanuele Del Sozzo, Riyadh Baghdadi, Saman Amarasinghe, Marco D. Santambrogio.
 2018 IEEE 29th International Conference on Application-specific Systems, Architectures and Processors (ASAP).
 Milan, Italy. July, 2018.
 
+- [Efficient Memory and GPU Operations for Tiramisu Compiler](http://groups.csail.mit.edu/commit/papers/2019/akkas.pdf).<br/>
+Abdurrahman Akkas. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Jun, 2019.
+
 - [Extending the Capabilities of Tiramisu](http://groups.csail.mit.edu/commit/papers/18/thesis_malek.pdf).<br/>
 Malek Ben Romdhane. MEng Thesis, Massachusetts Institute of Technology. Cambridge, MA. Jun, 2018.
 
