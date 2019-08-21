@@ -49,8 +49,8 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
   <tr>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="650" alt="CPU" src="https://user-images.githubusercontent.com/9944372/58507188-27231e80-815f-11e9-8aa5-095ac4364dbe.png">
-        Performance of a convolution implemented in Tiramisu compared to Intel MKL (CPU) for different input sizes (*).</div>
+        <img width="650" alt="CPU" src="https://user-images.githubusercontent.com/9944372/63450464-0ee63700-c410-11e9-93ee-cdf609e7c038.png">     
+        Comparison between Tiramisu (dense and sparse), fused dense MKL-DNN and sparse MKL on multi-core CPU.</div>
     </th>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
@@ -62,8 +62,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 </div>
 </p>
 
-(*) The different sizes are extracted from the ResNet paper. CXY is the size of the layer X in ResNet and Y indicates the batch size (Y=0 for a batch size of 32, Y=1 for 64 and Y=2 for 100).
-
+(*) Fused dense MKL-DNN is the baseline. The missing results will be added soon. Standard DNN data sizes are used. Density levels (non-zero elemenets) is 20% for all the benchmarks except VGG where we use 2% (the density levels are obtained based on state-of-the-art compression techniques).
 (**) Tensor Comprehensions and Halide cannot express LSTM because LSTM is a recurrent algorithm that creates a cycle in the data-flow graph.
 
 ## Example
