@@ -32,7 +32,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 </p>
 
 ## Why Tiramisu?
-* Tiramisu support optimizing dense and sparse DNNs.
+* Tiramisu is the only open source DNN compiler to optimize sparse DNNs.
 * Tiramisu support optimizing RNNs.
 * Tiramisu is designed to target different hardware architectures (thanks to its multi-layer IR).
 * Tiramisu generates efficient code (thanks to its scheduling language).
