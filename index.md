@@ -63,7 +63,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 </div>
 </p>
 
-(*) Fused dense MKL-DNN is the baseline. The missing results will be added soon. Standard DNN data sizes are used. Density levels (non-zero elemenets) is 20% for all the benchmarks except VGG where we use 2% (the density levels are obtained based on state-of-the-art compression techniques).
+(*) Fused dense MKL-DNN is the baseline. The missing results will be added soon. Standard DNN data sizes are used. The density level (non-zero elemenets) is 20% for all the benchmarks except VGG where we use 2% (the density levels are obtained from state-of-the-art weifht compression techniques. We consider sparse weights in these experiments).
 
 (**) Tensor Comprehensions and Halide cannot express LSTM because LSTM is a recurrent algorithm that creates a cycle in the data-flow graph.
 
