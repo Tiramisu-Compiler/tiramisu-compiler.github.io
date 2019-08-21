@@ -1,7 +1,7 @@
 {% include includes.html %}
 
 ## Overview
-Tiramisu is a polyhedral compiler for expressing fast and portable data parallel algorithms.  It provides a simple C++ API for expressing algorithms and how these algorithms should be optimized by the compiler.
+Tiramisu is a polyhedral compiler for dense and sparse deep learning (and data parallel algorithms in general).  It provides a simple C++ API for expressing algorithms and how these algorithms should be optimized by the compiler.
 
 The Tiramisu compiler is based on the polyhedral model thus it can express a large set of loop optimizations and data layout transformations.  Currently it targets (1) multicore X86 CPUs, (2) Nvidia GPUs, (3) Xilinx FPGAs (Vivado HLS) and (4) distributed machines (using MPI).  It is designed to enable easy integration of code generators for new architectures.
 
@@ -32,6 +32,8 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 </p>
 
 ## Why Tiramisu?
+* Tiramisu support optimizing dense and sparse DNNs.
+* Tiramisu support optimizing RNNs.
 * Tiramisu is designed to target different hardware architectures (thanks to its multi-layer IR).
 * Tiramisu generates efficient code (thanks to its scheduling language).
 * Tiramisu is a polyhedral compiler, therefore:
@@ -39,7 +41,6 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
     * It can express programs with cycles in their data-flow graph (e.g., RNNs).
     * It supports naturally non-rectangular iteration spaces.
     * It uses dependence analysis to guarantee the correctness of optimizations.
-* Tiramisu provides a platform for research on using machine learning for automatic optimization (it has an automatic code generator, examples of performance models, ...).
 
 ## Performance in Deep Learning
 
