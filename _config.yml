@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 title: Tiramisu Compiler
-description: A polyhedral compiler for expressing fast and portable data parallel algorithms
+description: A polyhedral compiler for dense and sparse deep learning and data parallel algorithms
 google_analytics: UA-120607023-1
