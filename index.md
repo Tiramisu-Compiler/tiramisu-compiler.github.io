@@ -51,7 +51,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
         <img width="850" alt="CPU" src="https://user-images.githubusercontent.com/9944372/63451636-aa78a700-c412-11e9-87dd-9b5d507e6588.png">     
-        Comparison between Tiramisu (dense and sparse), fused dense MKL-DNN and sparse MKL on multi-core CPU.</div>
+        Comparison between Tiramisu (dense and sparse), MKL-DNN (dense) and sparse MKL on multi-core CPU.</div>
     </th>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
