@@ -50,12 +50,12 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
   <tr>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="650" alt="CPU" src="https://user-images.githubusercontent.com/9944372/63450464-0ee63700-c410-11e9-93ee-cdf609e7c038.png">     
+        <img width="850" alt="CPU" src="https://user-images.githubusercontent.com/9944372/63451636-aa78a700-c412-11e9-87dd-9b5d507e6588.png">     
         Comparison between Tiramisu (dense and sparse), fused dense MKL-DNN and sparse MKL on multi-core CPU.</div>
     </th>
     <th>
         <div style="width:image width px; font-size:80%; text-align:center;">
-        <img width="750" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835478-53870a80-6842-11e9-916b-00a3a709369a.png">
+        <img width="550" alt="CPU" src="https://user-images.githubusercontent.com/9944372/56835478-53870a80-6842-11e9-916b-00a3a709369a.png">
         Performance of LSTM implemented in Tiramisu compared to cuDNN (GPU) (**).</div>
     </th>
   </tr>
