@@ -34,7 +34,7 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
 ## Why Tiramisu?
 * Tiramisu is the only open source DNN compiler to optimize sparse DNNs.
 * Tiramisu support optimizing RNNs.
-* Tiramisu can target NUMA architecture (Cerebras DNN accelerator, distributed systems, ...).
+* Tiramisu can target NUMA architecture (e.g., Cerebras DNN accelerator, distributed systems, ...).
 * Tiramisu is a polyhedral compiler, therefore:
     * It can perform complex loop transformations.
     * It can express programs with cycles in their data-flow graph (e.g., RNNs).
