@@ -41,6 +41,8 @@ The Tiramisu compiler is based on the polyhedral model thus it can express a lar
     * It supports naturally non-rectangular iteration spaces.
     * It uses dependence analysis to guarantee the correctness of optimizations.
 
+The following [post](Comparison.md) provides a more detailed comparison between Tiramisu, Halide and TVM.
+
 ## Performance in Deep Learning
 
 <p align="center">
