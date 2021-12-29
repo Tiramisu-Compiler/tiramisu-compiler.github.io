@@ -64,7 +64,7 @@ The following [post](Comparison.md) provides a more detailed comparison between 
 </div>
 </p>
 
-(*) Standard DNN data sizes are used. The density level (non-zero elemenets) is 20% for all the benchmarks except VGG where we use 2% (the density levels are obtained from state-of-the-art weifht compression techniques.
+(*) Standard DNN data sizes are used. The density level (non-zero elements) is 20% for all the benchmarks except VGG where we use 2% (the density levels are obtained from state-of-the-art weight compression techniques.
 
 (**) Tensor Comprehensions and Halide cannot express LSTM because LSTM is a recurrent algorithm that creates a cycle in the data-flow graph.
 
