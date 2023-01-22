@@ -115,6 +115,9 @@ void generate_code()
 Riyadh Baghdadi, Jessica Ray, Malek Ben Romdhane, Emanuele Del Sozzo,  Abdurrahman Akkas, Yunming Zhang, Patricia Suriana, Shoaib Kamil, Saman Amarasinghe.
 International Symposium on Code Generation and Optimization (CGO'19). Washington DC, USA. Feb., 2019.
 
+- [A Deep Learning Based Cost Model For Automatic Code Optimization](https://arxiv.org/abs/2104.04955).<br/>
+R. Baghdadi, M. Merouani, M. H. Leghettas, K. Abdous, T. Arbaoui, K. Benatchba, S. Amarasinghe. Proceedings of the Fourth Conference on Machine Learning and Systems, San Jose, CA, USA, 2021.
+
 - [A Unified Backend for Targeting FPGAs from DSLs](https://ieeexplore.ieee.org/document/8445108).<br/>
 Emanuele Del Sozzo, Riyadh Baghdadi, Saman Amarasinghe, Marco D. Santambrogio.
 2018 IEEE 29th International Conference on Application-specific Systems, Architectures and Processors (ASAP).
